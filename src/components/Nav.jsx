@@ -12,24 +12,24 @@ function Nav() {
   return (
     <div className="nav">
       <button autoFocus={true} className="button" >
-        <img src={iHome} alt="" onClick={() => setState("Home")} />
-        <p className="menutext">Home</p>
+        <img src={iHome} alt=""  />
+        <p className="menutext" onClick={() => setState("Home")}>Home</p>
       </button>
       <button className="button">
-        <img src={iAbout} alt="" onClick={() => setState("About")} />
-        <p className="menutext">About</p>
+        <img src={iAbout} alt=""  />
+        <p className="menutext" onClick={() => setState("About")}>About</p>
       </button>
       <button className="button">
-        <img src={iSkills} alt="" onClick={() => setState("Skills")} />
-        <p className="menutext">Skills</p>
+        <img src={iSkills} alt="" />
+        <p className="menutext" onClick={() => setState("Skills")}>Skills</p>
       </button>
       <button className="button">
-        <img src={iContact} alt="" onClick={() => setState("Contact")} />
-        <p className="menutext">Contact</p>
+        <img src={iContact} alt=""  />
+        <p className="menutext" onClick={() => setState("Contact")}>Contact</p>
       </button>
       <button className="button">
-        <img src={iProject} alt="" onClick={() => setState("Project")} />
-        <p className="menutext">Projects</p>
+        <img src={iProject} alt=""  />
+        <p className="menutext" onClick={() => setState("Project")}>Projects</p>
       </button>
       <img src="" alt="" />
     </div>
