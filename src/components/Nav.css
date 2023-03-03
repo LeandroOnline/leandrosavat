@@ -1,7 +1,6 @@
 .nav {
   width: 70px;
   height: 360px;
-  /* background-color: rgba(0, 0, 0, 0.15); mismo color que los merge*/
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
   border: 2px outset #ffffff31;
@@ -36,7 +35,7 @@
 .nav button:focus {
   border-style: solid;
   border-radius: 100px;
-  box-shadow: 0px 0px 9px 10px rgb(77, 148, 255);
+  box-shadow: 0px 0px 5px 5px rgb(77, 148, 255);
 }
 
 .button {

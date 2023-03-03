@@ -23,6 +23,7 @@ function App() {
         <Contact />
         <Project />
         <Nav />
+        <audio></audio>
       </div>
     </context.Provider>
   );

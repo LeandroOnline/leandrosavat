@@ -5,11 +5,11 @@
     border: 2px outset #ffffff31;
     box-shadow: 0px 0px 10px inset #00000038;
     box-shadow: 5px 5px 10px #00000038;
-    border-radius: 30px;
+    border-radius: 0 0px 30px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     position:relative;
-    bottom: calc(-100% + 200px);
+    bottom: calc(-100% + 210px);
   }
   
