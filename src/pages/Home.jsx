@@ -14,7 +14,7 @@ function Home() {
           <p className="portada"></p>
           <img className="perfil" src={perfil} alt="" />
           <h1 className="name">Leandro Savat</h1>
-          <h2 className="subname">Full Stack Web Developer & Photographer</h2>
+          <h2 className="subname">FULL STACK WEB DEVELOPER & PHOTOGRAPHER</h2>
         </div>
       </div>
     </div>

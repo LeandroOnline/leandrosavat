@@ -15,7 +15,7 @@
   width: 250px;
   height: 250px;
   border-radius: 100%;
-  border: 20px outset #ffffff31;
+  border: 10px inset #ffffff31;
   display: flex;
   z-index: 2;
 }
@@ -33,7 +33,7 @@
   font-weight: 500;
   font-family: "Futerdam Knight", "Franklin Gothic Medium", "Arial Narrow",
     Arial, sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   margin-top: 40px;
   color: white;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.488);
@@ -42,10 +42,12 @@
 }
 
 .subname {
-  color: rgb(25,47,89);
+  color: white;
   font-weight: 800;
-  margin-top: 50px;
-  font-size: 20px;
+  margin-top: 60px;
+  font-size: 15px;
+  opacity: 80%;
+  text-shadow: 0 0 3px rgb(51,153,254);
 }
 
 .portada {
