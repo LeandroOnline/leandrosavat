@@ -16,3 +16,30 @@ video {
   z-index: -1;
   filter: blur(15px) contrast(110%) saturate(30%);
 }
+
+/* Preparo el desenfoque para varios tamaños de pantalla */
+@media (min-width: 700px){
+  video{
+  filter: blur(15px) contrast(110%) saturate(30%);
+  }
+}
+@media (min-width: 1300px){
+  video{
+  filter: blur(25px) contrast(110%) saturate(30%);
+  }
+}
+@media (min-width: 1600px){
+  video{
+  filter: blur(35px) contrast(110%) saturate(30%);
+  }
+}
+@media (min-width: 2000px){
+  video{
+  filter: blur(55px) contrast(110%) saturate(30%);
+  }
+}
+@media (min-width: 3000px){
+  video{
+  filter: blur(85px) contrast(110%) saturate(30%);
+  }
+}
