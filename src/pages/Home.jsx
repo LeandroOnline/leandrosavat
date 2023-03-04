@@ -2,7 +2,8 @@ import { useContext } from "react";
 import { context } from "../App";
 import "./Merge.css";
 import "./Home.css";
-import perfil from "../assets/Perfil3.png";
+import perfil from "../assets/Perfil7.png";
+import portada from "../assets/wave.png";
 
 function Home() {
   const { state } = useContext(context);
@@ -11,10 +12,15 @@ function Home() {
     <div className={state === "Home" ? "merge" : "separate"}>
       <div className="container">
         <div className="centerAll">
-          <p className="portada"></p>
-          <img className="perfil" src={perfil} alt="" />
-          <h1 className="name">Leandro Savat</h1>
-          <h2 className="subname">FULL STACK WEB DEVELOPER & PHOTOGRAPHER</h2>
+          <img src={portada} className="portada"></img>
+          <div className="profile">
+            <img className="perfil" src={perfil} alt="" />
+            <h1 className="name">Leandro Savat</h1>
+          </div>
+          <div className="subname">
+            <h2>FULL STACK WEB DEVELOPER</h2>
+            <h2>& PHOTOGRAPHER</h2>
+          </div>
         </div>
       </div>
     </div>
