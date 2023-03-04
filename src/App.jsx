@@ -1,6 +1,6 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import video from "./assets/videos/0303.mp4";
+import video from "./assets/videos/short.mp4";
 import { createContext, useState } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
