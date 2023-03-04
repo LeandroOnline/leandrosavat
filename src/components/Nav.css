@@ -1,8 +1,9 @@
 .nav {
   width: 70px;
   height: 360px;
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(10px);
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  backdrop-filter: blur(50px) saturate(100%) sepia(100%);
+  /* backdrop-filter: blur(10px); */
   border: 2px outset #ffffff31;
   box-shadow: 0px 0px 10px inset #00000038;
   box-shadow: 5px 5px 10px #00000038;
@@ -34,8 +35,7 @@
 
 .nav button:focus {
   border-style: solid;
-  border-radius: 100px;
-  box-shadow: 0px 0px 5px 5px rgb(77, 148, 255);
+  box-shadow: 0px 0px 4px 4px rgb(0, 102, 255);
 }
 
 .button {
