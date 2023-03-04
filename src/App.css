@@ -4,8 +4,8 @@
   flex-direction: row;
   width: 100vw;
   height: 100vh;
-  position: fixed; 
-  background-color: rgba(0, 0, 0, 0.492);
+  position: fixed;
+  background-color: black;
 }
 
 video {
@@ -14,4 +14,5 @@ video {
   object-fit: cover;
   position: fixed;
   z-index: -1;
+  filter: blur(10px) contrast(100%) saturate(30%);
 }

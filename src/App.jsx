@@ -1,6 +1,6 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import video from "./assets/videos/Vídeos 4K de PLAYAS RELAJANTES con música 🏝️ (Paisajes en Ultra HD).mp4";
+import video from "./assets/videos/0303.mp4";
 import { createContext, useState } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,10 +11,10 @@ import Project from "./pages/Projects";
 export const context = createContext();
 
 function App() {
-  const [state, setState] = useState('Home');
+  const [state, setState] = useState("Home");
 
   return (
-    <context.Provider value={{state,setState}}>
+    <context.Provider value={{ state, setState }}>
       <div className="app">
         <video src={video} autoPlay loop muted></video>
         <Home />

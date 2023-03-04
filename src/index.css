@@ -1,7 +1,5 @@
-
 :root {
-  font-family: 'Rubik', sans-serif;
-  /* background-color: rgb(62, 62, 62); */
+  font-family: "Rubik", sans-serif;
 }
 
 * {
@@ -9,20 +7,24 @@
   padding: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   vertical-align: baseline;
 }
 
-img, picture, video, iframe, figure {
+img,
+picture,
+video,
+iframe,
+figure {
   max-width: 100%;
   width: 100%;
   display: block;
   /* opcional */
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   /* opcional */
   -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
 }
 
 /* Reseteamos los enlaces para funcionar como cajas... */
@@ -49,7 +51,21 @@ html {
 }
 
 /* Desactivamos estilos por defecto de las principales etiquetas de texto */
-h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
   font-size: 1em;
   font-weight: inherit;
   font-style: inherit;
@@ -58,7 +74,10 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
 }
 
 /* Evitamos problemas con los pseudoelementos de quotes */
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -74,23 +93,30 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 /* Nivelamos problemas de tipografÃ­as y colocaciÃ³n de formularios */
-form, input, textarea, select, button, label {
+form,
+input,
+textarea,
+select,
+button,
+label {
   font-family: inherit;
   font-size: inherit;
   -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
   background-color: transparent;
   color: inherit;
   display: block;
   /* opcional */
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /* Reseteamos las tablas */
-table, tr, td {
+table,
+tr,
+td {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -111,8 +137,8 @@ body {
   line-height: 1.4em;
   /* opcional */
   -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
   /* opcional */
   font-smooth: always;
   /* opcional */

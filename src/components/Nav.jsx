@@ -21,17 +21,16 @@ function Nav() {
       </button>
       <button className="button">
         <img src={iSkills} alt="" />
-        <p className="menutext" onClick={() => setState("Skills")}>Skills</p>
+        <p className="menutext" onClick={() => setState("Skills")}>Education</p>
+      </button>
+      <button className="button">
+        <img src={iProject} alt=""  />
+        <p className="menutext" onClick={() => setState("Project")}>Experience</p>
       </button>
       <button className="button">
         <img src={iContact} alt=""  />
         <p className="menutext" onClick={() => setState("Contact")}>Contact</p>
       </button>
-      <button className="button">
-        <img src={iProject} alt=""  />
-        <p className="menutext" onClick={() => setState("Project")}>Projects</p>
-      </button>
-      <img src="" alt="" />
     </div>
   );
 }
