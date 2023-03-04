@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { context } from "../App";
 import "./Merge.css";
 import "./Home.css";
-import perfil from "../assets/Perfil2.png";
+import perfil from "../assets/Perfil3.png";
 
 function Home() {
   const { state } = useContext(context);
