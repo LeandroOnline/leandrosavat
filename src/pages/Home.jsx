@@ -18,7 +18,10 @@ function Home() {
             <h1 className="name">Leandro Savat</h1>
           </div>
           <div className="subname">
-            <h2>FULL STACK WEB DEVELOPER</h2>
+            <div className="row">
+              <h1>FULL STACK</h1>
+              <p className="subname power"> WEB DEVELOPER</p>
+            </div>
             <h2>& PHOTOGRAPHER</h2>
           </div>
         </div>

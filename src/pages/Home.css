@@ -49,12 +49,23 @@
 }
 
 .subname {
-  color: white;
+  color: rgb(0, 99, 198);
   font-weight: 800;
-  font-size: 15px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
+
+}
+.power{
+  color: white;
+  /* font-size: 22px; */
+  text-shadow: 0px 0px 10px white;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .portada {
@@ -63,10 +74,8 @@
   top: 0px;
   height: 100%;
   border-radius: 0px 25px 25px 0px;
-  opacity: 50%;
-  object-fit:cover;
+  opacity: 100%;
   display: flex;
-  color:rgba(255, 255, 255, 0.545);
   z-index: -1;
 }
 
