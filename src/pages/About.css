@@ -89,6 +89,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+
+.cv:hover{
+    background-color: rgb(51, 153, 254);
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .centerAbout {
@@ -140,6 +147,10 @@
   flex-direction: column;
   animation: about-out;
   animation-duration: 1s;
+}
+
+.download-icon{
+    width: 30px;
 }
 
 @keyframes about-out {
