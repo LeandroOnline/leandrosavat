@@ -6,6 +6,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-data img {
+  width: 100px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .about-icon {
@@ -17,15 +28,16 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.about-icon img{
-    width: 50px;
+
+.about-icon img {
+  width: 50px;
 }
 
-.about-icon img:hover{
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px 0px white;
-    transition-duration: 0.3s;
+.about-icon img:hover {
+  background-color: rgb(51, 153, 254);
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px rgb(51, 153, 254);
+  transition-duration: 0.3s;
 }
 
 .about-resume {
@@ -35,7 +47,38 @@
   border-radius: 30px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.about-resume-out {
+  width: 400px;
+  height: 400px;
+  border: 2px outset #ffffff31;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inforesume {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+  animation: about-in;
+  animation-duration: 1s;
+}
+
+.inforesume-out {
+  display: none;
+  padding: 0px;
+}
+
+.leerimg {
+  width: 100px;
 }
 
 .cv {
@@ -55,10 +98,9 @@
   flex-direction: row;
   width: 100%;
   height: 100%;
-  animation: about;
-  animation-duration: 1s;
   color: white;
   gap: 5px;
+  font-family: "Oswald", sans-serif;
 }
 
 .column {
@@ -67,7 +109,40 @@
   gap: 5px;
 }
 
-@keyframes about {
+.flecha {
+  display: flex;
+  width: 30px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.flecha:hover {
+  background-color: rgb(51, 153, 254);
+  transition-duration: 0.3s;
+}
+
+.flecha-izq {
+  display: flex;
+  width: 30px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.flecha-izq:hover {
+  background-color: rgb(51, 153, 254);
+  transition-duration: 0.3s;
+}
+
+.more {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+  animation: about-out;
+  animation-duration: 1s;
+}
+
+@keyframes about-out {
   0% {
     transform: translateX(10%);
   }
@@ -75,3 +150,12 @@
     transform: translateX(0%);
   }
 }
+
+@keyframes about-in {
+    0% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }

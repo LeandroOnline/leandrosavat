@@ -37,12 +37,13 @@
 
 .subname {
   color: rgb(0, 99, 198);
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 25px;
   display: flex;
   align-items: center;
   flex-direction: column;
-
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 0px 10px white;
 }
 
 .power{
