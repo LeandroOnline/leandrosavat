@@ -11,7 +11,7 @@ import flechaizq from "../assets/flecha-izquierda.png";
 import flechader from "../assets/flecha-derecha.png";
 import yoga from "../assets/yoga.png";
 import nube from "../assets/nube.png";
-import cven from '../assets/CV-EN.pdf'
+import cven from "../assets/doc/CV-EN.pdf";
 
 function About() {
   const { state } = useContext(context);
@@ -82,7 +82,7 @@ function About() {
               ) : null}
             </div>
             <a className="cv" href={cven} download="Leandro Savat Resume">
-              <img className="download-icon" src={nube} alt=""/> Download
+              <img className="download-icon" src={nube} alt="" /> Download
               Resume
             </a>
           </div>

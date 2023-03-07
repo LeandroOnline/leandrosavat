@@ -35,9 +35,9 @@
 
 .about-icon img:hover {
   background-color: rgb(51, 153, 254);
-  border-radius: 8px;
-  box-shadow: 0px 0px 5px 0px rgb(51, 153, 254);
-  transition-duration: 0.3s;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 5px rgb(51, 153, 254);
+  transition-duration: 0.2s;
 }
 
 .about-resume {
