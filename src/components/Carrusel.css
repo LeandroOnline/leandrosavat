@@ -1,0 +1,49 @@
+.carrusel-container {
+  width: 600px;
+  height: 465px;
+  border: 2px outset #ffffff31;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.course {
+  width: 450px;
+  border-radius: 10px;
+}
+
+.height {
+  height: 450px;
+}
+
+.progress {
+  height: 78px;
+  width: 100%;
+  gap: 15px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-certificate {
+  width: 600px;
+  height: 35px;
+  border: 2px outset #ffffff31;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.carpetaicon {
+  width: 30px;
+}
+
+.link-certificate:hover{
+    background-color: rgb(51, 153, 254);
+    transition-duration: 0.5s;
+}

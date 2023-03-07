@@ -1,7 +1,10 @@
 import { useContext } from "react";
 import { context } from "../App";
-import "./Merge.css"; // where take the container, for everyone the same
 import "./Skills.css";
+import SkillContainer from "../components/SkillContainer";
+import Language from "../components/Language";
+
+import Carrusel from "../components/Carrusel";
 
 function Skills() {
   const { state } = useContext(context);
@@ -9,28 +12,11 @@ function Skills() {
     <div className={state === "Skills" ? "merge" : "separate"}>
       <div className="container">
         <div className="center-skill">
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
-          <div className="skill-container">skill</div>
+          <div className="column">
+            <SkillContainer />
+            <Language />
+          </div>
+          <Carrusel />
         </div>
       </div>
     </div>

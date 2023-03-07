@@ -110,15 +110,10 @@
   font-family: "Oswald", sans-serif;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
 .flecha {
   display: flex;
   width: 30px;
+  height: 50px;
   border-radius: 50px 0px 0px 50px;
 }
 
@@ -130,6 +125,7 @@
 .flecha-izq {
   display: flex;
   width: 30px;
+  height: 50px;
   border-radius: 0px 50px 50px 0px;
 }
 

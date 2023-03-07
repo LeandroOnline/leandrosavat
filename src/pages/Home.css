@@ -51,12 +51,6 @@
   text-shadow: 0px 0px 10px white;
 }
 
-.row{
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-
 .portada {
   display: flex;
   position: absolute;

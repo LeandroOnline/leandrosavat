@@ -1,0 +1,44 @@
+
+.skill-container {
+    width: 300px;
+    height: 400px;
+    border: 2px outset #ffffff31;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    gap: 5px;
+  }
+  
+  .skill-item {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0),
+      rgba(51, 153, 254, 0.102),
+      rgb(255, 255, 255)
+    );
+    border-radius: 30px;
+  }
+  
+  .skill-item img {
+    width: 25px;
+  }
+  
+  .skill-item:hover {
+    
+    /* opacity: 50%; */
+    background: linear-gradient(
+      45deg,
+      rgb(51, 254, 75),
+      rgba(51, 153, 254, 0.511),
+      rgb(255, 255, 255)
+    );
+  }
+  
