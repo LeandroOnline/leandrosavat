@@ -13,10 +13,17 @@ import yoga from "../assets/yoga.png";
 import nube from "../assets/nube.png";
 import cven from "../assets/doc/CV-EN.pdf";
 
+import dieta from "../assets/interest/dieta.png";
+import kayak from "../assets/interest/kayak.png";
+import meditacion from "../assets/interest/meditacion.png";
+import paisaje from "../assets/interest/paisaje.png";
+import personas from "../assets/interest/personas.png";
+import escribir from "../assets/interest/escribir.png";
+
 function About() {
   const { state } = useContext(context);
   const [more, setMore] = useState(false);
-  const datatitle = "{ Personal Information }";
+  const datatitle = "{ Hobbies }";
   const resumetitle = "{ AboutME }";
 
   return (
@@ -25,25 +32,35 @@ function About() {
         <div className="centerAbout">
           <div className="column">
             <div className="about-icon">
+              <img src={about} alt="" />
               <a href="https://github.com/LeandroOnline" target="_blank">
-                <img src={github} alt="" />
+                <img className="aboutimg" src={github} alt="" />
               </a>
               <a
                 href="https://www.linkedin.com/in/leandrosavat/"
                 target="_blank"
               >
-                <img src={linkedin} alt="" />
+                <img className="aboutimg" src={linkedin} alt="" />
               </a>
               <a href="https://www.instagram.com/leasavat/" target="_blank">
-                <img src={instagram} alt="" />
+                <img className="aboutimg" src={instagram} alt="" />
               </a>
             </div>
             <div className="about-data">
               <p className="title">{datatitle}</p>
-              <img src={about} alt="" />
-              <p>leandrosavat@gmail.com</p>
-              <p>+5493435267411</p>
-              <p>20-35295349-1</p>
+              <div className="row">
+                <img className="interest" src={dieta} alt="" />
+                <img className="interest" src={escribir} alt="" />
+                <img className="interest" src={kayak} alt="" />
+                <img className="interest" src={meditacion} alt="" />
+                <img className="interest" src={paisaje} alt="" />
+                <img className="interest" src={personas} alt="" />
+              </div>
+              <p>
+                I lead a healthy and balanced life to have optimal performance
+                in all aspects of my life, including my work, where I am
+                committed to contributing my maximum effort and dedication.
+              </p>
             </div>
           </div>
           <div className="column">

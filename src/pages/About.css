@@ -5,12 +5,17 @@
   border-radius: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   gap: 20px;
+  padding: 30px;
 }
 
-.about-data img {
+.interest{
+  width: 50px;
+}
+
+.aboutimg {
   width: 100px;
 }
 
@@ -33,7 +38,7 @@
   width: 50px;
 }
 
-.about-icon img:hover {
+.aboutimg:hover {
   background-color: rgb(51, 153, 254);
   border-radius: 5px;
   box-shadow: 0px 0px 15px 5px rgb(51, 153, 254);
