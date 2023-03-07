@@ -32,6 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: rgba(51, 153, 254, 0.25);
 }
 
 .about-icon img {
@@ -95,6 +96,7 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+  background-color: rgba(51, 153, 254, 0.25);
 }
 
 .cv:hover{
