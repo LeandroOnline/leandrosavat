@@ -5,12 +5,12 @@ import "./About.css";
 import github from "../assets/icons/github.png";
 import linkedin from "../assets/icons/logotipo-de-linkedin.png";
 import instagram from "../assets/icons/instagram.png";
-import about from "../assets/investigacion.png";
-import leer from "../assets/leer.png";
-import flechaizq from "../assets/flecha-izquierda.png";
-import flechader from "../assets/flecha-derecha.png";
-import yoga from "../assets/yoga.png";
-import nube from "../assets/nube.png";
+import about from "../assets/images/investigacion.png";
+import leer from "../assets/images/leer.png";
+import flechaizq from "../assets/images/flecha-izquierda.png";
+import flechader from "../assets/images/flecha-derecha.png";
+import yoga from "../assets/images/yoga.png";
+import nube from "../assets/images/nube.png";
 import cven from "../assets/doc/CV-EN.pdf";
 
 import dieta from "../assets/interest/dieta.png";

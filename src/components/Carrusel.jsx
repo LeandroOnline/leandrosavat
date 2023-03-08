@@ -22,9 +22,9 @@ import mongodb from "../assets/courses/mongodb.jpg";
 import mysqlbasico from "../assets/courses/mysqlbasico.jpg";
 import tsbasico from "../assets/courses/tsbasico.jpg";
 
-import flechaizq from "../assets/flecha-izquierda.png";
-import flechader from "../assets/flecha-derecha.png";
-import carpeta from "../assets/carpetas.png";
+import flechaizq from "../assets/images/flecha-izquierda.png";
+import flechader from "../assets/images/flecha-derecha.png";
+import carpeta from "../assets/images/carpetas.png";
 
 import { useState } from "react";
 
