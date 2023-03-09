@@ -12,6 +12,8 @@
   justify-content: center;
   flex-direction: column;
   border-left: none;
+  position: absolute;
+  z-index: 2;
 }
 
 .nav img {
@@ -52,6 +54,8 @@
   width: auto;
   padding: 10px;
   height: 50px;
+  font-family: "Oswald", sans-serif;
+  transition-duration: 0.4s;
 }
 
 .menutext:hover {
@@ -66,3 +70,12 @@
   align-items: center;
   justify-content: center;
 }
+
+/* @media (max-width: 900px){
+  .nav{
+    rotate: -90deg;
+    bottom: -145px;
+    left: 145px;
+    left: calc(50% - 70px);
+  }
+} */

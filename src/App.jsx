@@ -17,12 +17,12 @@ function App() {
     <context.Provider value={{ state, setState }}>
       <div className="app">
         <video src={video} autoPlay loop muted></video>
+        <Nav />
         <Home />
         <About />
         <Skills />
         <Contact />
         <Project />
-        <Nav />
         <audio></audio>
       </div>
     </context.Provider>

@@ -4,7 +4,7 @@
   gap: 5px;
 }
 
-.row{
+.row {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   left: 0%;
   transition-duration: 0.7s;
   gap: 15px;
@@ -52,8 +52,8 @@
   display: flex;
 }
 
-@media (max-width:600px){
-  .container{
+@media (max-width: 600px) {
+  .container {
     right: 0%;
   }
 }

@@ -32,8 +32,6 @@
   }
   
   .skill-item:hover {
-    
-    /* opacity: 50%; */
     background: linear-gradient(
       45deg,
       rgb(51, 254, 75),

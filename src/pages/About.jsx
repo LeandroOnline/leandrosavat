@@ -28,7 +28,7 @@ function About() {
 
   return (
     <div className={state === "About" ? "merge" : "separate"}>
-      <div className="container">
+      <div className="container center">
         <div className="centerAbout">
           <div className="column">
             <div className="about-icon">
