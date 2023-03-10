@@ -60,7 +60,7 @@ function Carrusel() {
   const [page, setPage] = useState(0);
 
   return (
-    <div className="column center">
+    <div className="column center space">
       <div className="carrusel-container">
         <div className="row height">
           <img
@@ -88,10 +88,10 @@ function Carrusel() {
       </div>
 
       <a className="link-certificate" href={drive} target="_blank">
-        {/* <div > */}
+
           <img className="carpetaicon" src={carpeta} alt="" />
           Certificate Folder
-        {/* </div> */}
+
       </a>
     </div>
   );
