@@ -87,7 +87,7 @@ function Contact() {
                 onClick={() => setStyle(false)}
               />
             ) : (
-              <p className={style ? "locked" : "none"}>Fill first</p>
+              <p className={style ? "locked large" : "none"}>Fill first</p>
             )}
             <a href={wame} className="wspcontainer" target="_blank">
               <img className="wsp" src={wsp} alt="" />
