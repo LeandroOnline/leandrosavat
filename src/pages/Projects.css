@@ -159,8 +159,8 @@
 
 @media (max-width: 500px){
   .text{
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 15px;
+      line-height: 15.5px;
   }
   .exp{
     justify-content: center;
