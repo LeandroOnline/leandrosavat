@@ -56,7 +56,6 @@
 @media (max-width: 800px) {
   .skill-container {
     height: 100%;
-    /* border:none; */
   }
   .done {
     display: none;

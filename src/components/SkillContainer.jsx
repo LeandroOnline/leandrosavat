@@ -19,17 +19,17 @@ function SkillContainer() {
   return (
     <div className="skill-container">
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>Scrum</p>
         <img className="icon" src={scrum} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>WordPress</p>
         <img className="icon" src={wordpress} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>Photoshop</p>
         <img className="icon" src={photoshop} alt="" />
       </div>
