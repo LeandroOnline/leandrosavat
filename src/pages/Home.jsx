@@ -19,10 +19,10 @@ function Home() {
           </div>
           <div className="subname">
             <div className="row">
-              <h1>FULL STACK</h1>
+              <h1>Full Stack</h1>
               <p className="subname power"> WEB DEVELOPER</p>
             </div>
-            <h2>& PHOTOGRAPHER</h2>
+            <h2>& Photographer</h2>
           </div>
         </div>
       </div>

@@ -35,19 +35,20 @@
 }
 
 .subname {
-  color: rgb(0, 99, 198);
+  color: rgb(204, 218, 255);
   font-weight: 900;
   font-size: 25px;
   display: flex;
   align-items: center;
   flex-direction: column;
   font-family: 'Oswald', sans-serif;
-  text-shadow: 0px 0px 10px white;
+  gap:15px;
 }
 
 .power{
   color: white;
-  text-shadow: 0px 0px 10px white;
+  font-size: 30px;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
 .portada {
@@ -66,4 +67,10 @@
   position: absolute;
   bottom: 0px;
   margin-top: 30px;
+}
+
+@media (max-width: 750px){
+  .centerAll{
+    flex-direction: column;
+  }
 }
