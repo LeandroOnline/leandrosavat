@@ -9,6 +9,8 @@ import emailjs from "@emailjs/browser";
 import wsp from "../assets/icons/wsp.png";
 import team from "../assets/images/trabaja.png";
 
+const wame = "https://wa.me/5493435267411";
+
 function Contact() {
   const { state } = useContext(context);
   const [style, setStyle] = useState(true);
@@ -80,20 +82,18 @@ function Contact() {
             />
 
             {name !== "" && email !== "" && message !== "" ? (
-
-                <input
-                  className={style ? "text send" : "none"}
-                  type="submit"
-                  value="Send"
-                  onClick={() => setStyle(false)}
-                />
-
+              <input
+                className={style ? "text send" : "none"}
+                type="submit"
+                value="Send"
+                onClick={() => setStyle(false)}
+              />
             ) : (
               <button className={style ? "locked" : "none"}>Fill first</button>
             )}
-            <div className="wspcontainer">
+            <a href={wame} className="wspcontainer" target="_blank">
               <img className="wsp" src={wsp} alt="" />
-            </div>
+            </a>
 
             <button
               className={style ? "none" : "text again"}
