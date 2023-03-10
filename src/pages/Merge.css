@@ -19,8 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  left: 0%;
+  position: absolute;
+  bottom: 0%;
   transition-duration: 0.7s;
   gap: 15px;
 }
@@ -34,7 +34,7 @@
   justify-content: center;
   position: absolute;
   gap: 15px;
-  left: -100%;
+  bottom: -150%;
   transition-duration: 0.3s;
   z-index: -1;
 }
@@ -52,8 +52,4 @@
   display: flex;
 }
 
-@media (max-width: 600px) {
-  .container {
-    right: 0%;
-  }
-}
+
