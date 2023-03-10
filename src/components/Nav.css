@@ -1,5 +1,5 @@
 .nav {
-  width: 270px;
+  width: 310px;
   height: 43px;
   backdrop-filter: blur(50px) saturate(100%);
   border: 2px outset #ffffff31;
@@ -55,10 +55,12 @@
 
 .menutext {
   display: flex;
+  align-items: center;
+  justify-content: center;
   opacity: 0;
   position: absolute;
-  padding: 4px;
-  height: 80px;
+  padding: 5px;
+  height: 35px;
   font-family: "Oswald", sans-serif;
   transition-duration: 0.4s;
 }
