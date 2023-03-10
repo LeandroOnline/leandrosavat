@@ -29,6 +29,7 @@
   color: rgb(51, 153, 254);
   font-weight: 900;
   font-size: 30px;
+  line-height: 30px;
 }
 
 .text {
@@ -159,5 +160,21 @@
 @media (max-width: 500px){
   .text{
       font-size: 10px;
+      line-height: 12px;
+  }
+  .exp{
+    justify-content: center;
+  }
+  .titleexp{
+    font-size: 20px;
+  }
+  .backnext{
+    flex-direction: column;
+  }
+  .centerprojects{
+    padding: 20px;
+  }
+  .imgproject{
+    width: 100%;
   }
 }
