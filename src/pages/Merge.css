@@ -54,6 +54,7 @@
   max-height: 700px;
   border-radius: 30px;
   display: flex;
+  margin: 5px;
 }
 
 .center{
