@@ -175,14 +175,17 @@
 @media (max-width: 650px) {
   .centercontact {
     flex-direction: column;
+    justify-content: center;
+
   }
   .team {
-    height: 30%;
-    /* width: 35%; */
+    height: 25%;
     width: auto;
   }
-  .form {
+  .form, .formout {
     width: 90%;
-    height: 60%;
+    height: 55%;
+    margin: 0;
+    padding: 0;
   }
 }
