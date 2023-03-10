@@ -176,7 +176,6 @@
   .centercontact {
     flex-direction: column;
     justify-content: center;
-
   }
   .team {
     height: 25%;
@@ -187,5 +186,8 @@
     height: 55%;
     margin: 0;
     padding: 0;
+  }
+  .input{
+    width: 100%;
   }
 }
