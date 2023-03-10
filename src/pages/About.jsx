@@ -48,7 +48,7 @@ function About() {
             </div>
             <div className="about-data">
               <p className="title">{datatitle}</p>
-              <div className="row">
+              <div className="row wrap">
                 <img className="interest" src={dieta} alt="" />
                 <img className="interest" src={escribir} alt="" />
                 <img className="interest" src={kayak} alt="" />
@@ -56,7 +56,7 @@ function About() {
                 <img className="interest" src={paisaje} alt="" />
                 <img className="interest" src={personas} alt="" />
               </div>
-              <p>
+              <p className="text">
                 I lead a healthy and balanced life to have optimal performance
                 in all aspects of my life, including my work, where I am
                 committed to contributing my maximum effort and dedication.
@@ -68,7 +68,7 @@ function About() {
               <div className={!more ? "inforesume" : "inforesume-out"}>
                 <p className="title">{resumetitle}</p>
                 <img className="leerimg" src={leer} alt="" />
-                <p>
+                <p className="text">
                   +800 hours of programming in practices and studies.
                   Organization and development of technology with Scrum
                   methodology. Performance with integrity and work commitment.
@@ -84,7 +84,7 @@ function About() {
               />
               {more ? (
                 <div className="more">
-                  <p>
+                  <p className="text">
                     Since I was 11 years old I have been working in my family
                     business of audiovisual productions, where I developed a
                     solid professional ethic and work commitment. I traveled for

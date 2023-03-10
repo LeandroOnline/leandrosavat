@@ -12,6 +12,10 @@
   gap: 5px;
 }
 
+.wrap{
+  flex-wrap: wrap;
+}
+
 .merge {
   width: calc(100%);
   height: 100%;
@@ -52,4 +56,8 @@
   display: flex;
 }
 
-
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

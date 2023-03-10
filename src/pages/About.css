@@ -11,7 +11,7 @@
   padding: 30px;
 }
 
-.interest{
+.interest {
   width: 50px;
 }
 
@@ -99,10 +99,10 @@
   background-color: rgba(51, 153, 254, 0.25);
 }
 
-.cv:hover{
-    background-color: rgb(51, 153, 254);
-    transition-duration: 0.5s;
-    cursor: pointer;
+.cv:hover {
+  background-color: rgb(51, 153, 254);
+  transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 .centerAbout {
@@ -152,8 +152,8 @@
   animation-duration: 1s;
 }
 
-.download-icon{
-    width: 30px;
+.download-icon {
+  width: 30px;
 }
 
 @keyframes about-out {
@@ -166,10 +166,66 @@
 }
 
 @keyframes about-in {
-    0% {
-      transform: translateX(-10%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
+  0% {
+    transform: translateX(-10%);
   }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 830px) {
+  .about-icon,
+  .about-data,
+  .cv {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition-duration: 1s;
+  }
+
+  .about-resume, .about-resume-out,
+  .more, .inforesume {
+    width: 100%;
+    height: 280px;
+gap: 10px;
+  }
+
+  .inforesume p{
+    padding: 10px;
+  }
+
+  .about-icon img {
+    width: 30px;
+    transition-duration: 1s;
+  }
+
+  .inforesume {
+    margin: 0;
+    padding: 0;
+    transition-duration: 1s;
+  }
+
+  .centerAbout {
+    flex-direction: column;
+    transition-duration: 1s;
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .centerAbout {
+    flex-direction: column;
+    transition-duration: 1s;
+    width: 95%;
+  }
+}
+
+@media (max-height: 670px) {
+  .centerAbout {
+    flex-direction: column;
+    transition-duration: 1s;
+    width: 95%;
+    justify-content: start;
+  }
+}
