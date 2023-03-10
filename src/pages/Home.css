@@ -23,8 +23,7 @@
 
 .name {
   font-weight: 400;
-  font-family: "Futerdam Knight", "Franklin Gothic Medium", "Arial Narrow",
-    Arial, sans-serif;
+  font-family: "Futerdam Knight", sans-serif;
   font-size: 50px;
   margin-top: 40px;
   color: white;
