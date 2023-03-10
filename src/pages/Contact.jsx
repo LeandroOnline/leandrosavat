@@ -43,9 +43,7 @@ function Contact() {
     <div className={state === "Contact" ? "merge" : "separate"}>
       <div className="container">
         <div className="centercontact">
-          <div>
-            <img className="team" src={team} alt="" />
-          </div>
+          <img className="team" src={team} alt="" />
 
           <form
             ref={form}

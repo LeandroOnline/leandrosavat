@@ -57,7 +57,7 @@
 
 .team {
   width: 300px;
-opacity: 50%;
+  opacity: 50%;
   margin: 20px;
   display: flex;
   align-items: center;
@@ -66,28 +66,27 @@ opacity: 50%;
 
 .wsp {
   width: 30px;
-  
 }
 
-.wspcontainer{
-    background-color: rgba(255, 255, 255, 0);
-    border-color: rgb(51, 153, 254);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 30px;
-    width: 100px;
-    height: 50px;
-    transition-duration: 1s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.wspcontainer {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(51, 153, 254);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 100px;
+  height: 50px;
+  transition-duration: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wspcontainer:hover {
-    width: 90%;
-    transition-duration: 0.4s;
-    background-color: rgb(40,167,26);
-  }
+  width: 90%;
+  transition-duration: 0.4s;
+  background-color: rgb(40, 167, 26);
+}
 
 .itop {
   border-radius: 30px 30px 5px 5px;
@@ -166,9 +165,24 @@ opacity: 50%;
   transition-duration: 1s;
 }
 
-.emailwsp{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.emailwsp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 650px) {
+  .centercontact {
+    flex-direction: column;
+  }
+  .team {
+    height: 30%;
+    /* width: 35%; */
+    width: auto;
+  }
+  .form {
+    width: 90%;
+    height: 60%;
+  }
 }
