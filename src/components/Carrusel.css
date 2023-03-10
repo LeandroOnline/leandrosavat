@@ -44,7 +44,26 @@
   width: 30px;
 }
 
-.link-certificate:hover{
-    background-color: rgb(51, 153, 254);
-    transition-duration: 0.5s;
+.link-certificate:hover {
+  background-color: rgb(51, 153, 254);
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 800px) {
+  .carrusel-container,
+  .progress {
+    height: 100%;
+    width: 70%;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .link-certificate{
+    width: 100%;
+  }
+  .height {
+    height: auto;
+  }
+
 }

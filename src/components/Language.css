@@ -27,3 +27,9 @@
     background: rgb(51, 153, 254);
     border-radius: 9px;
   }
+
+  @media (max-width: 920px){
+    .language-container{
+      width: 100%;
+    }
+  }

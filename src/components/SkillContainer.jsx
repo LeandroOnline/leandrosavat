@@ -21,70 +21,70 @@ function SkillContainer() {
       <div className="skill-item">
         <img src={done} alt="" />
         <p>Scrum</p>
-        <img src={scrum} alt="" />
+        <img className="icon" src={scrum} alt="" />
       </div>
       <div className="skill-item">
         <img src={done} alt="" />
         <p>WordPress</p>
-        <img src={wordpress} alt="" />
+        <img className="icon" src={wordpress} alt="" />
       </div>
       <div className="skill-item">
         <img src={done} alt="" />
         <p>Photoshop</p>
-        <img src={photoshop} alt="" />
+        <img className="icon" src={photoshop} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>GIT</p>
         <img src={git} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>HTML</p>
         <img src={html} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>CSS</p>
         <img src={css} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>JavaScript</p>
         <img src={js} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>React</p>
         <img src={react} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>Docker</p>
         <img src={docker} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>Node</p>
         <img src={node} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>Express</p>
         <img src={express} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>MongoDB</p>
         <img src={mongodb} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>Figma</p>
         <img src={figma} alt="" />
       </div>
       <div className="skill-item">
-        <img src={done} alt="" />
+        <img className="done" src={done} alt="" />
         <p>Notion</p>
         <img src={notion} alt="" />
       </div>

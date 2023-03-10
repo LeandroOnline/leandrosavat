@@ -8,3 +8,14 @@
   gap: 5px;
   font-family: "Oswald", sans-serif;
 }
+
+@media (max-width: 800px){
+  .center-skill{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .space{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
