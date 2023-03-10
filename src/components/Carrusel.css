@@ -52,23 +52,23 @@
 @media (max-width: 800px) {
   .carrusel-container,
   .progress {
-    height: 100%;
+    height: auto;
     width: 70%;
-    border:none;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .link-certificate{
-    width: 100%;
+  .link-certificate {
+    width: 95%;
   }
   .height {
     height: auto;
   }
-.space{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 50%;
-}
+  .space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+  }
 }

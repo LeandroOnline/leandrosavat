@@ -12,7 +12,7 @@ function Skills() {
     <div className={state === "Skills" ? "merge" : "separate"}>
       <div className="container">
         <div className="center-skill">
-          <div className="column">
+          <div className="column center">
             <SkillContainer />
             <Language />
           </div>

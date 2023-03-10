@@ -60,7 +60,7 @@ function Carrusel() {
   const [page, setPage] = useState(0);
 
   return (
-    <div className="column center space">
+    <div className="column center">
       <div className="carrusel-container">
         <div className="row height">
           <img

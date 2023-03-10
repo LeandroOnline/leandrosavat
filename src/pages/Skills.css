@@ -12,7 +12,7 @@
 @media (max-width: 800px){
   .center-skill{
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .space{
     display: flex;
