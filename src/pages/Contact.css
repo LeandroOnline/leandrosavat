@@ -1,0 +1,171 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  gap: 10px;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px;
+  transition-duration: 2s;
+}
+
+.formout {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  gap: 3px;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px;
+  transition-duration: 1s;
+}
+
+.centercontact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 128, 0, 0.5),
+    rgba(0, 0, 255, 0),
+    rgba(51, 153, 254, 0)
+  );
+  border-radius: 28px;
+}
+
+.input {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+  width: 90%;
+  height: 50px;
+  border-radius: 30px;
+  padding: 20px;
+  outline: none;
+  transition-duration: 1s;
+}
+
+.message {
+  height: 300px;
+}
+
+.team {
+  width: 300px;
+opacity: 50%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wsp {
+  width: 30px;
+  
+}
+
+.wspcontainer{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(51, 153, 254);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    transition-duration: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wspcontainer:hover {
+    width: 90%;
+    transition-duration: 0.4s;
+    background-color: rgb(40,167,26);
+  }
+
+.itop {
+  border-radius: 30px 30px 5px 5px;
+}
+
+.icenter {
+  border-radius: 5px;
+}
+
+.ibottom {
+  border-radius: 5px 5px 30px 30px;
+}
+
+.send {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(51, 153, 254);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 100px;
+  transition-duration: 1s;
+}
+
+.send:hover {
+  width: 90%;
+  transition-duration: 0.4s;
+  background-color: rgb(51, 153, 254);
+}
+
+.locked {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(51, 153, 254, 0.25);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 100px;
+  height: 50px;
+  transition-duration: 0.5s;
+  font-family: "Oswald", sans-serif;
+  color: gray;
+}
+
+.again {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 100px;
+  transition-duration: 0.5s;
+}
+
+.again:hover {
+  width: 90%;
+  transition-duration: 0.5s;
+  background-color: rgb(51, 153, 254);
+}
+
+.none {
+  display: none;
+  transition-duration: 0.5s;
+}
+
+.thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100% - 100px);
+  z-index: 3;
+  font-size: 80px;
+  text-shadow: 0px 0px 5px white;
+  transition-duration: 1s;
+}
+
+.emailwsp{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
