@@ -151,6 +151,11 @@
   margin: 20px;
 }
 
+.titleexp:hover{
+  color:rgba(51, 153, 254, 0.6);
+}
+
+
 @media (max-width: 830px){
   .text{
       font-size: 13px;

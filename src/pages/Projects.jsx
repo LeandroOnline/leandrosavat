@@ -8,7 +8,8 @@ import jusmovies from "../assets/images/justmovies.png";
 import innovation from "../assets/images/innovation.png";
 import news from "../assets/images/news.png";
 import traveling from "../assets/images/traveling.png";
-import web from "../assets/icons/web.png";
+// import web from "../assets/icons/web.png";
+import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
 
 const projects = [
@@ -17,7 +18,8 @@ const projects = [
     img: jusmovies,
     github: "https://github.com/LeandroOnline/peliculas-react",
     web: "https://peliculas-react-opal.vercel.app/",
-    detail: "A movie search engine that provides information (React + HTML + CSS + JS)",
+    detail:
+      "A movie search engine that provides information (React + HTML + CSS + JS)",
   },
   {
     name: "Traveling",
@@ -38,7 +40,8 @@ const projects = [
     img: innovation,
     github: "https://github.com/LeandroOnline/innovation",
     web: "https://innovation-pied.vercel.app/",
-    detail: "Corporate landing page (React + JS + Figma + Styled Components + Scrum)",
+    detail:
+      "Corporate landing page (React + JS + Figma + Styled Components + Scrum)",
   },
 ];
 
@@ -51,7 +54,7 @@ function Project() {
       <div className="container row">
         <div className="exp">
           <div className="column job">
-            <p className="titleexp">FREELANCE</p>{" "}
+            <p className="titleexp">FREELANCE</p>
             <p className="text">Web Productions - Since Dec 2022</p>
             <p className="text">
               Sale and production of personalized web pages
@@ -59,7 +62,12 @@ function Project() {
           </div>
 
           <div className="column job">
-            <p className="titleexp">STUDY ADVISOR</p>{" "}
+            <a
+              href="https://heavy-pen-eee.notion.site/DevBees-3529614661e8492c8a620c383cf177f4"
+              target="_blank"
+            >
+              <p className="titleexp">STUDY ADVISOR</p>
+            </a>
             <p className="text">at DevBess Academic Group- Since Oct 2022</p>
             <p className="text">
               I improved academic performance by supporting study guides and
@@ -68,7 +76,12 @@ function Project() {
           </div>
 
           <div className="column job">
-            <p className="titleexp">CO-FOUNDER</p>{" "}
+            <a
+              href="https://www.instagram.com/savatproducciones/"
+              target="_blank"
+            >
+              <p className="titleexp">CO-FOUNDER</p>
+            </a>
             <p className="text">
               at SAVAT Audiovisual Productions - Since 2008
             </p>
@@ -76,7 +89,7 @@ function Project() {
           </div>
 
           <div className="column job">
-            <p className="titleexp">FREELANCE</p>{" "}
+            <p className="titleexp">FREELANCE</p>
             <p className="text">
               Indicator Developer at TradingView - Jan-Nov 2022
             </p>
@@ -86,46 +99,39 @@ function Project() {
           </div>
         </div>
 
-
-
         <div className="centerprojects">
-            <h1 className="title">{projects[project].name}</h1>
+          <h1 className="title">{projects[project].name}</h1>
 
+          <p className="text">{projects[project].detail}</p>
+          <div className="links">
+            <a href={projects[project].web} target="_blank">
+              <img className="logos" src={internet} alt="" />
+            </a>
+            <a href={projects[project].github} target="_blank">
+              <img className="logos" src={github} alt="" />
+            </a>
+          </div>
 
-            <p className="text">{projects[project].detail}</p>
-            <div className="links">
-              <a href={projects[project].web} target="_blank">
-                <img className="logos" src={web} alt="" />
-              </a>
-              <a href={projects[project].github} target="_blank">
-                <img className="logos" src={github} alt="" />
-              </a>
-            </div>
+          <img className="imgproject" src={projects[project].img}></img>
 
-
-            <img className="imgproject" src={projects[project].img}></img>
-
-
-            <div className="row backnext">
-              <button
-                className="back"
-                onClick={() =>
-                  project === 0 ? setProject(3) : setProject(project - 1)
-                }
-              >
-                Back
-              </button>
-              <button
-                className="next"
-                onClick={() =>
-                  project === 3 ? setProject(0) : setProject(project + 1)
-                }
-              >
-                Next
-              </button>
-            </div>
-
-
+          <div className="row backnext">
+            <button
+              className="back"
+              onClick={() =>
+                project === 0 ? setProject(3) : setProject(project - 1)
+              }
+            >
+              Back
+            </button>
+            <button
+              className="next"
+              onClick={() =>
+                project === 3 ? setProject(0) : setProject(project + 1)
+              }
+            >
+              Next
+            </button>
+          </div>
         </div>
       </div>
     </div>
