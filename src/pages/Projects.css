@@ -86,9 +86,8 @@
   transition-duration: 0.5s;
   object-fit: contain;
   border-radius: 10px;
-  /* width: 1700px; */
   height: 900px;
-
+  background-color: white;
 }
 
 .imgproject {
