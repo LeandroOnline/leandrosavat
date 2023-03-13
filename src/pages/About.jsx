@@ -100,7 +100,7 @@ function About() {
             </div>
             <a className="cv" href={cven} download="Leandro Savat Resume">
               <img className="download-icon" src={nube} alt="" /> Download
-              Resume
+              Resume EN/ES
             </a>
           </div>
         </div>
