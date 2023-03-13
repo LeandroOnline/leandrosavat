@@ -115,12 +115,14 @@ function Project() {
 
           <img className="imgproject" src={projects[project].img}></img>
 
-          <div className="desk">
-            <img className="clic" src={clic} alt="" />
-            <iframe
-              src={projects[project].web}
-              className="imgproject-desk"
-            ></iframe>
+          <div className="desk-container">
+            <div className="desk">
+              <img className="clic" src={clic} alt="" />
+              <iframe
+                src={projects[project].web}
+                className="imgproject-desk"
+              ></iframe>
+            </div>
           </div>
 
           <div className="row backnext">
