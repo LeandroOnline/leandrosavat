@@ -11,8 +11,16 @@ import traveling from "../assets/images/traveling.png";
 // import web from "../assets/icons/web.png";
 import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
+import clic from "../assets/icons/clic.png";
 
 const projects = [
+  {
+    name: "Traveling",
+    img: traveling,
+    github: "https://github.com/LeandroOnline/travel-react",
+    web: "https://travel-react-flax.vercel.app/",
+    detail: "A travel consultancy (React + HTML + JS + CSS)",
+  },
   {
     name: "JustMovies",
     img: jusmovies,
@@ -20,13 +28,6 @@ const projects = [
     web: "https://peliculas-react-opal.vercel.app/",
     detail:
       "A movie search engine that provides information (React + HTML + CSS + JS)",
-  },
-  {
-    name: "Traveling",
-    img: traveling,
-    github: "https://github.com/LeandroOnline/travel-react",
-    web: "https://travel-react-flax.vercel.app/",
-    detail: "A travel consultancy (React + HTML + JS + CSS)",
   },
   {
     name: "News",
@@ -113,6 +114,14 @@ function Project() {
           </div>
 
           <img className="imgproject" src={projects[project].img}></img>
+
+          <div className="desk">
+            <img className="clic" src={clic} alt="" />
+            <iframe
+              src={projects[project].web}
+              className="imgproject-desk"
+            ></iframe>
+          </div>
 
           <div className="row backnext">
             <button
