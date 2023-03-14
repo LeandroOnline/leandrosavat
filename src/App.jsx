@@ -23,7 +23,7 @@ function App() {
         <Skills />
         <Contact />
         <Project />
-        <audio></audio>
+
       </div>
     </context.Provider>
   );
