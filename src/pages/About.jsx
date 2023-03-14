@@ -30,7 +30,7 @@ function About() {
     <div className={state === "About" ? "merge" : "separate"}>
       <div className="container center">
         <div className="centerAbout">
-          <div className="column">
+          <div className="column center">
             <div className="about-icon">
               <img src={about} alt="" />
               <a href="https://github.com/LeandroOnline" target="_blank">
@@ -63,7 +63,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div className="column">
+          <div className="column center">
             <div className={!more ? "about-resume" : "about-resume-out"}>
               <div className={!more ? "inforesume" : "inforesume-out"}>
                 <p className="title">{resumetitle}</p>

@@ -1,12 +1,12 @@
 
 .language-container {
-    width: 300px;
-    height: 100px;
+    width: 90%;
+    height: 20%;
     border: 2px outset #ffffff31;
     border-radius: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
   }
   
@@ -15,6 +15,7 @@
     background-color: #f3f3f3;
     border-radius: 9px;
     height: 10px;
+
   }
   progress::-webkit-progress-value {
     background-color: #f3f3f3;
@@ -31,5 +32,6 @@
   @media (max-width: 920px){
     .language-container{
       width: 95%;
+      height: 100%;
     }
   }

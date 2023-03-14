@@ -1,6 +1,6 @@
 .skill-container {
-  width: 300px;
-  height: 400px;
+  width: 90%;
+  height: 90%;
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
@@ -11,8 +11,8 @@
 }
 
 .skill-item {
-  width: 130px;
-  height: 40px;
+  width: 15vw;
+  height: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
