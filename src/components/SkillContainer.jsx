@@ -20,72 +20,72 @@ function SkillContainer() {
     <div className="skill-container">
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>Scrum</p>
+        <p className="text">Scrum</p>
         <img className="icon" src={scrum} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>WordPress</p>
+        <p className="text">WordPress</p>
         <img className="icon" src={wordpress} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>Photoshop</p>
+        <p className="text">Photoshop</p>
         <img className="icon" src={photoshop} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>GIT</p>
+        <p className="text">GIT</p>
         <img src={git} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>HTML</p>
+        <p className="text">HTML</p>
         <img src={html} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>CSS</p>
+        <p className="text">CSS</p>
         <img src={css} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>JavaScript</p>
+        <p className="text">JavaScript</p>
         <img src={js} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>React</p>
+        <p className="text">React</p>
         <img src={react} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>Docker</p>
+        <p className="text">Docker</p>
         <img src={docker} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>Node</p>
+        <p className="text">Node</p>
         <img src={node} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>Express</p>
+        <p className="text">Express</p>
         <img src={express} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>MongoDB</p>
+        <p className="text">MongoDB</p>
         <img src={mongodb} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>Figma</p>
+        <p className="text">Figma</p>
         <img src={figma} alt="" />
       </div>
       <div className="skill-item">
         <img className="done" src={done} alt="" />
-        <p>Notion</p>
+        <p className="text">Notion</p>
         <img src={notion} alt="" />
       </div>
     </div>

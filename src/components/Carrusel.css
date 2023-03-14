@@ -20,7 +20,7 @@
 }
 
 .progress {
-  height: 78px;
+  height: 20%;
   width: 100%;
   gap: 15px;
   flex-direction: column;

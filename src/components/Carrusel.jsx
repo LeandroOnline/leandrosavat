@@ -82,12 +82,12 @@ function Carrusel() {
           />
         </div>
         <div className="progress">
-          <p>Course: {page + 1}</p>
+          <p className="text">Course: {page + 1}</p>
           <progress max="22" value={page + 1}></progress>
         </div>
       </div>
 
-      <a className="link-certificate" href={drive} target="_blank">
+      <a className="link-certificate text" href={drive} target="_blank">
 
           <img className="carpetaicon" src={carpeta} alt="" />
           Certificate Folder
