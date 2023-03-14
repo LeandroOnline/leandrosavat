@@ -86,7 +86,8 @@
   transition-duration: 0.5s;
   object-fit: contain;
   border-radius: 10px;
-  height: 900px;
+  width: 100%;
+  height: 100%;
   background-color: white;
 }
 
@@ -97,19 +98,20 @@
 .clic {
   width: 120px;
   display: flex;
-
 }
+
 .desk-container {
   display: flex;
-  width: 70%;
+  align-items: center;
+  justify-content: center;
   height: 50%;
 }
 .desk {
   display: flex;
   transform: scale(0.4);
   position: absolute;
-  transform-origin: top left;
-  width: 1600px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,8 +123,8 @@
 }
 
 .project {
-  height: 50%;
-  width: 90%;
+  /* height: 50%; */
+  /* width: 90%; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
