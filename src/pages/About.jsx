@@ -23,7 +23,7 @@ import escribir from "../assets/interest/escribir.png";
 function About() {
   const { state } = useContext(context);
   const [more, setMore] = useState(false);
-  const datatitle = "{ Hobbies }";
+  const datatitle = "{ Motivation }";
   const resumetitle = "{ AboutME }";
 
   return (
