@@ -57,7 +57,11 @@ function About() {
                 <img className="interest" src={personas} alt="" />
               </div>
               <p className="text">
-                I am motivated by the ability to provide solutions and help humanity through my programs, it is an opportunity to solve frequent problems and optimize business processes. As a web developer, I have the ability to make a significant difference by contributing my skills and knowledge online, allowing me to effectively help with what I am capable of.
+                I am motivated by the ability to provide solutions and help
+                humanity through my software, it is an opportunity to solve
+                frequent problems and optimize business processes. As a web
+                developer, I have the ability to make a significant difference
+                by contributing my skills and knowledge online.
               </p>
             </div>
           </div>
