@@ -64,7 +64,7 @@ function Project() {
 
           <div className="column job">
             <a
-              href="https://heavy-pen-eee.notion.site/DevBees-3529614661e8492c8a620c383cf177f4"
+              href="https://leandrosavat.notion.site/DevBees-3529614661e8492c8a620c383cf177f4"
               target="_blank"
             >
               <p className="titleexp">STUDY ADVISOR</p>
