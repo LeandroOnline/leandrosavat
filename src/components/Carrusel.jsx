@@ -82,7 +82,7 @@ function Carrusel() {
           />
         </div>
         <div className="progress">
-          <p className="text">Course: {page + 1}</p>
+          <p className="text">Certificate: {page + 1}</p>
           <progress max="22" value={page + 1}></progress>
         </div>
       </div>
