@@ -74,12 +74,12 @@ function Project() {
 
           <div className="column job">
             <a
-              href="https://leandrosavat.notion.site/DevBees-3529614661e8492c8a620c383cf177f4"
+              href="https://leandrosavat.notion.site/DevPure-3529614661e8492c8a620c383cf177f4"
               target="_blank"
             >
               <p className="titleexp">STUDY ADVISOR</p>
             </a>
-            <p className="text">at DevBess Academic Group- Since Oct 2022</p>
+            <p className="text">at DevPure learning platform- Since Oct 2022</p>
             <p className="text">
               I improved academic performance by supporting study guides and
               doubts resolution.
