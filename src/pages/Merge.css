@@ -1,7 +1,8 @@
 .column {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: space-evenly;
+  /* gap: 10px; */
   width: 100%;
   height: 100%;
 }
@@ -62,10 +63,17 @@
   border-radius: 30px;
   display: flex;
   margin: 5px;
+  margin-bottom: 3%;
 }
 
 .center{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 750px){
+  .container{
+    margin-bottom: 10%;
+  }
 }
