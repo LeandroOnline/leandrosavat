@@ -45,9 +45,18 @@
 
 .container {
   backdrop-filter: blur(50px) saturate(100%);
-  background-color: rgba(255, 255, 255, 0.15);
+  background-image: linear-gradient(
+    145deg,
+    hsla(240, 100%, 27%, 0.6) 0%,
+    hsla(293, 100%, 25%, 0.5) 26%,
+    hsla(320, 100%, 33%, 0.4) 39%,
+    hsla(334, 100%, 40%, 0.3) 50%,
+    hsla(343, 100%, 45%, 0.4) 61%,
+    hsla(10, 91%, 56%, 0.5) 74%,
+    hsla(30, 100%, 48%, 0.6) 100%
+  );;
   box-shadow: 5px 5px 10px #00000038;
-  border: 2px outset #ffffff31;
+  border: 2px outset #0000007a;
   width: 90%;
   height: 90%;
   border-radius: 30px;

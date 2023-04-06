@@ -18,11 +18,11 @@ function Home() {
             <h1 className="name">Leandro Savat</h1>
           </div>
           <div className="subname">
-            <div className="row">
-              <h1>Full Stack</h1>
-              <p className="subname power"> WEB DEVELOPER</p>
+            <p className="power">WEB DEVELOPER</p>
+            <div className="column">
+            <h2>✓  Full Stack</h2>
+            <h2>✓  Scrum</h2>
             </div>
-            <h2>& Photographer</h2>
           </div>
         </div>
       </div>
