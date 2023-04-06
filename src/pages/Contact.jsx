@@ -24,10 +24,10 @@ function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_zmjwt56",
-        "template_lnp5wks",
+        import.meta.env.VITE_SERVICE,
+        import.meta.env.VITE_TEMP,
         form.current,
-        "U5TaTBa2WiiW_sbuL"
+        import.meta.env.VITE_PASS
       )
       .then(
         (result) => {
