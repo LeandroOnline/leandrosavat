@@ -34,9 +34,9 @@ const projects = [
   {
     name: "News",
     img: news,
-    github: "https://github.com/LeandroOnline/BLOG_UI_TEMPLATE",
-    web: "https://blog-ui-template.vercel.app/",
-    detail: "A news blog, updated daily via API (React + JS + CSS + Scrum)",
+    github: "https://github.com/LeandroOnline/news",
+    web: "https://news-henna-six.vercel.app/",
+    detail: "Full Stack with two APIs",
   },
   {
     name: "Innovation",
