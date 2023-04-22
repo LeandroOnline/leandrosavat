@@ -17,8 +17,8 @@
 }
 
 .perfil {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
 .name {
@@ -108,8 +108,8 @@
 
 @media (max-height: 500px){
   .perfil {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
   .name {
     font-size: 30px;
