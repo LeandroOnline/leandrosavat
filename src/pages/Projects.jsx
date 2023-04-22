@@ -10,7 +10,6 @@ import news from "../assets/images/news.png";
 import traveling from "../assets/images/traveling.png";
 import mernart from "../assets/images/ mernart.jpg";
 
-
 import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
 import clic from "../assets/icons/clic.png";
@@ -51,8 +50,7 @@ const projects = [
     img: mernart,
     github: "https://github.com/LeandroOnline/mernart",
     web: "https://mernart.vercel.app/",
-    detail:
-      "(React.js + Bootstrap ) Backend in progress",
+    detail: "(React.js + Bootstrap ) Backend in progress",
   },
 ];
 
@@ -139,7 +137,9 @@ function Project() {
             <button
               className="back"
               onClick={() =>
-                project === 0 ? setProject(projects.length -1) : setProject(project - 1)
+                project === 0
+                  ? setProject(projects.length - 1)
+                  : setProject(project - 1)
               }
             >
               Back
@@ -147,7 +147,9 @@ function Project() {
             <button
               className="next"
               onClick={() =>
-                project === projects.length -1 ? setProject(0) : setProject(project + 1)
+                project === projects.length - 1
+                  ? setProject(0)
+                  : setProject(project + 1)
               }
             >
               Next
