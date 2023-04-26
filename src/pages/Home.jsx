@@ -40,6 +40,7 @@ function Home() {
             <div className="column center">
               <h2>Full Stack ✓</h2>
               <h2>Scrum ✓</h2>
+              <h2>Git Flow ✓</h2>
             </div>
           </div>
         </div>
