@@ -2,14 +2,11 @@ import { useContext, useState } from "react";
 import { context } from "../App";
 import "./Merge.css";
 import "./Projects.css";
-
-// Backgrounds https://app.haikei.app
-
 import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
 import clic from "../assets/icons/clic.png";
-
 import projects from "../utils/projects";
+import experience from "../utils/experience";
 
 function Project() {
   const { state } = useContext(context);
@@ -18,57 +15,19 @@ function Project() {
   return (
     <div className={state === "Project" ? "merge" : "separate"}>
       <div className="container row">
+
         <div className="exp">
-          
-          <div className="column job">
-            <p className="titleexp">FREELANCE</p>
-            <p className="text">Web Productions - Since Dec 2022</p>
-            <p className="text">
-              Sale and production of personalized web pages
-            </p>
-          </div>
-
-          <div className="column job">
-            <a
-              href="https://leandrosavat.notion.site/DevPure-3529614661e8492c8a620c383cf177f4"
-              target="_blank"
-            >
-              <p className="titleexp">STUDY ADVISOR</p>
-            </a>
-            <p className="text">at DevPure learning platform- Since Oct 2022</p>
-            <p className="text">
-              I improved academic performance by supporting study guides and
-              doubts resolution.
-            </p>
-          </div>
-
-          <div className="column job">
-            <a
-              href="https://www.instagram.com/savatproducciones/"
-              target="_blank"
-            >
-              <p className="titleexp">CO-FOUNDER</p>
-            </a>
-            <p className="text">
-              at SAVAT Audiovisual Productions - Since 2008
-            </p>
-            <p className="text">Photography, Image design.</p>
-          </div>
-
-          <div className="column job">
-            <p className="titleexp">FREELANCE</p>
-            <p className="text">
-              Indicator Developer at TradingView - Jan-Nov 2022
-            </p>
-            <p className="text">
-              Programming of private indicators with financial data.
-            </p>
-          </div>
+          {experience.map((exp, key) => (
+            <div className="column job" key={key}>
+              <p className="titleexp">{exp.title}</p>
+              <p className="text">{exp.subtitle}</p>
+              <p className="text">{exp.details}</p>
+            </div>
+          ))}
         </div>
 
         <div className="centerprojects">
           <h1 className="title">{projects[project].name}</h1>
-
           <p className="text">{projects[project].detail}</p>
           <div className="links">
             <a href={projects[project].web} target="_blank">
@@ -78,18 +37,7 @@ function Project() {
               <img className="logos" src={github} alt="" />
             </a>
           </div>
-
           <img className="imgproject" src={projects[project].img}></img>
-
-          <div className="desk-container">
-            <div className="desk">
-              <img className="clic" src={clic} alt="" />
-              <iframe
-                src={projects[project].web}
-                className="imgproject-desk"
-              ></iframe>
-            </div>
-          </div>
 
           <div className="row backnext">
             <button
@@ -114,6 +62,7 @@ function Project() {
             </button>
           </div>
         </div>
+
       </div>
     </div>
   );
