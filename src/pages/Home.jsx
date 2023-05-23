@@ -8,7 +8,6 @@ import Typed from "typed.js";
 
 function Home() {
   const { state } = useContext(context);
-  const code = "< Welcome />";
   const typedRef = useRef(null);
 
   useEffect(() => {
