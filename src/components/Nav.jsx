@@ -8,9 +8,9 @@ import { useContext } from "react";
 import { context } from "../App";
 
 function Nav() {
-  const { state, setState } = useContext(context);
+  const { setState } = useContext(context);
   return (
-    <div className="nav">
+    <nav className="nav">
       <button autoFocus={true} className="button" >
         <img src={iHome} alt=""  />
         <p className="menutext" onClick={() => setState("Home")}>Home</p>
@@ -31,7 +31,7 @@ function Nav() {
         <img src={iContact} alt=""  />
         <p className="menutext" onClick={() => setState("Contact")}>Contact</p>
       </button>
-    </div>
+    </nav>
   );
 }
 export default Nav;
