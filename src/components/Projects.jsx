@@ -1,10 +1,10 @@
 import { useContext, useState } from "react";
 import { context } from "../App";
-import "./Merge.css";
-import "./Projects.css";
 import projectsInfo from "../utils/projectsInfo";
 import experience from "../utils/experience";
 import ProjectDetail from "./ProjectDetail";
+import "./Merge.css";
+import "./Projects.css";
 
 function Project() {
   const { state } = useContext(context);
@@ -14,7 +14,7 @@ function Project() {
     <div className={state === "Project" ? "merge" : "separate"}>
       <div className="container row">
         <div className="exp">
-          {experience.map((exp, key) => (
+          {experience?.map((exp, key) => (
             <div className="column job" key={key}>
               <p className="titleexp">{exp.title}</p>
               <p className="text">{exp.subtitle}</p>
