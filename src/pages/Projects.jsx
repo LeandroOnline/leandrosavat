@@ -45,13 +45,6 @@ const projects = [
     detail:
       "Corporate landing page (React + JS + Figma + Styled Components + Scrum)",
   },
-  {
-    name: "MernArt",
-    img: mernart,
-    github: "https://github.com/LeandroOnline/mernart",
-    web: "https://mernart.vercel.app/",
-    detail: "(React.js + Bootstrap ) Backend in progress",
-  },
 ];
 
 function Project() {
