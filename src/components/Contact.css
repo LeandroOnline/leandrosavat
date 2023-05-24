@@ -148,10 +148,6 @@
   background-color: rgb(51, 153, 254);
 }
 
-.text{
-  text-align: center;
-}
-
 .none {
   display: none;
   transition-duration: 0.5s;
