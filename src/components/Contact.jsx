@@ -6,7 +6,7 @@ import team from "../assets/images/trabaja.png";
 import "./Merge.css";
 import "./Contact.css";
 
-const wame = "https://wa.me/5493435267411"; // esto en utils
+const wame = "https://wa.me/5493435267411";
 
 function Contact() {
   const { state } = useContext(context);
@@ -78,8 +78,9 @@ function Contact() {
                 onChange={(e) => setMessage(e.target.value)}
               />
 
+
               {name !== "" && email !== "" && message !== "" ? (
-                <button className={style ? "text send" : "none"} type="submit">
+                <button className={style ? "send" : "none"} type="submit">
                   Send
                 </button>
               ) : (
@@ -89,6 +90,7 @@ function Contact() {
               <a href={wame} className="wspcontainer" target="_blank">
                 <img className="wsp" src={wsp} alt="" />
               </a>
+
               <div
                 className={style ? "none" : "text again"}
                 value="Send"
@@ -96,6 +98,7 @@ function Contact() {
               >
                 Again
               </div>
+
             </form>
           </div>
         </div>

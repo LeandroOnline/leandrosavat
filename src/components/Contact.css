@@ -1,31 +1,3 @@
-.form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  gap: 10px;
-  border-radius: 30px;
-  margin: 20px;
-  padding: 20px;
-  transition-duration: 2s;
-}
-
-.formout {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  width: 50%;
-  height: 100%;
-  gap: 3px;
-  border-radius: 30px;
-  margin: 20px;
-  padding: 20px;
-  transition-duration: 1s;
-}
-
 .centercontact {
   display: flex;
   align-items: center;
@@ -39,11 +11,48 @@
     rgba(51, 153, 254, 0)
   );
   border-radius: 28px;
+  box-sizing: border-box;
+}
+
+.formcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  gap: 10px;
+  border-radius: 30px;
+  transition-duration: 2s;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  border-radius: 30px;
+  transition-duration: 2s;
+}
+
+.formout {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 3px;
+  border-radius: 30px;
+  transition-duration: 1s;
 }
 
 .input {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
-  width: 90%;
+  width: 100%;
   border-radius: 30px;
   padding: 20px;
   outline: none;
@@ -67,6 +76,29 @@
   width: 30px;
 }
 
+.send {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(51, 153, 254);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 5px;
+  width: 100px;
+  transition-duration: 1s;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 3vh;
+}
+
+.send:hover {
+  width: 100%;
+  transition-duration: 0.4s;
+  background-color: rgb(51, 153, 254);
+}
+
 .wspcontainer {
   background-color: rgba(255, 255, 255, 0);
   border-color: rgb(51, 153, 254);
@@ -82,9 +114,25 @@
 }
 
 .wspcontainer:hover {
-  width: 90%;
+  width: 100%;
   transition-duration: 0.4s;
   background-color: rgb(40, 167, 26);
+}
+
+.again {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 100px;
+  transition-duration: 0.5s;
+}
+
+.again:hover {
+  width: 100%;
+  transition-duration: 0.5s;
+  background-color: rgb(51, 153, 254);
 }
 
 .itop {
@@ -97,23 +145,6 @@
 
 .ibottom {
   border-radius: 5px 5px 30px 30px;
-}
-
-.send {
-  background-color: rgba(255, 255, 255, 0);
-  border-color: rgb(51, 153, 254);
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 30px;
-  padding: 5px;
-  width: 100px;
-  transition-duration: 1s;
-}
-
-.send:hover {
-  width: 90%;
-  transition-duration: 0.4s;
-  background-color: rgb(51, 153, 254);
 }
 
 .locked {
@@ -130,22 +161,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.again {
-  background-color: rgba(255, 255, 255, 0);
-  border-color: rgb(255, 255, 255);
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 30px;
-  width: 100px;
-  transition-duration: 0.5s;
-}
-
-.again:hover {
-  width: 90%;
-  transition-duration: 0.5s;
-  background-color: rgb(51, 153, 254);
 }
 
 .none {
@@ -172,21 +187,6 @@
   justify-content: center;
 }
 
-.formcontainer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  gap: 10px;
-  border-radius: 30px;
-  margin: 20px;
-  padding: 20px;
-  transition-duration: 2s;
-}
-
-
 @media (max-width: 650px) {
   .centercontact {
     flex-direction: column;
@@ -196,11 +196,9 @@
     height: 25%;
     width: auto;
   }
-  .form, .formout {
+  .formcontainer, .formout {
     width: 95%;
     height: 55%;
-    margin: 0;
-    padding: 0;
   }
   .input{
     width: 100%;
