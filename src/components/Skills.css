@@ -14,6 +14,8 @@
   .center-skill{
     flex-direction: column;
     justify-content: center;
+    gap: 0;
+    padding: 10px;
   }
   .space{
     display: flex;

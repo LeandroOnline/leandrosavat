@@ -30,8 +30,8 @@
   }
 
   @media (max-width: 920px){
-    .language-container{
+    .language-container , .skill-container{
       height: 100%;
-      width: 95%;
+      width: 100%;
     }
   }

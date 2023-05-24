@@ -112,7 +112,6 @@
   display: flex;
   flex-direction: row;
   font-family: "Oswald", sans-serif;
-  gap: 5px;
   height: 100%;
   justify-content: center;
   width: 100%;
@@ -183,12 +182,12 @@
     transition-duration: 1s;
     width: 100%;
   }
-  .cv{
-    height: 10%;
+  .cv {
+    height: 100%;
     width: 100%;
   }
 
-  .leerimg{
+  .leerimg {
     height: 7vh;
     width: auto;
   }
@@ -197,7 +196,7 @@
   .about-resume-out,
   .more,
   .inforesume {
-    height:80%;
+    height: 80%;
     width: 100%;
   }
 
@@ -219,6 +218,7 @@
   .centerAbout {
     flex-direction: column;
     transition-duration: 1s;
-    width: 80%;
+    gap: 10px;
+    padding: 10px;
   }
 }
