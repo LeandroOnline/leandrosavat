@@ -4,9 +4,9 @@ import video from "./assets/videos/short2.mp4";
 import { createContext, useState } from "react";
 import Home from "./components/Home";
 import About from "./components/About";
-import Skills from "./components/Skills";
+import Skills from "./components/Education";
 import Contact from "./components/Contact";
-import Project from "./components/Projects";
+import Project from "./components/Experience";
 
 export const context = createContext();
 

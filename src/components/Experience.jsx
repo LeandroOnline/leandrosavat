@@ -4,7 +4,7 @@ import projectsInfo from "../utils/projectsInfo";
 import experience from "../utils/experience";
 import ProjectDetail from "./ProjectDetail";
 import "./Merge.css";
-import "./Projects.css";
+import "./Experience.css";
 
 function Project() {
   const { state } = useContext(context);

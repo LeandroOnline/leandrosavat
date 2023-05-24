@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import { context } from "../App";
-import "./Skills.css";
-import SkillContainer from "../components/SkillContainer";
-import Language from "../components/Language";
+import "./Education.css";
+import SkillContainer from "./SkillContainer";
+import Language from "./Language";
 
-import Carrusel from "../components/Carrusel";
+import Carrusel from "./Carrusel";
 
 function Skills() {
   const { state } = useContext(context);

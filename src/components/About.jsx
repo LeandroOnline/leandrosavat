@@ -11,9 +11,7 @@ import flechaizq from "../assets/images/flecha-izquierda.png";
 import flechader from "../assets/images/flecha-derecha.png";
 import yoga from "../assets/images/yoga.png";
 import nube from "../assets/images/nube.png";
-
 import cven from "../assets/doc/CV EN-ES.pdf";
-
 import dieta from "../assets/interest/dieta.png";
 import kayak from "../assets/interest/kayak.png";
 import meditacion from "../assets/interest/meditacion.png";

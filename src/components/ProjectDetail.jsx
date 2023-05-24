@@ -1,6 +1,5 @@
 import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
-import "./Projects.css";
 
 const ProjectDetail = ({search, index}) => {
   return (
