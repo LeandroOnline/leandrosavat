@@ -22,7 +22,7 @@ import escribir from "../assets/interest/escribir.png";
 function About() {
   const { state } = useContext(context);
   const [more, setMore] = useState(false);
-  const datatitle = "{ Motivation }";
+  const datatitle = "{ Driven }";
   const resumetitle = "{ AboutME }";
 
   return (
@@ -88,11 +88,16 @@ function About() {
                   <p className="text">
                     Since I was 11 years old I have been working in my family
                     business of audiovisual productions, where I developed a
-                    solid professional ethic and work commitment. I traveled for
-                    two years, making productions and acquiring English skills.
-                    During the trip, I met programmers who sparked my interest
-                    in coordinated work and web connection to the world. In
-                    2021, I became interested in financial data programming
+                    solid professional ethic and work commitment.
+                  </p>
+                  <p className="text">
+                    I traveled for two years, making productions and acquiring
+                    English skills. During the trip, I met programmers who
+                    sparked my interest in coordinated work and web connection
+                    to the world.
+                  </p>
+                  <p className="text">
+                    In 2021, I became interested in financial data programming
                     which led me to learn about and focus on web programming.
                   </p>
                   <img className="leerimg" src={yoga} alt="" />

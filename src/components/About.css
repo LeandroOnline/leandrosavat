@@ -98,6 +98,7 @@
   height: 20%;
   justify-content: center;
   width: 100%;
+  font-size: 1.8vw;
 }
 
 .cv:hover {
@@ -187,6 +188,7 @@
   .cv {
     height: 100%;
     width: 100%;
+    font-size: 4vw;
   }
 
   .leerimg {
@@ -200,6 +202,14 @@
   .inforesume {
     height: 80%;
     width: 100%;
+  }
+
+  .leerimg {
+    display: none;
+  }
+
+  .more {
+    padding: 10px;
   }
 
   .inforesume p {
