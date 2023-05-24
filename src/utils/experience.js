@@ -1,25 +1,43 @@
 const experience = [
   {
-    title: "FREELANCE",
-    subtitle: "Web Productions - Since Dec 2022",
-    details: "Sale and production of personalized web pages",
+    title: "FULL STACK",
+    subtitle: "Freelance - Since Nov 2022",
+    details: "Web Application Programming",
   },
   {
-    title: "STUDY ADVISOR",
-    subtitle: "at DevPure learning platform- Since Oct 2022",
+    title: "VOLUNTEER",
+    subtitle: "Academic group- Since May 2022",
     details:
-      " I improved academic performance by supporting study guides and doubts resolution.",
+      "BootCamps (Henry / Open Bootcamp / Linkedin) + Curriculum Consultant.",
   },
   {
-    title: "CO-FOUNDER",
-    subtitle: "at SAVAT Audiovisual Productions - Since 2008",
-    details: " Photography, Image design.",
+    title: "DEVELOPER",
+    subtitle: "Data graph visualization FRONTEND in Pine Script - 2021-2022",
+    details: "Graphics programming for financial data visualization.",
   },
   ,
   {
-    title: "FREELANCE",
-    subtitle: "Indicator Developer at TradingView - Jan-Nov 2022",
-    details: "Programming of private indicators with financial data.",
+    title: "ENGLISH",
+    subtitle:
+      "Improvement of the level of English during a global trip - 2019-2021",
+    details:
+      "Development of multicultural communication skills and adaptability.",
+  },
+  {
+    title: "CO-FOUNDER",
+    subtitle: "SAVAT Audiovisual Productions - 2010-2019",
+    details: "Creativity and Graphic Design + Audiovisual Production.",
+  },
+  {
+    title: "TECHNICIAN",
+    subtitle: "Software TECHNICIAN in Ciber - 2008-2010",
+    details: "Software and hardware administration of 30 computers.",
+  },
+  {
+    title: "STUDENT",
+    subtitle: "And EMPLOYEE At UTN University - 2007-2010",
+    details:
+      "Engineering student in Information Systems + Employee in Photocopier",
   },
 ];
 
