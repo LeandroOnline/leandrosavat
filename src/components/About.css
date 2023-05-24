@@ -184,6 +184,7 @@
     padding: 10px;
     transition-duration: 1s;
     width: 100%;
+    border-radius: 15px;
   }
   .cv {
     height: 100%;
@@ -202,6 +203,12 @@
   .inforesume {
     height: 80%;
     width: 100%;
+    border-radius: 15px;
+  }
+
+  .cv{
+    border-radius: 15px;
+
   }
 
   .leerimg {

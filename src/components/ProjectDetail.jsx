@@ -2,10 +2,11 @@ import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
 
 const ProjectDetail = ({search, index}) => {
+  const llavei= "{";
+  const llaved= "}";
   return (
     <>
-      <h1 className="title">{search[index].name}</h1>
-      <p className="text">{search[index].detail}</p>
+      <h1 className="title">{llavei} {search[index].name} {llaved}</h1>
       <div className="links">
         <a href={search[index].web} target="_blank">
           <img className="logos" src={internet} alt="" />
@@ -15,6 +16,7 @@ const ProjectDetail = ({search, index}) => {
         </a>
       </div>
       <img className="imgproject" src={search[index].img}></img>
+      <p className="text">{search[index].detail}</p>
     </>
   );
 };

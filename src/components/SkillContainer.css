@@ -56,11 +56,14 @@
 @media (max-width: 800px) {
   .skill-container {
     height: 100%;
-    width: 95%;
+    width: 100%;
+    border-radius: 15px;
   }
+
   .done {
     display: none;
   }
+
   .skill-item{
     height: 40px;
     width: 40px;
