@@ -181,11 +181,13 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px;
+    border-radius: 15px;
   }
   .team {
     height: 25%;
     width: auto;
   }
+
   .formcontainer, .formout {
     height: 55%;
     width: 100%;

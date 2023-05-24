@@ -12,7 +12,7 @@ function Project() {
 
   return (
     <div className={state === "Project" ? "merge" : "separate"}>
-      <div className="container row">
+      <div className="container containerdirection">
         <div className="exp">
           {experience?.map((exp, key) => (
             <div className="column job" key={key}>

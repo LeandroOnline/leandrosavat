@@ -182,6 +182,10 @@
   color: rgba(51, 153, 254, 0.6);
 }
 
+.containerdirection {
+  flex-direction: row;
+}
+
 @media (max-width: 830px) {
   .text {
     font-size: 15px;
@@ -242,28 +246,41 @@
   .clic {
     display: none;
   }
+
   .desk {
     display: none;
   }
+
   .desk-container {
     display: none;
   }
+
   .centerprojects {
     align-items: center;
     display: flex;
-    height: 100%;
+    height: 60%;
     justify-content: space-evenly;
-    width: 50%;
-    border-radius: 0 15px;
-  }
-  .exp{
+    width: 100%;
     border-radius: 15px;
   }
+
+  .exp {
+    border-radius: 15px;
+    width: 100%;
+    height: 40%;
+  }
+
   .imgproject {
     border-radius: 5px;
     display: flex;
     object-fit: contain;
     transition-duration: 0.5s;
     width: 100%;
+  }
+
+  .containerdirection {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
   }
 }
