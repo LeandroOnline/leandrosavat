@@ -1,13 +1,13 @@
 
 .language-container {
-    width: 90%;
-    height: 20%;
+    align-items: center;
     border: 2px outset #ffffff31;
     border-radius: 30px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-direction: column;
+    height: 20%;
+    justify-content: space-evenly;
+    width: 90%;
   }
   
   /* Safari Chrome */
@@ -18,20 +18,20 @@
 
   }
   progress::-webkit-progress-value {
-    background-color: #f3f3f3;
     background: rgb(51, 153, 254);
+    background-color: #f3f3f3;
     border-radius: 9px;
   }
   /* firefox */
   progress::-moz-progress-bar {
-    background-color: #f3f3f3;
     background: rgb(51, 153, 254);
+    background-color: #f3f3f3;
     border-radius: 9px;
   }
 
   @media (max-width: 920px){
     .language-container{
-      width: 95%;
       height: 100%;
+      width: 95%;
     }
   }

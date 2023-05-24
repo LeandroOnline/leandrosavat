@@ -1,17 +1,17 @@
 .carrusel-container {
-  width: 100%;
-  height: 100%;
+  align-items: center;
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .course {
-  width: 100%;
   border-radius: 10px;
+  width: 100%;
 }
 
 .height {
@@ -20,25 +20,25 @@
 }
 
 .progress {
-  height: 20%;
-  width: 100%;
-  gap: 15px;
-  flex-direction: column;
-  display: flex;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 20%;
   justify-content: center;
+  width: 100%;
 }
 
 .link-certificate {
-  width: 100%;
-  height: 10%;
+  align-items: center;
+  background-color: rgba(51, 153, 254, 0.25);
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 15px;
-  background-color: rgba(51, 153, 254, 0.25);
+  height: 10%;
+  justify-content: center;
+  width: 100%;
 }
 
 .carpetaicon {
@@ -53,12 +53,12 @@
 @media (max-width: 800px) {
   .carrusel-container,
   .progress {
-    height: auto;
-    width: 70%;
+    align-items: center;
     border: none;
     display: flex;
-    align-items: center;
+    height: auto;
     justify-content: center;
+    width: 70%;
   }
   .link-certificate {
     width: 95%;
@@ -67,9 +67,9 @@
     height: auto;
   }
   .space {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    display: flex;
     height: 50%;
+    justify-content: space-between;
   }
 }

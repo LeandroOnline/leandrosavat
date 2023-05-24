@@ -1,21 +1,17 @@
 .skill-container {
-  width: 90%;
-  height: 90%;
+  align-items: center;
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 5px;
+  height: 90%;
+  justify-content: center;
+  width: 90%;
 }
 
 .skill-item {
-  width: 15vw;
-  height: 5vh;
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
   background: linear-gradient(
     45deg,
     rgba(255, 255, 255, 0),
@@ -23,6 +19,10 @@
     rgb(255, 255, 255)
   );
   border-radius: 30px;
+  display: flex;
+  height: 5vh;
+  justify-content: space-evenly;
+  width: 15vw;
 }
 
 .skill-item img {
@@ -40,16 +40,16 @@
 
 @media (max-width: 920px) {
   .skill-container {
-    width: 100%;
     /* height: 100%; */
     gap: 2px;
+    width: 100%;
   }
   .skill-item p {
     display: none;
   }
   .skill-item {
-    width: auto;
     height: 50px;
+    width: auto;
   }
 }
 
@@ -62,7 +62,7 @@
     display: none;
   }
   .skill-item{
-    width: 40px;
     height: 40px;
+    width: 40px;
   }
 }

@@ -1,13 +1,13 @@
 .about-data {
-  width: 90%;
-  height: 70%;
+  align-items: center;
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   flex-direction: column;
+  height: 70%;
+  justify-content: space-evenly;
   padding: 30px;
+  width: 90%;
 }
 
 .interest {
@@ -25,14 +25,14 @@
 }
 
 .about-icon {
-  width: 90%;
-  height: 20%;
+  align-items: center;
+  background-color: rgba(51, 153, 254, 0.25);
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
+  height: 20%;
   justify-content: space-evenly;
-  background-color: rgba(51, 153, 254, 0.25);
+  width: 90%;
 }
 
 .about-icon img {
@@ -47,36 +47,36 @@
 }
 
 .about-resume {
-  width: 90%;
-  height: 80%;
+  align-items: center;
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   flex-direction: row;
+  height: 80%;
+  justify-content: space-evenly;
+  width: 90%;
 }
 
 .about-resume-out {
-  width: 90%;
-  height: 80%;
+  align-items: center;
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
+  height: 80%;
   justify-content: space-between;
+  width: 90%;
 }
 
 .inforesume {
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
-  padding: 30px;
-  width: 100%;
-  height: 100%;
   animation: about-in;
   animation-duration: 1s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 30px;
+  width: 100%;
 }
 
 .inforesume-out {
@@ -89,40 +89,40 @@
 }
 
 .cv {
-  width: 90%;
-  height: 10%;
+  align-items: center;
+  background-color: rgba(51, 153, 254, 0.25);
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 20px;
-  background-color: rgba(51, 153, 254, 0.25);
+  height: 10%;
+  justify-content: center;
+  width: 90%;
 }
 
 .cv:hover {
   background-color: rgb(51, 153, 254);
-  transition-duration: 0.5s;
   cursor: pointer;
+  transition-duration: 0.5s;
 }
 
 .centerAbout {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
   color: white;
-  gap: 5px;
+  display: flex;
+  flex-direction: row;
   font-family: "Oswald", sans-serif;
+  gap: 5px;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
 }
 
 .flecha {
-  display: flex;
-  width: 30px;
-  height: 50px;
   border-radius: 50px 0px 0px 50px;
+  display: flex;
+  height: 50px;
+  width: 30px;
 }
 
 .flecha:hover {
@@ -131,10 +131,10 @@
 }
 
 .flecha-izq {
-  display: flex;
-  width: 30px;
-  height: 50px;
   border-radius: 0px 50px 50px 0px;
+  display: flex;
+  height: 50px;
+  width: 30px;
 }
 
 .flecha-izq:hover {
@@ -143,14 +143,14 @@
 }
 
 .more {
-  width: 100%;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 30px;
-  flex-direction: column;
   animation: about-out;
   animation-duration: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
 }
 
 .download-icon {
@@ -178,10 +178,10 @@
 @media (max-width: 830px) {
   .about-icon,
   .about-data {
-    width: 100%;
     height: 100%;
     padding: 10px;
     transition-duration: 1s;
+    width: 100%;
   }
   .cv{
     height: 10%;
@@ -197,8 +197,8 @@
   .about-resume-out,
   .more,
   .inforesume {
-    width: 100%;
     height:80%;
+    width: 100%;
   }
 
   .inforesume p {
@@ -206,8 +206,8 @@
   }
 
   .about-icon img {
-    width: 30px;
     transition-duration: 1s;
+    width: 30px;
   }
 
   .inforesume {

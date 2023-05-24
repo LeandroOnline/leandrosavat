@@ -1,9 +1,5 @@
 .centercontact {
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 100%;
   background: linear-gradient(
     90deg,
     rgba(0, 128, 0, 0.5),
@@ -12,51 +8,55 @@
   );
   border-radius: 28px;
   box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .formcontainer{
-  display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 50%;
-  height: 100%;
-  gap: 10px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
   transition-duration: 2s;
+  width: 50%;
 }
 
 .form {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  gap: 10px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
   transition-duration: 2s;
+  width: 100%;
 }
 
 .formout {
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  gap: 3px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 100%;
+  justify-content: space-evenly;
   transition-duration: 1s;
+  width: 100%;
 }
 
 .input {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
-  width: 100%;
   border-radius: 30px;
-  padding: 20px;
   outline: none;
+  padding: 20px;
   transition-duration: 1s;
+  width: 100%;
 }
 
 .message {
@@ -64,12 +64,12 @@
 }
 
 .team {
-  width: 300px;
-  opacity: 50%;
-  margin: 20px;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+  margin: 20px;
+  opacity: 50%;
+  width: 300px;
 }
 
 .wsp {
@@ -79,60 +79,60 @@
 .send {
   background-color: rgba(255, 255, 255, 0);
   border-color: rgb(51, 153, 254);
-  border-width: 2px;
-  border-style: solid;
   border-radius: 30px;
-  padding: 5px;
-  width: 100px;
-  transition-duration: 1s;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
+  border-style: solid;
+  border-width: 2px;
   color: white;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5vw;
   font-weight: 500;
   line-height: 3vh;
+  padding: 5px;
+  text-align: center;
+  transition-duration: 1s;
+  width: 100px;
 }
 
 .send:hover {
-  width: 100%;
-  transition-duration: 0.4s;
   background-color: rgb(51, 153, 254);
+  transition-duration: 0.4s;
+  width: 100%;
 }
 
 .wspcontainer {
+  align-items: center;
   background-color: rgba(255, 255, 255, 0);
   border-color: rgb(51, 153, 254);
-  border-width: 2px;
-  border-style: solid;
   border-radius: 30px;
-  width: 100px;
-  height: 50px;
-  transition-duration: 1s;
+  border-style: solid;
+  border-width: 2px;
   display: flex;
-  align-items: center;
+  height: 50px;
   justify-content: center;
+  transition-duration: 1s;
+  width: 100px;
 }
 
 .wspcontainer:hover {
-  width: 100%;
-  transition-duration: 0.4s;
   background-color: rgb(40, 167, 26);
+  transition-duration: 0.4s;
+  width: 100%;
 }
 
 .again {
   background-color: rgba(255, 255, 255, 0);
   border-color: rgb(255, 255, 255);
-  border-width: 2px;
-  border-style: solid;
   border-radius: 30px;
-  width: 100px;
+  border-style: solid;
+  border-width: 2px;
   transition-duration: 0.5s;
+  width: 100px;
 }
 
 .again:hover {
-  width: 100%;
-  transition-duration: 0.5s;
   background-color: rgb(51, 153, 254);
+  transition-duration: 0.5s;
+  width: 100%;
 }
 
 .itop {
@@ -148,19 +148,19 @@
 }
 
 .locked {
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   border-color: rgba(51, 153, 254, 0.25);
-  border-width: 2px;
-  border-style: solid;
   border-radius: 30px;
-  width: 100px;
-  height: 50px;
-  transition-duration: 0.5s;
-  font-family: "Oswald", sans-serif;
+  border-style: solid;
+  border-width: 2px;
   color: gray;
   display: flex;
-  align-items: center;
+  font-family: "Oswald", sans-serif;
+  height: 50px;
   justify-content: center;
+  transition-duration: 0.5s;
+  width: 100px;
 }
 
 .none {
@@ -169,22 +169,22 @@
 }
 
 .thanks {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: calc(100% - 100px);
-  z-index: 3;
+  display: flex;
   font-size: 80px;
+  height: calc(100% - 100px);
+  justify-content: center;
   text-shadow: 0px 0px 5px white;
   transition-duration: 1s;
+  width: 100%;
+  z-index: 3;
 }
 
 .emailwsp {
-  width: 100%;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 @media (max-width: 650px) {
@@ -197,8 +197,8 @@
     width: auto;
   }
   .formcontainer, .formout {
-    width: 95%;
     height: 55%;
+    width: 95%;
   }
   .input{
     width: 100%;
