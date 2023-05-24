@@ -1,7 +1,7 @@
 .column {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   height: 100%;
   width: 100%;
 }
@@ -75,5 +75,8 @@
 @media (max-width: 750px) {
   .container {
     margin-bottom: 10%;
+  }
+  .column {
+    gap: 10px;
   }
 }

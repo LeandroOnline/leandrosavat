@@ -4,10 +4,10 @@
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  height: 70%;
+  height: 80%;
   justify-content: space-evenly;
   padding: 30px;
-  width: 90%;
+  width: 100%;
 }
 
 .interest {
@@ -32,7 +32,7 @@
   display: flex;
   height: 20%;
   justify-content: space-evenly;
-  width: 90%;
+  width: 100%;
 }
 
 .about-icon img {
@@ -54,7 +54,7 @@
   flex-direction: row;
   height: 80%;
   justify-content: space-evenly;
-  width: 90%;
+  width: 100%;
 }
 
 .about-resume-out {
@@ -95,9 +95,9 @@
   border-radius: 30px;
   display: flex;
   gap: 20px;
-  height: 10%;
+  height: 20%;
   justify-content: center;
-  width: 90%;
+  width: 100%;
 }
 
 .cv:hover {
@@ -113,8 +113,10 @@
   flex-direction: row;
   font-family: "Oswald", sans-serif;
   height: 100%;
+  gap: 15px;
   justify-content: center;
   width: 100%;
+  padding: 15px;
 }
 
 .flecha {
