@@ -92,7 +92,7 @@ function Contact() {
               </a>
 
               <div
-                className={style ? "none" : "again"}
+                className={style ? "none" : "send"}
                 value="Send"
                 onClick={() => setStyle(true)}
               >

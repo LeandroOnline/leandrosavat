@@ -69,4 +69,7 @@
     height: 50%;
     justify-content: space-between;
   }
+  .link-certificate {
+    height: 40%;
+  }
 }
