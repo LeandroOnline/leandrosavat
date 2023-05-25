@@ -80,15 +80,15 @@ function Contact() {
 
 
               {name !== "" && email !== "" && message !== "" ? (
-                <button className={style ? "send" : "none"} type="submit">
+                <button className={style ? "send text" : "none"} type="submit">
                   Send
                 </button>
               ) : (
-                <p className={style ? "locked large" : "none"}>Send</p>
+                <p className={style ? "locked text" : "none"}>Send</p>
               )}
 
               <a href={wame} className="wspcontainer" target="_blank">
-                <img className="wsp" src={wsp} alt="" />
+                <p className="text" src={wsp} >WhatsApp</p>
               </a>
 
               <div
