@@ -84,8 +84,7 @@
   border-style: solid;
   border-width: 2px;
   color: white;
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 3vh;
   padding: 5px;
   text-align: center;
@@ -146,7 +145,6 @@
   border-width: 2px;
   color: gray;
   display: flex;
-  font-family: "Oswald", sans-serif;
   height: 50px;
   justify-content: center;
   transition-duration: 0.5s;

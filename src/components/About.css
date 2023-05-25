@@ -21,7 +21,7 @@
 
 .title {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -115,7 +115,6 @@
   color: white;
   display: flex;
   flex-direction: row;
-  font-family: "Oswald", sans-serif;
   height: 100%;
   gap: 15px;
   justify-content: center;
