@@ -165,10 +165,6 @@
   transition-duration: 0.3s;
 }
 
-.backnext {
-  margin: 20px;
-}
-
 .titleexp:hover {
   color: rgba(51, 153, 254, 0.6);
 }
@@ -285,4 +281,14 @@
   .job {
     border-radius: 15px;
   }
+
+  .next, .back {
+  border-radius: 5px;
+  color: white;
+  height: 20px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
