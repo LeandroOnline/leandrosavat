@@ -84,19 +84,19 @@ function About() {
                 onClick={() => setMore(!more)}
               />
               {more ? (
-                <div className="more">
-                  <p className="text">
+                <div className={more? "more" :"nomore"}>
+                  <p >
                     Since I was 11 years old I have been working in my family
                     business of audiovisual productions, where I developed a
                     solid professional ethic and work commitment.
                   </p>
-                  <p className="text">
+                  <p >
                     I traveled for two years, making productions and acquiring
                     English skills. During the trip, I met programmers who
                     sparked my interest in coordinated work and web connection
                     to the world.
                   </p>
-                  <p className="text">
+                  <p >
                     In 2021, I became interested in financial data programming
                     which led me to learn about and focus on web programming.
                   </p>
