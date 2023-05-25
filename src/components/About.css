@@ -8,6 +8,7 @@
   justify-content: space-evenly;
   padding: 30px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .interest {
@@ -26,7 +27,7 @@
 
 .about-icon {
   align-items: center;
-  background-color: rgba(51, 153, 254, 0.25);
+  background-color: rgba(51, 153, 254, 0.1);
   border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
@@ -55,6 +56,7 @@
   height: 80%;
   justify-content: space-evenly;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .about-resume-out {
@@ -64,7 +66,8 @@
   display: flex;
   height: 80%;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .inforesume {
@@ -161,7 +164,7 @@
 
 @keyframes about-out {
   0% {
-    transform: translateX(10%);
+    transform: translateX(5%);
   }
   100% {
     transform: translateX(0%);
@@ -170,7 +173,7 @@
 
 @keyframes about-in {
   0% {
-    transform: translateX(-10%);
+    transform: translateX(-5%);
   }
   100% {
     transform: translateX(0%);

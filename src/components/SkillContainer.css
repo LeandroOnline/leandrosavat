@@ -8,6 +8,7 @@
   height: 90%;
   justify-content: center;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .skill-item {

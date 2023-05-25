@@ -63,6 +63,7 @@
   outline: 2px solid rgba(0, 0, 0, 0.1);
   outline-offset: -2px;
   width: 90%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .center {
