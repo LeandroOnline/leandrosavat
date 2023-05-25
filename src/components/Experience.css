@@ -54,6 +54,7 @@
   padding: 1vw;
   padding: 15px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .centerprojects {
@@ -63,7 +64,7 @@
     rgb(0, 0, 0, 0),
     rgba(0, 0, 0, 0)
   );
-  border-radius: 0 35px;
+  border-radius: 35px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -71,25 +72,21 @@
   padding: 15px;
   width: 100%;
   z-index: 2;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .exp {
   align-items: center;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0),
-    rgba(51, 153, 254, 0.5)
-  );
   border-radius: 35px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   height: 100%;
   overflow: auto;
   overflow-y: scroll;
   padding: 15px;
   width: 70%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .imgproject {
@@ -184,6 +181,8 @@
 
 .containerdirection {
   flex-direction: row;
+  gap: 15px;
+  padding: 15px;
 }
 
 @media (max-width: 830px) {
@@ -268,6 +267,7 @@
     border-radius: 15px;
     width: 100%;
     height: 40%;
+    gap: 10px;
   }
 
   .imgproject {
@@ -282,5 +282,9 @@
     flex-direction: column;
     gap: 10px;
     padding: 10px;
+  }
+
+  .job {
+    border-radius: 15px;
   }
 }
