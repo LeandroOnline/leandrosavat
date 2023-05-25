@@ -36,7 +36,7 @@
   font-family: "Oswald", sans-serif;
   font-size: 1.6vw;
   font-weight: 500;
-  line-height: 3.5vh;
+  line-height: 5vh;
   text-align: start;
 }
 
@@ -193,8 +193,8 @@
 
 @media (max-width: 500px) {
   .text {
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 20px;
   }
   .titleexp {
     font-size: 20px;

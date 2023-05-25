@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  height: 90%;
+  height: 100%;
   justify-content: center;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -23,7 +23,7 @@
   display: flex;
   height: 5vh;
   justify-content: space-evenly;
-  width: 15vw;
+  width: 45%;
 }
 
 .skill-item img {
@@ -41,7 +41,6 @@
 
 @media (max-width: 920px) {
   .skill-container {
-    /* height: 100%; */
     gap: 2px;
     width: 100%;
   }
@@ -49,7 +48,7 @@
     display: none;
   }
   .skill-item {
-    height: 50px;
+    height: 70px;
     width: auto;
   }
 }
@@ -59,6 +58,7 @@
     height: 100%;
     width: 100%;
     border-radius: 15px;
+    padding: 10px;
   }
 
   .done {
@@ -66,7 +66,10 @@
   }
 
   .skill-item{
-    height: 40px;
+    height: 60px;
+    width: 60px;
+  }
+  .skill-item img {
     width: 40px;
   }
 }
