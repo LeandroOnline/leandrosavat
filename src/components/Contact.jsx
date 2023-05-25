@@ -84,7 +84,7 @@ function Contact() {
                   Send
                 </button>
               ) : (
-                <p className={style ? "locked large" : "none"}>Fill first</p>
+                <p className={style ? "locked large" : "none"}>Send</p>
               )}
 
               <a href={wame} className="wspcontainer" target="_blank">
