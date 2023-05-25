@@ -12,7 +12,7 @@ const projects = [
     github: "https://github.com/LeandroOnline/leandrosavat",
     web: "https://savat.ar",
     detail:
-      "Portfolio (React + HTML + CSS + JS)",
+      "Frontend Portfolio → React / Context / JavaScript / HTML / CSS ",
   },
   {
     name: "FIPE",
@@ -20,7 +20,7 @@ const projects = [
     github: "https://github.com/LeandroOnline/Fipe",
     web: "https://fipe.savat.ar",
     detail:
-      "Finance DashBoard (React + HTML + CSS + JS)",
+      "Full Stack DashBoard → React / Zustand / JavaScript / HTML / CSS / Node / Ant Design Charts / Bcryptjs / JWT / Hacking Inputs Sanitize / API REST / MongoDb Atlas / Express ",
   },
   {
     name: "JustMovies",
@@ -28,21 +28,21 @@ const projects = [
     github: "https://github.com/LeandroOnline/peliculas-react",
     web: "https://movies.savat.ar",
     detail:
-      "A movie search engine that provides information (React + HTML + CSS + JS)",
+      "Front-end App → React / JavaScript / HTML / CSS Module / API REST",
   },
   {
     name: "Traveling",
     img: traveling,
     github: "https://github.com/LeandroOnline/travel-react",
     web: "https://travel.savat.ar",
-    detail: "A travel consultancy (React + HTML + JS + CSS)",
+    detail: "Front-end Landing Page → React / JavaScript / HTML / CSS ",
   },
   {
     name: "News",
     img: news,
     github: "https://github.com/LeandroOnline/news",
     web: "https://news.savat.ar",
-    detail: "Full Stack with two APIs",
+    detail: "Full Stack Blog → React / Context / JavaScript / HTML / CSS / Node / Bcryptjs / JWT / API REST/ MongoDb Atlas / Express ",
   },
   {
     name: "Innovation",
@@ -50,7 +50,7 @@ const projects = [
     github: "https://github.com/LeandroOnline/innovation",
     web: "https://innovation.savat.ar",
     detail:
-      "Corporate landing page (React + JS + Figma + Styled Components + Scrum)",
+      "Front-end Landing Page → React / JavaScript / HTML / Styled Components / Figma",
   },
 ];
 export default projects;

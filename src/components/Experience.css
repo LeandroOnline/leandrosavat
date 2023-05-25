@@ -190,24 +190,27 @@
     font-size: 12px;
     line-height: 20px;
   }
+
   .titleexp {
     font-size: 20px;
   }
-  .backnext {
-    flex-direction: column;
-  }
+
   .imgproject-desk {
     display: none;
   }
+
   .clic {
     display: none;
   }
+
   .desk {
     display: none;
   }
+
   .desk-container {
     display: none;
   }
+
   .centerprojects {
     align-items: center;
     display: flex;
@@ -221,6 +224,7 @@
   .desk-container {
     width: 75%;
   }
+  
   .desk {
     width: 1300px;
   }
