@@ -3,8 +3,17 @@ import innovation from "../assets/images/innovation.png";
 import news from "../assets/images/news.png";
 import traveling from "../assets/images/traveling.png";
 import fipe from "../assets/images/fipe.png";
+import savat from "../assets/images/savat.png";
 
 const projects = [
+  {
+    name: "SAVAT",
+    img: savat,
+    github: "https://github.com/LeandroOnline/leandrosavat",
+    web: "https://savat.ar",
+    detail:
+      "Portfolio (React + HTML + CSS + JS)",
+  },
   {
     name: "FIPE",
     img: fipe,
