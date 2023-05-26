@@ -8,7 +8,7 @@ function SkillContainer() {
       {skills?.map((skill, key) => (
         <div className="skill-item" key={key}>
           <img className="done" src={done} alt="" />
-          <p className="text">{Object.keys(skill)}</p>
+          <p className="text skill">{Object.keys(skill)}</p>
           <img className="icon" src={Object.values(skill)} alt="" />
         </div>
       ))}
