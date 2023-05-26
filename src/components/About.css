@@ -9,6 +9,8 @@
   padding: 30px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
+  min-width: 300px;
+
 }
 
 .interest {
@@ -156,13 +158,6 @@
   padding: 30px;
   width: 100%;
   min-width: 300px;
-}
-
-.more p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 1.6vw;
-  line-height: 5vh;
-  text-align: start;
 }
 
 .download-icon {
