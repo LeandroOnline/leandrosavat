@@ -11,7 +11,7 @@ function Project() {
   const [project, setProject] = useState(0);
 
   return (
-    <div className={state === "Project" ? "merge" : "separate"}>
+    <div className={state === "Experience" ? "merge" : "separate"}>
       <div className="container containerdirection">
         <div className="exp">
           {experience?.map((exp, key) => (

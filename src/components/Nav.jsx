@@ -21,11 +21,11 @@ function Nav() {
       </button>
       <button className="button">
         <img src={iSkills} alt="" />
-        <p className="menutext" onClick={() => setState("Skills")}>Education</p>
+        <p className="menutext" onClick={() => setState("Education")}>Education</p>
       </button>
       <button className="button">
         <img src={iProject} alt=""  />
-        <p className="menutext" onClick={() => setState("Project")}>Experience</p>
+        <p className="menutext" onClick={() => setState("Experience")}>Experience</p>
       </button>
       <button className="button">
         <img src={iContact} alt=""  />
