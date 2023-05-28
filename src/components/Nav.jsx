@@ -32,9 +32,9 @@ function Nav() {
         <img src={iContact} alt=""  />
         <p className="menutext" onClick={() => setState("Contact")}>Contact</p>
       </button>
-      <button className="buttonesen">
+      <p className="buttonesen">
         <img src={iTraducir} alt="ES/EN" />
-      </button>
+      </p>
     </nav>
   );
 }

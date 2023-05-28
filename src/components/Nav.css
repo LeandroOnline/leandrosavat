@@ -71,3 +71,13 @@
   position: absolute;
   transition-duration: 0.5s;
 }
+
+.buttonesen{
+  background-color: rgba(255, 255, 255, 0.3);
+  transition-duration: 0.5s;
+  border-radius: 100px;
+}
+
+.buttonesen:hover{
+  background-color: rgb(51, 153, 254, 0.8);
+}
