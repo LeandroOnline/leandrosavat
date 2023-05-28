@@ -108,9 +108,8 @@
   font-weight: 600;
   justify-content: center;
   transition-duration: 1s;
-  width: 100px;
+  width: 150px;
   line-height: 5vh;
-
 }
 
 .wspcontainer:hover {
@@ -195,5 +194,9 @@
   
   .input {
     width: 100%;
+  }
+
+  .wspcontainer{
+    width: 100px;
   }
 }
