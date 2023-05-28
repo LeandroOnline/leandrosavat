@@ -26,7 +26,6 @@ const AboutMe = () => {
           <p className="text">{aboutTexts[2]}</p>
           <p className="text">{aboutTexts[3]}</p>
           <p className="text">{aboutTexts[4]}</p>
-          <img className="leerimg" src={yoga} alt="" />
         </div>
       ) : null}
     </div>
