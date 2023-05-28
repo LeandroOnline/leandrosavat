@@ -4,6 +4,7 @@ import iAbout from "../assets/icons/information.png";
 import iSkills from "../assets/icons/capability.png";
 import iContact from "../assets/icons/chat.png";
 import iProject from "../assets/icons/puesta-en-marcha.png";
+import iTraducir from "../assets/icons/traducir.png";
 import { useContext } from "react";
 import { context } from "../App";
 
@@ -30,6 +31,9 @@ function Nav() {
       <button className="button">
         <img src={iContact} alt=""  />
         <p className="menutext" onClick={() => setState("Contact")}>Contact</p>
+      </button>
+      <button className="buttonesen">
+        <img src={iTraducir} alt="ES/EN" />
       </button>
     </nav>
   );
