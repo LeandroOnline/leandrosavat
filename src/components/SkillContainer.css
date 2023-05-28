@@ -73,10 +73,7 @@
   }
 
   .skill-item {
-    height: 50px;
-    width: 50px;
-  }
-  .skill-item img {
+    height: 40px;
     width: 40px;
   }
 }
