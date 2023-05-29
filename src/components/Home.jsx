@@ -7,7 +7,7 @@ import portada from "../assets/images/fondo.jpg";
 import Typed from "typed.js";
 
 function Home() {
-  const { state } = useContext(context);
+  const { state, translate } = useContext(context);
   const typedRef = useRef(null);
 
   useEffect(() => {
@@ -34,10 +34,9 @@ function Home() {
           <div className="subname">
             <h1 className="name">Leandro Savat</h1>
             <p className="powergray">
-              <span className="power" ref={typedRef}></span> DEVELOPER
+              <span className="power" ref={typedRef}></span> {translate ? "PROGRAMADOR" : "DEVELOPER"}
             </p>
             <div className="column center">
-              <h2>Full Stack ✓</h2>
               <h2>Scrum ✓</h2>
               <h2>Git Flow ✓</h2>
             </div>
