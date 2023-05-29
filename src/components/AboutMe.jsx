@@ -8,7 +8,7 @@ import { context } from "../App";
 const AboutMe = () => {
   const [more, setMore] = useState(false);
   const { translate } = useContext(context);
-  const resumetitle = "{ AboutME }";
+  const resumetitle = translate ? "{ SobreMI }" : "{ AboutME }";
   return (
     <div className={!more ? "about-resume" : "about-resume-out"}>
       <div className={!more ? "inforesume" : "inforesume-out"}>

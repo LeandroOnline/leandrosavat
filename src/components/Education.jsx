@@ -3,7 +3,6 @@ import { context } from "../App";
 import "./Education.css";
 import SkillContainer from "./SkillContainer";
 import Language from "./Language";
-
 import Carrusel from "./Carrusel";
 
 function Skills() {

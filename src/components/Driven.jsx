@@ -4,8 +4,8 @@ import { useContext } from "react";
 import { context } from "../App";
 
 const Driven = () => {
-  const datatitle = "{ Driven }";
   const { translate } = useContext(context);
+  const datatitle = translate ? "{ Motivación }" : "{ Driven }";
   return (
     <div className="about-data">
       <p className="title">{datatitle}</p>
