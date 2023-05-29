@@ -2,12 +2,14 @@ import "./Carrusel.css";
 import flechaizq from "../assets/images/flecha-izquierda.png";
 import flechader from "../assets/images/flecha-derecha.png";
 import carpeta from "../assets/images/carpetas.png";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import courses from "../utils/courses";
 import drive from "../utils/drive";
+import { context } from "../App";
 
 function Carrusel() {
   const [page, setPage] = useState(0);
+  const { translate } = useContext(context);
 
   return (
     <section className="column center">
@@ -32,16 +34,17 @@ function Carrusel() {
           />
         </div>
         <div className="progress">
-          <p className="text">Certificate: {page + 1}</p>
+          <p className="text">
+            {translate ? "Certificado: " : "Certificate: "}
+            {page + 1}
+          </p>
           <progress max="22" value={page + 1}></progress>
         </div>
       </div>
 
       <a className="link-certificate text" href={drive} target="_blank">
-
-          <img className="carpetaicon" src={carpeta} alt="" />
-          Certificate Folder
-
+        <img className="carpetaicon" src={carpeta} alt="" />
+        Certificate Folder
       </a>
     </section>
   );
