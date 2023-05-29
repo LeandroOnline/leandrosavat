@@ -9,7 +9,7 @@ import { useContext } from "react";
 import { context } from "../App";
 
 function Nav() {
-  const { setState } = useContext(context);
+  const { setState, translate ,setTranslate } = useContext(context);
   return (
     <nav className="nav">
       <button autoFocus={true} className="button" >
@@ -33,7 +33,7 @@ function Nav() {
         <p className="menutext" onClick={() => setState("Contact")}>Contact</p>
       </button>
       <p className="buttonesen">
-        <img src={iTraducir} alt="ES/EN" />
+        <img src={iTraducir} alt="ES/EN" onClick={()=>setTranslate(!translate)}/>
       </p>
     </nav>
   );

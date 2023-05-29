@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { context } from "../App";
 import nube from "../assets/images/nube.png";
 import cven from "../assets/doc/CV EN-ES.pdf";
-import aboutTexts from "../utils/aboutTexts";
+import { moreEnglish, moreSpanish } from "../utils/aboutTexts";
 import Networks from "./Networks";
 import Driven from "./Driven";
 import AboutMe from "./AboutMe";
@@ -10,7 +10,7 @@ import "./Merge.css";
 import "./About.css";
 
 function About() {
-  const { state } = useContext(context);
+  const { state, translate } = useContext(context);
 
   return (
     <div className={state === "About" ? "merge" : "separate"}>
@@ -25,7 +25,7 @@ function About() {
 
             <a className="cv" href={cven} download="Leandro Savat Resume">
               <img className="download-icon" src={nube} alt="" />{" "}
-              {aboutTexts[5]}
+              {translate ? moreSpanish[5] : moreEnglish[5]}
             </a>
           </div>
         </div>

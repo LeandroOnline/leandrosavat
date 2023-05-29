@@ -1,10 +1,11 @@
 import driven from "../utils/driven";
-import aboutTexts from "../utils/aboutTexts";
-
+import { moreEnglish, moreSpanish } from "../utils/aboutTexts";
+import { useContext } from "react";
+import { context } from "../App";
 
 const Driven = () => {
   const datatitle = "{ Driven }";
-
+  const { translate } = useContext(context);
   return (
     <div className="about-data">
       <p className="title">{datatitle}</p>
@@ -13,7 +14,7 @@ const Driven = () => {
           <img className="interest" src={drive} alt="" key={key} />
         ))}
       </div>
-      <p className="text">{aboutTexts[0]}</p>
+      <p className="text">{translate ? moreSpanish[0] : moreEnglish[0]}</p>
     </div>
   );
 };

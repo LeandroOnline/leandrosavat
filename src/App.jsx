@@ -12,7 +12,8 @@ export const context = createContext();
 
 function App() {
   const [state, setState] = useState("Home");
-  const provider = { state, setState };
+  const [translate, setTranslate] = useState(false);
+  const provider = { state, setState, translate, setTranslate };
 
   return (
     <context.Provider value={provider}>
