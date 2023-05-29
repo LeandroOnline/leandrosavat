@@ -1,15 +1,15 @@
 import { useContext, useState } from "react";
 import { context } from "../App";
 import projectsInfo from "../utils/projectsInfo";
-import experience from "../utils/experience";
+import { experienceEnglish, experienceSpanish } from "../utils/experience";
 import ProjectDetail from "./ProjectDetail";
 import "./Merge.css";
 import "./Experience.css";
 
 function Project() {
-  const { state } = useContext(context);
+  const { state, translate } = useContext(context);
   const [project, setProject] = useState(0);
-
+  const experience = translate ? experienceSpanish : experienceEnglish;
   return (
     <div className={state === "Experience" ? "merge" : "separate"}>
       <div className="container containerdirection">
