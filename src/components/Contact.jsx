@@ -9,7 +9,7 @@ import "./Contact.css";
 const wame = "https://wa.me/5493435267411";
 
 function Contact() {
-  const { state } = useContext(context);
+  const { state, translate } = useContext(context);
   const [style, setStyle] = useState(true);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -50,13 +50,17 @@ function Contact() {
               onSubmit={sendEmail}
               className={style ? "form" : "formout"}
             >
-              <h1 className={style ? "title" : "none"}>Contact Me</h1>
-              <h1 className={style ? "none" : "name thanks"}>Thanks</h1>
+              <h1 className={style ? "title" : "none"}>
+                {translate ? "Contacto" : "Contact Me"}
+              </h1>
+              <h1 className={style ? "none" : "name thanks"}>
+                {translate ? "Gracias" : "Thanks"}
+              </h1>
               <input
                 className={style ? "input text itop" : "none"}
                 type="text"
                 name="user_name"
-                placeholder="name..."
+                placeholder={translate? "nombre...":"name..."}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -73,22 +77,25 @@ function Contact() {
               <textarea
                 className={style ? "input message text ibottom" : "none"}
                 name="message"
-                placeholder="message..."
+                placeholder={translate? "mensaje...":"message..."}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
 
-
               {name !== "" && email !== "" && message !== "" ? (
                 <button className={style ? "send text" : "none"} type="submit">
-                  Send
+                  {translate ? "Enviar" : "Send"}
                 </button>
               ) : (
-                <p className={style ? "locked text" : "none"}>Send</p>
+                <p className={style ? "locked text" : "none"}>
+                  {translate ? "Enviar" : "Send"}
+                </p>
               )}
 
               <a href={wame} className="wspcontainer" target="_blank">
-                <p className="text" src={wsp} >WhatsApp</p>
+                <p className="text" src={wsp}>
+                  WhatsApp
+                </p>
               </a>
 
               <div
@@ -96,9 +103,8 @@ function Contact() {
                 value="Send"
                 onClick={() => setStyle(true)}
               >
-                Again
+                {translate ? "Reenviar" : "Again"}
               </div>
-
             </form>
           </div>
         </div>
