@@ -9,31 +9,45 @@ import { useContext } from "react";
 import { context } from "../App";
 
 function Nav() {
-  const { setState, translate ,setTranslate } = useContext(context);
+  const { setState, translate, setTranslate } = useContext(context);
   return (
     <nav className="nav">
-      <button autoFocus={true} className="button" >
-        <img src={iHome} alt=""  />
-        <p className="menutext" onClick={() => setState("Home")}>Home</p>
+      <button autoFocus={true} className="button">
+        <img src={iHome} alt="" />
+        <p className="menutext" onClick={() => setState("Home")}>
+          Home
+        </p>
       </button>
       <button className="button">
-        <img src={iAbout} alt=""  />
-        <p className="menutext" onClick={() => setState("About")}>About</p>
+        <img src={iAbout} alt="" />
+        <p className="menutext" onClick={() => setState("About")}>
+          About
+        </p>
       </button>
       <button className="button">
         <img src={iSkills} alt="" />
-        <p className="menutext" onClick={() => setState("Education")}>Education</p>
+        <p className="menutext" onClick={() => setState("Education")}>
+          Education
+        </p>
       </button>
       <button className="button">
-        <img src={iProject} alt=""  />
-        <p className="menutext" onClick={() => setState("Experience")}>Experience</p>
+        <img src={iProject} alt="" />
+        <p className="menutext" onClick={() => setState("Experience")}>
+          Experience
+        </p>
       </button>
       <button className="button">
-        <img src={iContact} alt=""  />
-        <p className="menutext" onClick={() => setState("Contact")}>Contact</p>
+        <img src={iContact} alt="" />
+        <p className="menutext" onClick={() => setState("Contact")}>
+          Contact
+        </p>
       </button>
       <p className="buttonesen">
-        <img src={iTraducir} alt="ES/EN" onClick={()=>setTranslate(!translate)}/>
+        <img
+          src={iTraducir}
+          alt="ES/EN"
+          onClick={() => setTranslate(!translate)}
+        />
       </p>
     </nav>
   );

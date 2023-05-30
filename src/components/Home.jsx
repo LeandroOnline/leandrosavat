@@ -34,7 +34,8 @@ function Home() {
           <div className="subname">
             <h1 className="name">Leandro Savat</h1>
             <p className="powergray">
-              <span className="power" ref={typedRef}></span> {translate ? "PROGRAMADOR" : "DEVELOPER"}
+              <span className="power" ref={typedRef}></span>{" "}
+              {translate ? "PROGRAMADOR" : "DEVELOPER"}
             </p>
             <div className="column center">
               <h2>Scrum ✓</h2>

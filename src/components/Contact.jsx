@@ -60,7 +60,7 @@ function Contact() {
                 className={style ? "input text itop" : "none"}
                 type="text"
                 name="user_name"
-                placeholder={translate? "nombre...":"name..."}
+                placeholder={translate ? "nombre..." : "name..."}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -77,7 +77,7 @@ function Contact() {
               <textarea
                 className={style ? "input message text ibottom" : "none"}
                 name="message"
-                placeholder={translate? "mensaje...":"message..."}
+                placeholder={translate ? "mensaje..." : "message..."}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />

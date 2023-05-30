@@ -1,12 +1,14 @@
 import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
 
-const ProjectDetail = ({search, index}) => {
-  const llavei= "{";
-  const llaved= "}";
+const ProjectDetail = ({ search, index }) => {
+  const llavei = "{";
+  const llaved = "}";
   return (
     <>
-      <h1 className="title">{llavei} {search[index].name} {llaved}</h1>
+      <h1 className="title">
+        {llavei} {search[index].name} {llaved}
+      </h1>
       <div className="links">
         <a href={search[index].web} target="_blank">
           <img className="logos" src={internet} alt="" />

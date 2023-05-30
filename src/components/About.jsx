@@ -9,7 +9,6 @@ import AboutMe from "./AboutMe";
 import "./Merge.css";
 import "./About.css";
 
-
 function About() {
   const { state, translate } = useContext(context);
 
