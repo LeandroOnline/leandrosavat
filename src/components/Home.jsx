@@ -6,9 +6,6 @@ import perfil from "../assets//images/Perfil7.png";
 import portada from "../assets/images/fondo.jpg";
 import Typed from "typed.js";
 
-// home test
-// test 2
-
 function Home() {
   const { state, translate } = useContext(context);
   const typedRef = useRef(null);
