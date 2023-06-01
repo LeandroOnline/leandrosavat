@@ -7,6 +7,7 @@ import portada from "../assets/images/fondo.jpg";
 import Typed from "typed.js";
 
 // home test
+// test 2
 
 function Home() {
   const { state, translate } = useContext(context);
