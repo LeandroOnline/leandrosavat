@@ -6,6 +6,7 @@ import team from "../assets/images/trabaja.png";
 import "./Merge.css";
 import "./Contact.css";
 
+// contact text
 const wame = "https://wa.me/5493435267411";
 
 function Contact() {
