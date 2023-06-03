@@ -3,8 +3,6 @@ import { moreEnglish, moreSpanish } from "../utils/aboutTexts";
 import { useContext } from "react";
 import { context } from "../App";
 
-
-// test driven2
 const Driven = () => {
   const { translate } = useContext(context);
   const datatitle = translate ? "{ Motivación }" : "{ Driven }";
