@@ -5,6 +5,7 @@ import iSkills from "../assets/icons/capability.png";
 import iContact from "../assets/icons/chat.png";
 import iProject from "../assets/icons/puesta-en-marcha.png";
 import iTraducir from "../assets/icons/traducir.png";
+import iTraducircopy from "../assets/icons/traducircopy.png";
 import { useContext } from "react";
 import { context } from "../App";
 
@@ -44,7 +45,7 @@ function Nav() {
       </button>
       <p className="buttonesen">
         <img
-          src={iTraducir}
+          src={translate ? iTraducir : iTraducircopy}
           alt="ES/EN"
           onClick={() => setTranslate(!translate)}
         />
