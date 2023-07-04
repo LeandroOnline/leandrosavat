@@ -12,7 +12,7 @@ function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Full Stack", "FrontEnd", "BackEnd"],
+      strings: ["Full Stack", "FrontEnd", "BackEnd", "Scrum","Design"],
       typeSpeed: 60,
       backSpeed: 70,
       backDelay: 1500,
@@ -33,14 +33,14 @@ function Home() {
           </div>
           <div className="subname">
             <h1 className="name">Leandro Savat</h1>
-            <p className="powergray">
-              <span className="power" ref={typedRef}></span>{" "}
-              {translate ? "PROGRAMADOR" : "DEVELOPER"}
-            </p>
-            <div className="column center">
-              <h2>Scrum ✓</h2>
-              <h2>Git Flow ✓</h2>
-            </div>
+            <h2>
+              {translate
+                ? "Experto de Ingenieria Web"
+                : "Web Engineering Expert"}
+            </h2>
+            <h2 className="powergray">
+              ✓ <span className="powergray" ref={typedRef}></span>
+            </h2>
           </div>
         </div>
       </div>

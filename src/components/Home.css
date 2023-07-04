@@ -2,13 +2,13 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap:40px;
+  gap: 40px;
   height: 100%;
   justify-content: center;
   width: 100%;
 }
 
-.profile{
+.profile {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -36,29 +36,16 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-weight: 600;
-  gap:40px;
+  gap: 16px;
   justify-content: center;
   width: 400px;
-}
-.subname h2{
-  color:rgba(255, 255, 255, 0.7);
-  font-size: 30px;
-  margin: 5px;
+  height: 100%;
 }
 
-.power{
-  color: rgb(255, 255, 255);
-  font-size: 45px;
-  font-weight: 900;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-}
-
-.powergray{
+.subname h2 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 23px;
-  font-weight: 700;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  margin: 8px;
 }
 
 .portada {
@@ -72,33 +59,34 @@
   z-index: -1;
 }
 
-.centerAll h3{
+.centerAll h3 {
   bottom: 0px;
   margin-top: 30px;
   position: absolute;
   width: 80%;
 }
 
-@media (max-width: 750px){
-  .centerAll{
+@media (max-width: 750px) {
+  .centerAll {
     flex-direction: column;
   }
   .perfil {
     height: 200px;
     width: 200px;
   }
-  .subname h2 , .power{
+  .subname h2,
+  .power {
     font-size: 25px;
   }
-  .powergray{
+  .powergray {
     font-size: 22px;
   }
-  .power{
+  .power {
     font-size: 30px;
   }
 }
 
-@media (max-height: 500px){
+@media (max-height: 500px) {
   .perfil {
     height: 200px;
     width: 200px;
@@ -106,13 +94,13 @@
   .name {
     font-size: 30px;
   }
-  .power{
+  .power {
     font-size: 30px;
   }
-  .subname{
+  .subname {
     font-size: 15px;
   }
-  .powergray{
+  .powergray {
     font-size: 22px;
   }
 }
