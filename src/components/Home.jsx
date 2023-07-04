@@ -12,12 +12,12 @@ function Home() {
   useEffect(() => {
     const options = {
       strings: [
-        "Full Stack Developer ✓",
-        "FrontEnd Developer ✓",
-        "BackEnd Developer ✓",
-        "Scrum ✓",
-        "UI-UX Design ✓",
-      ],
+            "Full Stack Developer ✓",
+            "FrontEnd Developer ✓",
+            "BackEnd Developer ✓",
+            "Scrum ✓",
+            "UI-UX Design ✓",
+          ],
       typeSpeed: 60,
       backSpeed: 70,
       backDelay: 1500,
