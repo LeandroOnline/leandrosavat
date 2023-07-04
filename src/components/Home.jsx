@@ -3,7 +3,6 @@ import { context } from "../App";
 import "./Merge.css";
 import "./Home.css";
 import perfil from "../assets//images/Perfil7.png";
-import portada from "../assets/images/fondo.jpg";
 import Typed from "typed.js";
 
 function Home() {
@@ -12,7 +11,13 @@ function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Full Stack", "FrontEnd", "BackEnd", "Scrum","Design"],
+      strings: [
+        "Full Stack Developer ✓",
+        "FrontEnd Developer ✓",
+        "BackEnd Developer ✓",
+        "Scrum ✓",
+        "UI-UX Design ✓",
+      ],
       typeSpeed: 60,
       backSpeed: 70,
       backDelay: 1500,
@@ -27,19 +32,18 @@ function Home() {
     <div className={state === "Home" ? "merge" : "separate"}>
       <div className="container">
         <div className="centerAll">
-          <img src={portada} className="portada"></img>
           <div className="profile">
             <img className="perfil" src={perfil} alt="" />
           </div>
           <div className="subname">
             <h1 className="name">Leandro Savat</h1>
-            <h2>
+            {/* <h2>
               {translate
-                ? "Experto de Ingenieria Web"
-                : "Web Engineering Expert"}
-            </h2>
+                ? "Experto Universitario en Ingeniería de Sitios Web"
+                : "University Expert in Website Engineering"}
+            </h2> */}
             <h2 className="powergray">
-              ✓ <span className="powergray" ref={typedRef}></span>
+              <span className="powergray" ref={typedRef}></span>
             </h2>
           </div>
         </div>

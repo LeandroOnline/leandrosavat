@@ -28,6 +28,8 @@
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
   text-align: center;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.488);
 }
@@ -38,14 +40,19 @@
   flex-direction: column;
   gap: 16px;
   justify-content: center;
-  width: 400px;
-  height: 100%;
+  height: fit-content;
+  border-radius: 30px;
+  justify-content: space-evenly;
+  padding: 30px;
 }
 
 .subname h2 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
   margin: 8px;
+}
+
+.powergray{
+  font-size: 24px;
 }
 
 .portada {
@@ -76,7 +83,7 @@
   }
   .subname h2,
   .power {
-    font-size: 25px;
+    font-size: 14px;
   }
   .powergray {
     font-size: 22px;

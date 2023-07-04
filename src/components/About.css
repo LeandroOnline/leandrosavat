@@ -1,6 +1,5 @@
 .about-data {
   align-items: center;
-  border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -10,7 +9,6 @@
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   min-width: 300px;
-
 }
 
 .interest {
@@ -30,7 +28,6 @@
 .about-icon {
   align-items: center;
   background-color: rgba(51, 153, 254, 0.1);
-  border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
   height: 20%;
@@ -51,7 +48,6 @@
 
 .about-resume {
   align-items: center;
-  border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
   flex-direction: row;
@@ -63,7 +59,6 @@
 
 .about-resume-out {
   align-items: center;
-  border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
   height: 80%;
@@ -104,6 +99,7 @@
   justify-content: center;
   width: 100%;
   font-size: 1.8vw;
+  transition-duration: 0.5s;
 }
 
 .cv:hover {

@@ -1,6 +1,5 @@
 .carrusel-container {
   align-items: center;
-  border: 2px outset #ffffff31;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -42,6 +41,7 @@
   height: 10%;
   justify-content: center;
   width: 100%;
+  transition-duration: 0.5s;
 }
 
 .carpetaicon {
