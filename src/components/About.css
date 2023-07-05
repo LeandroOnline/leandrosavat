@@ -51,7 +51,7 @@
   border-radius: 30px;
   display: flex;
   flex-direction: row;
-  height: 80%;
+  height: 100%;
   justify-content: space-evenly;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -61,7 +61,7 @@
   align-items: center;
   border-radius: 30px;
   display: flex;
-  height: 80%;
+  height: 100%;
   justify-content: space-between;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -95,7 +95,7 @@
   border-radius: 30px;
   display: flex;
   gap: 20px;
-  height: 20%;
+  height: 10%;
   justify-content: center;
   width: 100%;
   font-size: 1.8vw;
@@ -188,7 +188,7 @@
     border-radius: 15px;
   }
   .cv {
-    height: 100%;
+    height: 20%;
     width: 100%;
     font-size: 4vw;
   }
@@ -202,7 +202,7 @@
   .about-resume-out,
   .more,
   .inforesume {
-    height: 80%;
+    height: 100%;
     width: 100%;
     border-radius: 15px;
   }
