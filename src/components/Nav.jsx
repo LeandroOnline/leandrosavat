@@ -16,31 +16,31 @@ function Nav() {
       <button autoFocus={true} className="button">
         <img src={iHome} alt="" />
         <p className="menutext" onClick={() => setState("Home")}>
-          Home
+          {translate ? "Inicio" : "Home"}
         </p>
       </button>
       <button className="button">
         <img src={iAbout} alt="" />
         <p className="menutext" onClick={() => setState("About")}>
-          About
+          {translate ? "Acerca" : "About"}
         </p>
       </button>
       <button className="button">
         <img src={iSkills} alt="" />
         <p className="menutext" onClick={() => setState("Education")}>
-          Education
+          {translate ? "Educacion" : "Education"}
         </p>
       </button>
       <button className="button">
         <img src={iProject} alt="" />
         <p className="menutext" onClick={() => setState("Experience")}>
-          Experience
+          {translate ? "Experiencia" : "Experience"}
         </p>
       </button>
       <button className="button">
         <img src={iContact} alt="" />
         <p className="menutext" onClick={() => setState("Contact")}>
-          Contact
+          {translate ? "Contacto" : "Contact"}
         </p>
       </button>
       <p className="buttonesen">

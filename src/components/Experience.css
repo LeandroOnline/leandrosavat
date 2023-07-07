@@ -137,6 +137,9 @@
   height: 30px;
   transition-duration: 0.3s;
   width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .back:hover {
@@ -156,6 +159,9 @@
   transition-duration: 0.3s;
   width: 100px;
   z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .next:hover {

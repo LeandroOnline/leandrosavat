@@ -36,10 +36,10 @@
 }
 
 .button {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: center;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   position: relative;
   margin: 0 4px;
 }
@@ -47,22 +47,21 @@
 .menutext {
   align-items: center;
   display: flex;
-  font-size: 10px;
+  font-size: 12px;
   height: 35px;
   justify-content: center;
   opacity: 0;
   padding: 5px;
   position: absolute;
+  z-index: 10;
   transition-duration: 0.4s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 30px black;
 }
 
-.menutext:hover {
-  align-items: center;
+.button:hover .menutext {
   background-color: rgb(51, 153, 254);
   border-radius: 100px 100px 100px 100px;
-  bottom: 0px;
-  display: flex;
-  justify-content: center;
   opacity: 100;
   position: absolute;
   transition-duration: 0.5s;
