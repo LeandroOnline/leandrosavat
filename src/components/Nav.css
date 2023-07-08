@@ -29,10 +29,12 @@
   transition-duration: 0.5s;
 }
 
-.nav button:focus {
+.buttonfocus {
   border-style: solid;
   box-shadow: 0px 0px 4px 4px rgb(0, 102, 255);
   transition-duration: 0.5s;
+  margin: 0 4px;
+
 }
 
 .button {
