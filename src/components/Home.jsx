@@ -37,11 +37,11 @@ function Home() {
           </div>
           <div className="subname">
             <h1 className="name">Leandro Savat</h1>
-            {/* <h2>
+            <h2>
               {translate
-                ? "Experto Universitario en Ingeniería de Sitios Web"
-                : "University Expert in Website Engineering"}
-            </h2> */}
+                ? "Experto en Ingenieria Web con formacion en: "
+                : "Web Engineering Expert with training in:"}
+            </h2>
             <h2 className="powergray">
               <span className="powergray" ref={typedRef}></span>
             </h2>
