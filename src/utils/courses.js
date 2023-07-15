@@ -21,29 +21,32 @@ import mongodb from "../assets/courses/mongodb.jpg";
 import mysqlbasico from "../assets/courses/mysqlbasico.jpg";
 import tsbasico from "../assets/courses/tsbasico.jpg";
 
-const courses = [
-    english,
-    figma,
-    introprogramacion,
-    fullstack,
-    scrum,
-    scrumavanzado,
-    scrummaster,
-    scrumroles,
-    git,
-    github,
-    htmlcss,
-    js,
-    frontend,
-    jsavanzado,
-    jsavanzadopro,
-    reactbasico,
-    bdd,
-    dockerbasico,
-    docker,
-    mongodb,
-    mysqlbasico,
-    tsbasico,
-  ];
+import title from "../assets/courses/title.png";
 
-  export default courses;
+const courses = [
+  title,
+  english,
+  figma,
+  introprogramacion,
+  fullstack,
+  scrum,
+  scrumavanzado,
+  scrummaster,
+  scrumroles,
+  git,
+  github,
+  htmlcss,
+  js,
+  frontend,
+  jsavanzado,
+  jsavanzadopro,
+  reactbasico,
+  bdd,
+  dockerbasico,
+  docker,
+  mongodb,
+  mysqlbasico,
+  tsbasico,
+];
+
+export default courses;
