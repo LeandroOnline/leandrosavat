@@ -59,13 +59,12 @@
   transition-duration: 0.4s;
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 30px black;
+  border-radius: 100px 100px 100px 100px;
+  background-color: rgb(51, 153, 254);
 }
 
 .button:hover .menutext {
-  background-color: rgb(51, 153, 254);
-  border-radius: 100px 100px 100px 100px;
   opacity: 100;
-  position: absolute;
   transition-duration: 0.5s;
 }
 
