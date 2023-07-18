@@ -7,20 +7,20 @@ import savat from "../assets/images/savat.png";
 
 const projects = [
   {
-    name: "SAVAT",
-    img: savat,
-    github: "https://github.com/LeandroOnline/leandrosavat",
-    web: "https://savat.ar",
-    detail:
-      "Frontend Portfolio → React / Context / JavaScript / HTML / CSS ",
-  },
-  {
     name: "FIPE",
     img: fipe,
     github: "https://github.com/LeandroOnline/Fipe",
     web: "https://fipe.savat.ar",
     detail:
       "Full Stack DashBoard → React / Zustand / JavaScript / HTML / CSS / Node / Ant Design Charts / Bcryptjs / JWT / Hacking Inputs Sanitize / API REST / MongoDb Atlas / Express ",
+  },
+  {
+    name: "SAVAT",
+    img: savat,
+    github: "https://github.com/LeandroOnline/leandrosavat",
+    web: "https://savat.ar",
+    detail:
+      "Frontend Portfolio → React / Context / JavaScript / HTML / CSS ",
   },
   {
     name: "JustMovies",
