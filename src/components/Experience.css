@@ -91,6 +91,7 @@
   object-fit: contain;
   transition-duration: 0.5s;
   width: 100%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .clic {
@@ -226,7 +227,7 @@
   .desk-container {
     width: 75%;
   }
-  
+
   .desk {
     width: 1300px;
   }
@@ -288,13 +289,14 @@
     border-radius: 15px;
   }
 
-  .next, .back {
-  border-radius: 5px;
-  color: white;
-  height: 20px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .next,
+  .back {
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

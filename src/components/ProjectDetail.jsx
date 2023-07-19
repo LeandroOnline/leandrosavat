@@ -17,7 +17,7 @@ const ProjectDetail = ({ search, index }) => {
           <img className="logos" src={github} alt="" />
         </a>
       </div>
-      <img className="imgproject" src={search[index].img}></img>
+      <img className="imgproject" src={search[index].img}/>
       <p className="text">{search[index].detail}</p>
     </>
   );
