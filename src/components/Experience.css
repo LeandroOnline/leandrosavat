@@ -86,12 +86,21 @@
 }
 
 .imgproject {
-  border-radius: 10px;
+  border-radius: 8px;
   display: flex;
   object-fit: contain;
   transition-duration: 0.5s;
   width: 100%;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.imgContainer {
+  border-radius: 10px;
+
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
+    inset -4px -4px 2px rgba(0, 0, 0, 0.5),
+    inset 4px 4px 2px rgba(255, 255, 255, 0.4);
+  padding: 5px;
 }
 
 .clic {
