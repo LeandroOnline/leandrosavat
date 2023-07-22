@@ -1,7 +1,7 @@
 import done from "../assets/icons/done.png";
 import skills from "../utils/skills";
 import "./SkillContainer.css";
-
+// skills
 function SkillContainer() {
   return (
     <div className="skill-container">

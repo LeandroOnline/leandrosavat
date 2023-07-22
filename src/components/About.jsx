@@ -22,7 +22,6 @@ function About() {
           </div>
           <div className="column center">
             <AboutMe />
-
             <a className="cv" href={cven} download="Leandro Savat Resume">
               <img className="download-icon" src={nube} alt="" />{" "}
               {translate ? moreSpanish[5] : moreEnglish[5]}
