@@ -28,7 +28,7 @@ function Home() {
     };
     new Typed(typedRef.current, options);
   }, []);
-
+// test
   return (
     <div className={state === "Home" ? "merge" : "separate"}>
       <div className="container">
