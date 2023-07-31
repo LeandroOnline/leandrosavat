@@ -38,16 +38,13 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
   justify-content: center;
   height: fit-content;
-  border-radius: 30px;
   justify-content: space-evenly;
-  padding: 30px;
 }
 
 .iam {
-  margin: 8px;
   font-weight: 200;
   width: 100%;
   color: rgba(255, 255, 255, 0.8);
@@ -62,6 +59,13 @@
 .subtitle {
   color: rgba(255, 255, 255, 0.7);
   line-height: 20px;
+}
+
+.textTitles{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .portada {
