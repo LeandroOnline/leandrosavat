@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   height: 80%;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 30px;
   padding: 30px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -74,7 +75,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 30px;
   padding: 30px;
   width: 100%;
 }
@@ -181,7 +183,6 @@
 @media (max-width: 830px) {
   .about-icon,
   .about-data {
-    height: 100%;
     padding: 10px;
     transition-duration: 1s;
     width: 100%;
@@ -207,9 +208,8 @@
     border-radius: 15px;
   }
 
-  .cv{
+  .cv {
     border-radius: 15px;
-
   }
 
   .leerimg {
@@ -230,6 +230,7 @@
   }
 
   .inforesume {
+    gap: 10px;
     margin: 0;
     padding: 0;
     transition-duration: 1s;
@@ -240,5 +241,8 @@
     transition-duration: 1s;
     gap: 10px;
     padding: 10px;
+  }
+  .interest {
+    width: 30px;
   }
 }

@@ -263,6 +263,10 @@
     display: none;
   }
 
+  .title{
+    font-size: 20px;
+  }
+
   .centerprojects {
     align-items: center;
     display: flex;

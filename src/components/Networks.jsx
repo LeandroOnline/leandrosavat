@@ -1,12 +1,10 @@
 import github from "../assets/icons/github.png";
 import linkedin from "../assets/icons/logotipo-de-linkedin.png";
 import instagram from "../assets/icons/instagram.png";
-import about from "../assets/images/investigacion.png";
 
 const Networks = () => {
   return (
     <div className="about-icon">
-      <img src={about} alt="" />
       <a href="https://github.com/LeandroOnline" target="_blank">
         <img className="aboutimg" src={github} alt="" />
       </a>
