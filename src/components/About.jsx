@@ -24,7 +24,7 @@ function About() {
             <AboutMe />
             <a className="cv" href={cven} download="Leandro Savat Resume">
               <img className="download-icon" src={nube} alt="" />{" "}
-              {translate ? moreSpanish[5] : moreEnglish[5]}
+              {translate ? moreSpanish[3] : moreEnglish[3]}
             </a>
           </div>
         </div>
