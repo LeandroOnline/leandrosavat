@@ -1,53 +1,53 @@
 export const experienceEnglish = [
   {
-    title: "FULL STACK",
-    since: "Since Nov 2022",
-    subtitle: "Freelance",
-    details: "Web Application Programming",
+    title: "Web Engineering Expert",
+    since: "Since Dic 2022",
+    subtitle: "Freelance.",
+    details: "Creation, Development and Maintenance of Web Products.",
   },
   {
-    title: "DEVELOPER",
+    title: "Analyst Developer",
     since: "2021-2022",
-    subtitle: "Data graph visualization FRONTEND in Pine Script",
-    details: "Graphics programming for financial data visualization",
+    subtitle: "Statistical analysis and development of trend indicators.",
+    details: "Graphics programming for financial data visualization.",
   },
   {
-    title: "CO-FOUNDER",
+    title: "Community Manager",
+    since: "2019-2021",
+    subtitle: "Image production and management of social networks.",
+    details: "Work for Hostels in Europe and Africa.",
+  },
+  {
+    title: "Founder",
     since: "2010-2019",
-    subtitle: "SAVAT Audiovisual Productions",
-    details: "Creativity and Graphic Design + Audiovisual Production",
+    subtitle: "SAVAT Productions.",
+    details: "Development and Design for Personal and Business Image.",
   },
-  {
-    title: "TECHNICIAN",
-    since: "2008-2010",
-    subtitle: "Software TECHNICIAN in Ciber",
-    details: "Software and hardware administration of 30 computers",
-  }
 ];
 
 export const experienceSpanish = [
   {
-    title: "FULL STACK",
-    since: "Desde Nov. 2022",
-    subtitle: "Freelance",
-    details: "Programacion de Aplicaciones Web",
+    title: "Experto en Ingenieria Web",
+    since: "Desde Dic 2022",
+    subtitle: "Freelance.",
+    details: "Creación, Desarrollo y Mantenimiento de Productos Web.",
   },
   {
-    title: "DESARROLLADOR",
+    title: "Desarrollador Analista",
     since: "2021-2022",
-    subtitle: "Desarrollo FrontEnd de graficos para visualizacion de datos en Pine Script",
-    details: "Graphics programming for financial data visualization",
+    subtitle: "Análisis estadístico y desarrollo de indicadores de tendencia.",
+    details: "Programación de gráficos para visualización de datos financieros.",
   },
   {
-    title: "CO-FOUNDADOR",
+    title: "Community Manager",
+    since: "2019-2021",
+    subtitle: "Producción de imagen y manejo de redes sociales.",
+    details: "Trabajo para Hostels en Europa y África.",
+  },
+  {
+    title: "Founder",
     since: "2010-2019",
-    subtitle: "SAVAT Producciones Audiovisuales",
-    details: "Diseño grafico creativo + Producciones audiovisuales",
+    subtitle: "SAVAT Producciones.",
+    details: "Desarrollo y Diseño de Imagen Personal y Empresarial.",
   },
-  {
-    title: "TECNICO",
-    since: "2008-2010",
-    subtitle: "Tecnico de Software en Ciber",
-    details: "Administracion de software y hardware de computadoras",
-  }
 ];
