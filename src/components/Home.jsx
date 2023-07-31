@@ -36,15 +36,15 @@ function Home() {
           </div>
           <div className="subname">
             <h1 className="name">Leandro Savat</h1>
-            <h2 className="iam">
-              ✪ {translate ? "Con formación en" : "With Training in "}{" "}
-              <span className="powergray" ref={typedRef}></span>
-            </h2>
             <h2 className="subtitle">
               ✪{" "}
               {translate
                 ? "Creacion, Desarrollo y Mantenimiento de Productos Web"
                 : "Creation, Development and Maintenance of Web Products"}
+            </h2>
+            <h2 className="iam">
+              ✪ {translate ? "Con formación en" : "With Training in "}{" "}
+              <span className="powergray" ref={typedRef}></span>
             </h2>
           </div>
         </div>

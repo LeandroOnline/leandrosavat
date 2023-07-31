@@ -28,16 +28,16 @@ function Nav() {
           {translate ? "Acerca" : "About"}
         </p>
       </button>
-      <button className={state === "Education" ? "buttonfocus" : "button"}>
-        <img src={iSkills} alt="" />
-        <p className="menutext" onClick={() => setState("Education")}>
-          {translate ? "Educacion" : "Education"}
-        </p>
-      </button>
       <button className={state === "Experience" ? "buttonfocus" : "button"}>
         <img src={iProject} alt="" />
         <p className="menutext" onClick={() => setState("Experience")}>
           {translate ? "Experiencia" : "Experience"}
+        </p>
+      </button>
+      <button className={state === "Education" ? "buttonfocus" : "button"}>
+        <img src={iSkills} alt="" />
+        <p className="menutext" onClick={() => setState("Education")}>
+          {translate ? "Educacion" : "Education"}
         </p>
       </button>
       <button className={state === "Contact" ? "buttonfocus" : "button"}>
