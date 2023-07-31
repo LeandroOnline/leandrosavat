@@ -12,12 +12,10 @@ function Home() {
   useEffect(() => {
     const options = {
       strings: [
-        "Experience Developer ✓",
-        "Product Design ✓",
-        "FrontEnd UX Developer✓",
-        "Full Stack Development ✓",
-        "UI-UX Design ✓",
-        "Scrum ✓",
+        "Web Engineering Expert ✓",
+        "Product Designer ✓",
+        "UX-UI Developer ✓",
+        "Full Stack Developer ✓",
       ],
       typeSpeed: 60,
       backSpeed: 70,
@@ -28,7 +26,7 @@ function Home() {
     };
     new Typed(typedRef.current, options);
   }, []);
-// test
+
   return (
     <div className={state === "Home" ? "merge" : "separate"}>
       <div className="container">
@@ -38,13 +36,15 @@ function Home() {
           </div>
           <div className="subname">
             <h1 className="name">Leandro Savat</h1>
-            <h2>
-              {translate
-                ? "Experto en Ingenieria Web con formacion en: "
-                : "Web Engineering Expert with training in:"}
-            </h2>
-            <h2 className="powergray">
+            <h2 className="iam">
+              ✪ {translate ? "Con formación en" : "With Training in "}{" "}
               <span className="powergray" ref={typedRef}></span>
+            </h2>
+            <h2 className="subtitle">
+              ✪{" "}
+              {translate
+                ? "Creacion, Desarrollo y Mantenimiento de Productos Web"
+                : "Creation, Development and Maintenance of Web Products"}
             </h2>
           </div>
         </div>

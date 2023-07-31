@@ -46,15 +46,22 @@
   padding: 30px;
 }
 
-.subname h2 {
-  color: rgba(255, 255, 255, 0.8);
+.iam {
   margin: 8px;
-  font-weight: 300;
+  font-weight: 200;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.powergray{
-  font-size: 24px;
-  font-weight: 200;
+.powergray {
+  font-size: 20px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 20px;
 }
 
 .portada {
