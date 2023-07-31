@@ -1,6 +1,6 @@
 .about-data {
   align-items: center;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   height: 80%;
@@ -28,7 +28,7 @@
 .about-icon {
   align-items: center;
   background-color: rgba(51, 153, 254, 0.1);
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   height: 20%;
   justify-content: space-evenly;
@@ -48,7 +48,7 @@
 
 .about-resume {
   align-items: center;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   flex-direction: row;
   height: 100%;

@@ -1,6 +1,6 @@
 .language-container {
   align-items: center;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   height: 20%;
@@ -40,6 +40,6 @@ progress::-moz-progress-value {
   .language-container {
     height: 100%;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 }

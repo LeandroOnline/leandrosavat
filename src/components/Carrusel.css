@@ -1,6 +1,6 @@
 .carrusel-container {
   align-items: center;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -80,6 +80,6 @@
   }
 
   .carrusel-container {
-    border-radius: 15px;
+    border-radius: 10px;
   }
 }
