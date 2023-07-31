@@ -17,7 +17,7 @@ function Project() {
           {experience?.map((exp, key) => (
             <div className="column job" key={key}>
               <p className="titleexp">{exp.title}</p>
-              <p className="text">✦ {exp.since} ✦</p>
+              <p className="text">✦ {exp.since}</p>
               <p className="text">✧ {exp.subtitle}</p>
               <p className="text">✧ {exp.details}</p>
             </div>

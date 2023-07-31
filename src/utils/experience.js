@@ -18,9 +18,9 @@ export const experienceEnglish = [
     details: "Work for Hostels in Europe and Africa.",
   },
   {
-    title: "Founder",
+    title: "Development and Design",
     since: "2010-2019",
-    subtitle: "SAVAT Productions.",
+    subtitle: "Founder at SAVAT Productions.",
     details: "Development and Design for Personal and Business Image.",
   },
 ];
@@ -45,9 +45,9 @@ export const experienceSpanish = [
     details: "Trabajo para Hostels en Europa y África.",
   },
   {
-    title: "Founder",
+    title: "Diseño y Desarrollo",
     since: "2010-2019",
-    subtitle: "SAVAT Producciones.",
+    subtitle: "Fundador de SAVAT Producciones.",
     details: "Desarrollo y Diseño de Imagen Personal y Empresarial.",
   },
 ];
