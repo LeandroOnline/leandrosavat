@@ -44,7 +44,7 @@ function Home() {
                   : "Creation, Development and Maintenance of Web Products"}
               </h2>
               <h2 className="iam">
-                ✪ {translate ? "Con formación en" : "With Training in "}{" "}
+                ✪ {translate ? "Con formación en " : "With Training in "}{" "}
                 <span className="powergray" ref={typedRef}></span>
               </h2>
             </div>
