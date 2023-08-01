@@ -46,6 +46,8 @@
 
 .carpetaicon {
   width: 30px;
+  filter: invert();
+  opacity: 80%;
 }
 
 .link-certificate:hover {
