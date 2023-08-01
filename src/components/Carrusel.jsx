@@ -36,9 +36,9 @@ function Carrusel() {
         <div className="progress">
           <p className="text">
             {translate ? "Certificado: " : "Certificate: "}
-            {page + 1} {translate ? "de" : "from"} {courses.length - 1}
+            {page + 1} {translate ? "de" : "from"} {courses.length}
           </p>
-          <progress max="22" value={page + 1}></progress>
+          <progress max={courses.length} value={page + 1}></progress>
         </div>
       </div>
 

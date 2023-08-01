@@ -20,11 +20,13 @@ import docker from "../assets/courses/docker.jpg";
 import mongodb from "../assets/courses/mongodb.jpg";
 import mysqlbasico from "../assets/courses/mysqlbasico.jpg";
 import tsbasico from "../assets/courses/tsbasico.jpg";
+import analisis from "../assets/courses/Analisis.png";
 
 import title from "../assets/courses/title.png";
 
 const courses = [
   title,
+  analisis,
   english,
   figma,
   introprogramacion,
