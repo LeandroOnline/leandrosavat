@@ -16,9 +16,7 @@ import jsavanzadopro from "../assets/courses/jsavanzadopro.jpg";
 import reactbasico from "../assets/courses/reactjsbasico.jpg";
 import bdd from "../assets/courses/bdd.jpg";
 import dockerbasico from "../assets/courses/dockerbasico.jpg";
-import docker from "../assets/courses/docker.jpg";
 import mongodb from "../assets/courses/mongodb.jpg";
-import mysqlbasico from "../assets/courses/mysqlbasico.jpg";
 import tsbasico from "../assets/courses/tsbasico.jpg";
 import analisis from "../assets/courses/Analisis.png";
 
@@ -45,9 +43,7 @@ const courses = [
   reactbasico,
   bdd,
   dockerbasico,
-  docker,
   mongodb,
-  mysqlbasico,
   tsbasico,
 ];
 
