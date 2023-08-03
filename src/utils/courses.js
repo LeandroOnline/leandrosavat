@@ -19,7 +19,6 @@ import dockerbasico from "../assets/courses/dockerbasico.jpg";
 import mongodb from "../assets/courses/mongodb.jpg";
 import tsbasico from "../assets/courses/tsbasico.jpg";
 import analisis from "../assets/courses/Analisis.png";
-
 import title from "../assets/courses/title.png";
 
 const courses = [
