@@ -53,4 +53,5 @@ const projects = [
       "Front-end Landing Page → React / JavaScript / HTML / Styled Components / Figma",
   },
 ];
+
 export default projects;
