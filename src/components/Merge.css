@@ -52,13 +52,13 @@
   width: 90%;
   background: linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5),
     rgba(0, 0, 0, 0.2),
-    rgb(52, 153, 254, 0.2),
-    rgba(0, 0, 0, 0.3)
+    rgb(52, 153, 254, 0.5),
+    rgba(0, 0, 0, 0.5)
   );
-  box-shadow: 8px 8px 30px hsl(216, 58%, 15%),
-    inset -2px -2px 8px hsl(216, 58%, 25%),
+  box-shadow: 8px 8px 30px hsl(216, 58%, 20%),
+    inset -2px -2px 8px hsl(216, 58%, 30%),
     inset 2px 2px 8px hsl(216, 58%, 80%);
 }
 
