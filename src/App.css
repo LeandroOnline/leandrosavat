@@ -20,12 +20,12 @@ video {
 /* Preparo el desenfoque para varios tamaños de pantalla */
 @media (min-width: 700px){
   video{
-  filter: blur(15px) contrast(110%) saturate(100%)  brightness(100%);
+  filter: blur(15px) contrast(110%) saturate(100%)  brightness(80%);
   }
 }
 @media (min-width: 1300px){
   video{
-  filter: blur(25px) contrast(110%) saturate(100%)  brightness(100%);
+  filter: blur(25px) contrast(110%) saturate(100%)  brightness(60%);
   }
 }
 @media (min-width: 1600px){
