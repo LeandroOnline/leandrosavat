@@ -4,6 +4,7 @@ import news from "../assets/images/news.png";
 import traveling from "../assets/images/traveling.png";
 import fipe from "../assets/images/fipe.png";
 import savat from "../assets/images/savat.png";
+import nora from "../assets/images/nora.png";
 
 const projects = [
   {
@@ -13,6 +14,14 @@ const projects = [
     web: "https://fipe.savat.ar",
     detail:
       "Full Stack DashBoard → React / Zustand / JavaScript / HTML / CSS / Node / Ant Design Charts / Bcryptjs / JWT / Hacking Inputs Sanitize / API REST / MongoDb Atlas / Express ",
+  },
+  {
+    name: "NORA",
+    img: nora,
+    github: "https://github.com/LeandroOnline",
+    web: "https://www.figma.com/proto/X6vEfOxVXiwuSDsprYd0i7/NoraBio?type=design&node-id=62-59&t=qDw7tzTtXJ7leWXq-1&scaling=scale-down&page-id=0%3A1&mode=design",
+    detail:
+      "Figma Prototype",
   },
   {
     name: "SAVAT",
