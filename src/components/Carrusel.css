@@ -1,6 +1,6 @@
 .carrusel-container {
   align-items: center;
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -47,7 +47,7 @@
 .carpetaicon {
   width: 30px;
   filter: invert();
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 .link-certificate:hover {

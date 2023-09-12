@@ -42,7 +42,7 @@ function Carrusel() {
         </div>
       </div>
 
-      <a className="link-certificate text" href={drive} target="_blank">
+      <a className="link-certificate cv" href={drive} target="_blank">
         <img className="carpetaicon" src={carpeta} alt="" />
         {translate ? "Carpeta de Certificados" : "Certificate Folder"}
       </a>

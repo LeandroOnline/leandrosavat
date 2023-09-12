@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: "Oswald";
-  src: url("./assets/font/Oswald-Regular.ttf") format("opentype");
-  font-weight: 200;
+  src: url("./assets/font/ComicNeue-Bold.ttf") format("opentype");
+  font-weight: 300;
 }
 @font-face {
-  font-family: "Oswald";
-  src: url("./assets/font/Oswald-Bold.ttf") format("opentype");
+  font-family: "TheNautigal";
+  src: url("./assets/font/TheNautigal-Bold.ttf") format("opentype");
   font-weight: 300;
 }
 

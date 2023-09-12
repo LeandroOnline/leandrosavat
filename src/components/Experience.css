@@ -11,26 +11,35 @@
 }
 
 .links {
-  align-items: center;
   display: flex;
   gap: 1vw;
   justify-content: center;
 }
 
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75px;
+}
+
 .title {
-  color: white;
+  /* color: rgba(255, 255, 255, 0.8); */
+  color: hsl(210, 99%, 90%);
+
   font-size: 3vw;
 }
 
 .titleexp {
   color: hsl(210, 99%, 90%);
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-weight: 700;
-  line-height: 2vw;
+  line-height: 3vw;
+  margin-bottom: 7.5px;
 }
 
 .text {
-  color: rgba(255, 255, 255, 0.8);
+  color: hsl(210, 99%, 85%);
   font-size: 1.6vw;
   line-height: 3vh;
   text-align: start;
@@ -44,10 +53,10 @@
     rgba(0, 0, 0, 0),
     rgba(51, 153, 254, 0.5)
   );
-  border-radius: 15px;
+  border-radius: 7.5px;
   display: flex;
-  justify-content: space-evenly;
-  padding: 15px;
+  flex-direction: column;
+  padding: 7.5px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -59,12 +68,12 @@
     rgb(0, 0, 0, 0),
     rgba(0, 0, 0, 0)
   );
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-evenly;
-  padding: 15px;
+  padding: 7.5px;
   width: 100%;
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.1);
@@ -72,7 +81,7 @@
 
 .exp {
   align-items: center;
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   gap: 7.5px;
@@ -90,16 +99,18 @@
   object-fit: contain;
   transition-duration: 0.5s;
   width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0.4);
+  box-shadow: inset -4px -4px 2px rgba(0, 0, 0, 0.5),
+    inset 4px 4px 2px rgba(255, 255, 255, 0.4);
+  padding: 4px;
 }
 
 .imgContainer {
   border-radius: 10px;
-
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
-    inset -4px -4px 2px rgba(0, 0, 0, 0.5),
-    inset 4px 4px 2px rgba(255, 255, 255, 0.4);
-  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 7.5px;
+  gap: 7.5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .clic {
@@ -192,14 +203,14 @@
 
 @media (max-width: 830px) {
   .text {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 500px) {
   .text {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 16px;
   }
 
   .titleexp {
@@ -263,7 +274,7 @@
     display: none;
   }
 
-  .title{
+  .title {
     font-size: 20px;
   }
 
@@ -280,8 +291,8 @@
     border-radius: 10px;
     width: 100%;
     height: 40%;
-    gap: 5px;
-    padding: 5px;
+    gap: 7.5px;
+    padding: 7.5px;
   }
 
   .imgproject {

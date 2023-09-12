@@ -17,31 +17,26 @@
 }
 
 .perfil {
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
 }
 
 .name {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   display: flex;
-  font-family: "Futerdam Knight", sans-serif;
-  font-size: 50px;
+  font-family: "TheNautigal", sans-serif;
+  font-size: 60px;
   font-weight: 400;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-right: 30px;
-  text-align: center;
+  padding: 20px;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.488);
 }
 
 .subname {
-  align-items: center;
+  align-items: start;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   justify-content: center;
   height: fit-content;
-  justify-content: space-evenly;
 }
 
 .iam {
@@ -51,21 +46,22 @@
 }
 
 .powergray {
-  font-size: 20px;
+  font-size: 1.6vw;
   font-weight: 300;
   width: 100%;
 }
 
 .subtitle {
-  color: rgba(255, 255, 255, 0.7);
+  color: hsl(210, 99%, 85%);
   line-height: 20px;
+  font-size: 16px;
 }
 
-.textTitles{
+.textTitles {
   display: flex;
   justify-content: start;
   flex-direction: column;
-  gap: 10px;
+  padding: 20px;
 }
 
 .portada {
@@ -96,13 +92,16 @@
   }
   .subname h2,
   .power {
-    font-size: 14px;
+    font-size: 16px;
   }
   .powergray {
     font-size: 16px;
   }
   .power {
     font-size: 30px;
+  }
+  .subname{
+    align-items: center;
   }
 }
 
