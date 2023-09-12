@@ -14,32 +14,32 @@ video {
   object-fit: cover;
   position: fixed;
   z-index: -1;
-  filter: blur(15px) contrast(110%) saturate(100%) brightness(80%);
+  filter: blur(15px) contrast(120%) saturate(90%) brightness(110%);
 }
 
 /* Preparo el desenfoque para varios tamaños de pantalla */
 @media (min-width: 700px){
   video{
-  filter: blur(15px) contrast(110%) saturate(100%)  brightness(80%);
+  filter: blur(15px) contrast(120%) saturate(90%)  brightness(110%);
   }
 }
 @media (min-width: 1300px){
   video{
-  filter: blur(25px) contrast(110%) saturate(100%)  brightness(80%);
+  filter: blur(25px) contrast(120%) saturate(90%)  brightness(110%);
   }
 }
 @media (min-width: 1600px){
   video{
-  filter: blur(35px) contrast(110%) saturate(100%) brightness(80%);
+  filter: blur(35px) contrast(120%) saturate(90%) brightness(110%);
   }
 }
 @media (min-width: 2000px){
   video{
-  filter: blur(55px) contrast(110%) saturate(100%) brightness(80%);
+  filter: blur(55px) contrast(120%) saturate(90%) brightness(110%);
   }
 }
 @media (min-width: 3000px){
   video{
-  filter: blur(85px) contrast(110%) saturate(100%) brightness(80%);
+  filter: blur(85px) contrast(120%) saturate(90%) brightness(110%);
   }
 }
