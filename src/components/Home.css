@@ -46,15 +46,15 @@
 }
 
 .powergray {
-  font-size: 1.6vw;
+  font-size: 2vw;
   font-weight: 300;
   width: 100%;
 }
 
 .subtitle {
   color: hsl(210, 99%, 85%);
-  line-height: 20px;
-  font-size: 16px;
+  line-height: 2vw;
+  font-size: 1.6vw;
 }
 
 .textTitles {
@@ -93,6 +93,7 @@
   .subname h2,
   .power {
     font-size: 16px;
+    line-height: 20px;
   }
   .powergray {
     font-size: 16px;
@@ -100,7 +101,7 @@
   .power {
     font-size: 30px;
   }
-  .subname{
+  .subname {
     align-items: center;
   }
 }

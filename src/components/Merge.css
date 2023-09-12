@@ -57,9 +57,8 @@
     rgb(52, 153, 254, 0.8),
     rgba(0, 0, 0, 0.3)
   );
-  box-shadow: 0px 0px 10px hsl(216, 58%, 40%),
-    inset 2px 2px 2px hsl(216, 58%, 70%),
-    inset 0px 0px 10px hsl(216, 58%, 60%);
+  box-shadow: 0px 0px 10px hsl(216, 58%, 50%),
+    inset 2px 2px 2px hsl(216, 58%, 75%), inset 0px 0px 10px hsl(216, 58%, 75%);
 }
 
 .center {
