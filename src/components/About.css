@@ -14,13 +14,13 @@
 
 .interest {
   width: 50px;
-  opacity: 80%;
+  opacity: 90%;
   filter: hue-rotate(120deg);
 }
 
 .aboutimg {
   width: 100px;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .title {
@@ -92,6 +92,7 @@
 
 .leerimg {
   width: 100px;
+  opacity: 90%;
 }
 
 .cv {

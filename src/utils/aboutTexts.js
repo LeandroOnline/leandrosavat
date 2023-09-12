@@ -1,13 +1,13 @@
 export const moreEnglish = [
-  "👋 hello! I am University Expert in Web Engineering with more than 11 years of experience in planning and developing personal and business image. ☕️ My skills are focused on research, user analysis, business model, development and web maintenance with an empathic data architecture and UX-UI design.",
-  "💡 My mission is to apply my analytical, programming, creative and empathetic skills to create exceptional experiences and products that make a difference in people's lives, working together with a conscientious and capable team to complement our skills and achieve our team goals.",
-  "✦ My greatest achievement has been founding an image development company, delegating activities and expanding my services to Community Manager in Hostels in Europe and Africa, which has allowed us to increase the level of English and the multicultural appreciation of users.",
+  "👋 Hi ! I am Leandro, University Specialist in Web Engineering. I have more than 11 years of experience working in sales, design, community manager and as a team leader, so I recognize the importance of responsibility, respect, commitment, continuous response and problem-solving ability to collaborate with the team and its leaders effectively.",
+  "💛 My dream is to be a Product Manager and apply my skills, empathy and ideas together with a powerful team to create together products that optimize people's lives.",
+  "⭐️ A great achievement for me has been founding an image development company, delegating activities and expanding my services to Community Manager in Hostels in Europe and Africa, which has allowed us to increase the level of English and the multicultural appreciation of users.",
   "Download Resume EN/ES",
 ];
 
 export const moreSpanish = [
-  "👋 ¡Hola! Soy Leandro, Experto Universitario en Ingeniería Web Integral con más de 11 años de experiencia en planificación y desarrollo de imagen personal y empresarial. ☕️ Mis habilidades se enfocan en la investigación, análisis del usuario, modelo de negocio, desarrollo y mantenimiento web integral con una arquitectura de datos y diseño UX-UI empáticos.",
-  "💡 Mi misión es aplicar mis habilidades de análisis, programación, creatividad y empatía para crear experiencias excepcionales y productos que marquen la diferencia en la vida de las personas, trabajando junto a un equipo consciente y capaz para complementar nuestras habilidades y alcanzar nuestros objetivos en equipo.",
-  "✦ Mi mayor logro ha sido fundar una empresa de desarrollo de imagen, delegar actividades y expandir mis servicios a Community Manager en Hostels de Europa y África, lo que ha permitido incrementar el nivel de inglés y la apreciación multicultural de los usuarios.",
+  "👋 ¡Hola! Soy Leandro, Especialista Universitario en Ingeniería Web. Tengo más de 11 años de experiencia trabajando en ventas, diseño, community manager y como líder de equipo, por lo que reconozco la importancia de la responsabilidad, respeto, compromiso, respuesta continua y capacidad resolutiva para colaborar con el equipo y sus líderes eficazmente.",
+  "💛 Mi sueño es ser Product Manager y aplicar mis habilidades, empatía e ideas junto a un poderoso equipo para crear juntos productos que optimicen la vida de las personas.",
+  "⭐️ Un gran logro para mi ha sido fundar una empresa de desarrollo de imagen, delegar actividades y ampliar mis servicios a Community Manager en Hostels de Europa y África, lo que nos ha permitido incrementar el nivel de inglés y la apreciación multicultural de los usuarios.",
   "Descargar Curriculum EN/ES",
 ];
