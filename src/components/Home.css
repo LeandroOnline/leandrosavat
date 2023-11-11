@@ -27,7 +27,7 @@
   font-size: 3.2vw;
   font-weight: 400;
   padding: 0 20px;
-  text-shadow: 0 0 15px rgba(0, 0, 0, 0.488);
+  /* text-shadow: 0 0 15px rgba(0, 0, 0, 0.488); */
 }
 
 .subname {
