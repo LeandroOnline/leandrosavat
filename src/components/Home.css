@@ -22,12 +22,11 @@
 }
 
 .name {
-  color: rgba(255, 255, 255, 0.9);
+  color: hsl(210, 99%, 90%);
   display: flex;
-  font-family: "TheNautigal", sans-serif;
-  font-size: 60px;
+  font-size: 3.2vw;
   font-weight: 400;
-  padding: 20px;
+  padding: 0 20px;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.488);
 }
 
@@ -104,6 +103,9 @@
   .subname {
     align-items: center;
   }
+  .name {
+    font-size: 24px;
+  }
 }
 
 @media (max-height: 500px) {
@@ -112,7 +114,7 @@
     width: 200px;
   }
   .name {
-    font-size: 30px;
+    font-size: 24px;
   }
   .power {
     font-size: 30px;

@@ -2,13 +2,14 @@ import { useContext, useEffect, useRef } from "react";
 import { context } from "../App";
 import "./Merge.css";
 import "./Home.css";
-import perfil from "../assets//images/Perfil7.png";
+import perfil from "../assets//images/Perfil2 copy.png";
 import Typed from "typed.js";
 
 function Home() {
   const { state, translate } = useContext(context);
   const typedRef = useRef(null);
-
+  const start = "< ";
+  const end = " />";
   useEffect(() => {
     const options = {
       strings: [
@@ -35,7 +36,9 @@ function Home() {
             <img className="perfil" src={perfil} alt="" />
           </div>
           <div className="subname">
-            <h1 className="name">Leandro Savat</h1>
+            <h1 className="name">
+              {start}Leandro Savat{end}
+            </h1>
             <div className="textTitles">
               <h2 className="subtitle">
                 ✪{" "}
@@ -44,8 +47,7 @@ function Home() {
                   : "Creation, Development and Maintenance of Web Products"}
               </h2>
               <h2 className="subtitle">
-                ✪ {translate ? "Con formación en " : "With Training in "}{" "}
-                <span className="powergray" ref={typedRef}></span>
+                ✪ <span ref={typedRef}></span>
               </h2>
             </div>
           </div>

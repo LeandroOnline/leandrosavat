@@ -12,7 +12,7 @@
 
 .links {
   display: flex;
-  gap: 1vw;
+  gap: 15px;
   justify-content: center;
 }
 
@@ -56,7 +56,7 @@
   border-radius: 7.5px;
   display: flex;
   flex-direction: column;
-  padding: 7.5px;
+  padding: 14px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -73,7 +73,7 @@
   flex-direction: column;
   height: 100%;
   justify-content: space-evenly;
-  padding: 7.5px;
+  padding: 15px;
   width: 100%;
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.1);
@@ -84,11 +84,11 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  gap: 7.5px;
+  gap: 14px;
   height: 100%;
   overflow: auto;
   overflow-y: scroll;
-  padding: 7.5px;
+  padding: 14px;
   width: 70%;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -107,8 +107,8 @@
 .imgContainer {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 7.5px;
-  gap: 7.5px;
+  padding: 15px;
+  gap: 15px;
   display: flex;
   flex-direction: column;
 }
@@ -197,8 +197,8 @@
 
 .containerdirection {
   flex-direction: row;
-  gap: 15px;
-  padding: 15px;
+  gap: 30px;
+  padding: 30px;
 }
 
 @media (max-width: 830px) {
