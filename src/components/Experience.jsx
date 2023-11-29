@@ -26,7 +26,10 @@ function Project() {
 
         <div className="centerprojects">
           <ProjectDetail search={projectsInfo} index={project} />
-          <div className="row backnext">
+          <div
+            className="row"
+            style={{ margin: "15px", width: "100%", height: "20%" }}
+          >
             <button
               className="back"
               onClick={() =>
@@ -35,7 +38,7 @@ function Project() {
                   : setProject(project - 1)
               }
             >
-              Back
+              {`<`}
             </button>
             <button
               className="next"
@@ -45,7 +48,7 @@ function Project() {
                   : setProject(project + 1)
               }
             >
-              Next
+              {`>`}
             </button>
           </div>
         </div>
