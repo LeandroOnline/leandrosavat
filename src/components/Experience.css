@@ -325,4 +325,10 @@
     align-items: center;
     justify-content: center;
   }
+  .row {
+    margin:5px !important;
+  }
+  .title{
+    margin-top: 0;
+  }
 }
