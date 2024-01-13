@@ -19,7 +19,7 @@ const projects = [
     name: "NORA",
     img: nora,
     github: "https://github.com/LeandroOnline",
-    web: "https://www.figma.com/proto/X6vEfOxVXiwuSDsprYd0i7/NoraBio?type=design&node-id=62-59&t=qDw7tzTtXJ7leWXq-1&scaling=scale-down&page-id=0%3A1&mode=design",
+    web: "https://www.norabioconsultora.com.ar",
     detail:
       "Figma Prototype",
   },
