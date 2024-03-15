@@ -44,20 +44,11 @@
 }
 
 .container {
-  backdrop-filter: blur(50px);
   border-radius: 30px;
   display: flex;
   height: 90%;
   margin-bottom: 40px;
   width: 90%;
-  background: linear-gradient(
-    135deg,
-    hsla(210, 99%, 80%, 0.3),
-    hsl(210, 99%, 60%, 0.4),
-    hsla(210, 99%, 10%, 0.3)
-  );
-  box-shadow: 0px 0px 10px hsl(216, 58%, 50%),
-    inset 2px 2px 2px hsl(216, 58%, 75%), inset 0px 0px 10px hsl(216, 58%, 75%);
 }
 
 .center {

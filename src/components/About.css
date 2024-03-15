@@ -14,17 +14,17 @@
 
 .interest {
   width: 50px;
-  opacity: 90%;
+  opacity: 80%;
   filter: hue-rotate(120deg);
 }
 
 .aboutimg {
   width: 100px;
-  opacity: 90%;
+  opacity: 80%;
 }
 
 .title {
-  font-size: 15px;
+  font-size: 30px;
   margin: 15px;
   color: rgba(255, 255, 255, 0.8);
   display: flex;
@@ -97,7 +97,7 @@
 
 .leerimg {
   width: 100px;
-  opacity: 90%;
+  opacity: 80%;
 }
 
 .cv {
@@ -112,6 +112,7 @@
   width: 100%;
   font-size: 1.6vw;
   transition-duration: 0.5s;
+  color: rgb(255, 255, 255, 0.8);
 }
 
 .cv:hover {
@@ -172,6 +173,7 @@
 
 .download-icon {
   width: 30px;
+  opacity: 80%;
 }
 
 @keyframes about-out {

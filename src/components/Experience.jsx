@@ -38,7 +38,7 @@ function Project() {
                   : setProject(project - 1)
               }
             >
-              {`<`}
+              〈
             </button>
             <button
               className="next"
@@ -48,7 +48,7 @@ function Project() {
                   : setProject(project + 1)
               }
             >
-              {`>`}
+              〉
             </button>
           </div>
         </div>

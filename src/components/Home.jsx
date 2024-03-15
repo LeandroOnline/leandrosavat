@@ -41,13 +41,12 @@ function Home() {
             </h1>
             <div className="textTitles">
               <h2 className="subtitle">
-                ✪{" "}
                 {translate
                   ? "Creacion, Desarrollo y Mantenimiento de Productos Web"
                   : "Creation, Development and Maintenance of Web Products"}
               </h2>
               <h2 className="subtitle">
-                ✪ <span ref={typedRef}></span>
+                <span ref={typedRef}></span>
               </h2>
             </div>
           </div>

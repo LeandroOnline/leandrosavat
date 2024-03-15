@@ -5,7 +5,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: hsl(222,99%,31%);
+  background-color: hsl(0, 0%, 0%);
 }
 
 video {
@@ -14,32 +14,37 @@ video {
   object-fit: cover;
   position: fixed;
   z-index: -1;
-  filter: blur(15px) contrast(120%) saturate(90%) brightness(110%);
+  filter: blur(35px) contrast(100%) saturate(50%) brightness(100%) opacity(0.3);
 }
 
 /* Preparo el desenfoque para varios tamaños de pantalla */
-@media (min-width: 700px){
-  video{
-  filter: blur(15px) contrast(120%) saturate(90%)  brightness(110%);
+@media (min-width: 700px) {
+  video {
+    filter: blur(35px) contrast(100%) saturate(50%) brightness(100%)
+      opacity(0.3);
   }
 }
-@media (min-width: 1300px){
-  video{
-  filter: blur(25px) contrast(120%) saturate(90%)  brightness(110%);
+@media (min-width: 1300px) {
+  video {
+    filter: blur(55px) contrast(100%) saturate(50%) brightness(100%)
+      opacity(0.3);
   }
 }
-@media (min-width: 1600px){
-  video{
-  filter: blur(35px) contrast(120%) saturate(90%) brightness(110%);
+@media (min-width: 1600px) {
+  video {
+    filter: blur(55px) contrast(100%) saturate(50%) brightness(100%)
+      opacity(0.3);
   }
 }
-@media (min-width: 2000px){
-  video{
-  filter: blur(55px) contrast(120%) saturate(90%) brightness(110%);
+@media (min-width: 2000px) {
+  video {
+    filter: blur(75px) contrast(100%) saturate(50%) brightness(100%)
+      opacity(0.3);
   }
 }
-@media (min-width: 3000px){
-  video{
-  filter: blur(85px) contrast(120%) saturate(90%) brightness(110%);
+@media (min-width: 3000px) {
+  video {
+    filter: blur(105px) contrast(100%) saturate(50%) brightness(100%)
+      opacity(0.3);
   }
 }
