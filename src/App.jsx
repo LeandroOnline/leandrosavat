@@ -18,7 +18,7 @@ function App() {
   return (
     <context.Provider value={provider}>
       <div className="app">
-        <video src={video} autoPlay loop muted></video>
+        {/* <video src={video} autoPlay loop muted></video> */}
         <Nav />
         <Home />
         <About />

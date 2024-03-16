@@ -2,7 +2,7 @@ import { useContext, useEffect, useRef } from "react";
 import { context } from "../App";
 import "./Merge.css";
 import "./Home.css";
-import perfil from "../assets//images/Perfil2 copy.png";
+import perfil from "../assets/images/superwebpros.png";
 import Typed from "typed.js";
 
 function Home() {
@@ -10,23 +10,23 @@ function Home() {
   const typedRef = useRef(null);
   const start = "< ";
   const end = " />";
-  useEffect(() => {
-    const options = {
-      strings: [
-        "Web Engineering Specialist ✓",
-        "Product Designer ✓",
-        "UX-UI Developer ✓",
-        "Full Stack Developer ✓",
-      ],
-      typeSpeed: 60,
-      backSpeed: 70,
-      backDelay: 1500,
-      loop: true,
-      smartBackspace: true,
-      startDelay: 300,
-    };
-    new Typed(typedRef.current, options);
-  }, []);
+  // useEffect(() => {
+  //   const options = {
+  //     strings: [
+  //       "Web Engineering Specialist ✓",
+  //       "Product Designer ✓",
+  //       "UX-UI Developer ✓",
+  //       "Full Stack Developer ✓",
+  //     ],
+  //     typeSpeed: 60,
+  //     backSpeed: 70,
+  //     backDelay: 1500,
+  //     loop: true,
+  //     smartBackspace: true,
+  //     startDelay: 300,
+  //   };
+  //   new Typed(typedRef.current, options);
+  // }, []);
 
   return (
     <div className={state === "Home" ? "merge" : "separate"}>
@@ -37,19 +37,8 @@ function Home() {
           </div>
           <div className="subname">
             <h1 className="name">
-              {start}Leandro Savat{end}
+              {start}SuperWebPros{end}
             </h1>
-            <div className="textTitles">
-              <h2 className="subtitle">
-                ✪{" "}
-                {translate
-                  ? "Creacion, Desarrollo y Mantenimiento de Productos Web"
-                  : "Creation, Development and Maintenance of Web Products"}
-              </h2>
-              <h2 className="subtitle">
-                ✪ <span ref={typedRef}></span>
-              </h2>
-            </div>
           </div>
         </div>
       </div>
