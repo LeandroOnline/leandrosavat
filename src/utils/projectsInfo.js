@@ -8,7 +8,7 @@ import nora from "../assets/images/nora.png";
 
 const projects = [
   {
-    name: "FIPE",
+    name: "FIPER",
     img: fipe,
     github: "https://github.com/LeandroOnline/Fipe",
     web: "https://fipe.savat.ar",
@@ -20,24 +20,21 @@ const projects = [
     img: nora,
     github: "https://github.com/LeandroOnline",
     web: "https://www.norabioconsultora.com.ar",
-    detail:
-      "Figma Prototype",
+    detail: "Figma Prototype",
   },
   {
     name: "SAVAT",
     img: savat,
     github: "https://github.com/LeandroOnline/leandrosavat",
     web: "https://savat.ar",
-    detail:
-      "Frontend Portfolio → React / Context / JavaScript / HTML / CSS ",
+    detail: "Frontend Portfolio → React / Context / JavaScript / HTML / CSS ",
   },
   {
     name: "JustMovies",
     img: jusmovies,
     github: "https://github.com/LeandroOnline/peliculas-react",
     web: "https://movies.savat.ar",
-    detail:
-      "Front-end App → React / JavaScript / HTML / CSS Module / API REST",
+    detail: "Front-end App → React / JavaScript / HTML / CSS Module / API REST",
   },
   {
     name: "Traveling",
@@ -51,7 +48,8 @@ const projects = [
     img: news,
     github: "https://github.com/LeandroOnline/news",
     web: "https://news.savat.ar",
-    detail: "Full Stack Blog → React / Context / JavaScript / HTML / CSS / Node / Bcryptjs / JWT / API REST/ MongoDb Atlas / Express ",
+    detail:
+      "Full Stack Blog → React / Context / JavaScript / HTML / CSS / Node / Bcryptjs / JWT / API REST/ MongoDb Atlas / Express ",
   },
   {
     name: "Innovation",

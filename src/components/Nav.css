@@ -14,7 +14,7 @@
   position: absolute;
   bottom: 10px;
   right: calc(50% - 139px);
-  z-index: 2;
+  z-index: 3;
 }
 
 .nav img {

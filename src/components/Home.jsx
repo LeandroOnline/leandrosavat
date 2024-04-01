@@ -29,7 +29,7 @@ function Home() {
   }, []);
 
   return (
-    <div className={state === "Home" ? "merge" : "separate"}>
+    <div className={state === "Home" ? "merge" : "separate"} id="home">
       <div className="container">
         <div className="centerAll">
           <div className="profile">
