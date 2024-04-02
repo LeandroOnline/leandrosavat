@@ -8,7 +8,7 @@ import Carrusel from "./Carrusel";
 function Skills() {
   const { state } = useContext(context);
   return (
-    <div className={state === "Education" ? "merge" : "separate"}>
+    <div className={state === "Education" ? "merge" : "separate"} id='education'>
       <div className="container">
         <div className="center-skill">
           <div className="column center">

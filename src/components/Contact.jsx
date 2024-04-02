@@ -39,7 +39,7 @@ function Contact() {
   };
 
   return (
-    <div className={state === "Contact" ? "merge" : "separate"}>
+    <div className={state === "Contact" ? "merge" : "separate"} id="contact">
       <div className="container">
         <div className="centercontact">
           <img className="team" src={team} alt="" />

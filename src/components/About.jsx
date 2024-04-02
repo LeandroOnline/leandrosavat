@@ -13,7 +13,7 @@ function About() {
   const { state, translate } = useContext(context);
 
   return (
-    <div className={state === "About" ? "merge" : "separate"}>
+    <div className={state === "About" ? "merge" : "separate"} id='about'>
       <div className="container center">
         <div className="centerAbout">
           <div className="column center">

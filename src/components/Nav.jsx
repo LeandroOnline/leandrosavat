@@ -13,39 +13,49 @@ function Nav() {
   const { state, setState, translate, setTranslate } = useContext(context);
   return (
     <nav className="nav">
-      <button
-        autoFocus={true}
-        className={state === "Home" ? "buttonfocus" : "button"}
-      >
-        <img src={iHome} alt="" />
-        <p className="menutext" onClick={() => setState("Home")}>
-          {translate ? "Inicio" : "Home"}
-        </p>
-      </button>
-      <button className={state === "About" ? "buttonfocus" : "button"}>
-        <img src={iAbout} alt="" />
-        <p className="menutext" onClick={() => setState("About")}>
-          {translate ? "Acerca" : "About"}
-        </p>
-      </button>
-      <button className={state === "Experience" ? "buttonfocus" : "button"}>
-        <img src={iProject} alt="" />
-        <p className="menutext" onClick={() => setState("Experience")}>
-          {translate ? "Experiencia" : "Experience"}
-        </p>
-      </button>
-      <button className={state === "Education" ? "buttonfocus" : "button"}>
-        <img src={iSkills} alt="" />
-        <p className="menutext" onClick={() => setState("Education")}>
-          {translate ? "Educacion" : "Education"}
-        </p>
-      </button>
-      <button className={state === "Contact" ? "buttonfocus" : "button"}>
-        <img src={iContact} alt="" />
-        <p className="menutext" onClick={() => setState("Contact")}>
-          {translate ? "Contacto" : "Contact"}
-        </p>
-      </button>
+      <a href="#home">
+        <button
+          autoFocus={true}
+          className={state === "Home" ? "buttonfocus" : "button"}
+        >
+          <img src={iHome} alt="" />
+          <p className="menutext" onClick={() => setState("Home")}>
+            {translate ? "Inicio" : "Home"}
+          </p>
+        </button>
+      </a>
+      <a href="#about">
+        <button className={state === "About" ? "buttonfocus" : "button"}>
+          <img src={iAbout} alt="" />
+          <p className="menutext" onClick={() => setState("About")}>
+            {translate ? "Acerca" : "About"}
+          </p>
+        </button>
+      </a>
+      <a href="#experience">
+        <button className={state === "Experience" ? "buttonfocus" : "button"}>
+          <img src={iProject} alt="" />
+          <p className="menutext" onClick={() => setState("Experience")}>
+            {translate ? "Experiencia" : "Experience"}
+          </p>
+        </button>
+      </a>
+      <a href="#education">
+        <button className={state === "Education" ? "buttonfocus" : "button"}>
+          <img src={iSkills} alt="" />
+          <p className="menutext" onClick={() => setState("Education")}>
+            {translate ? "Educacion" : "Education"}
+          </p>
+        </button>
+      </a>
+      <a href="#contact">
+        <button className={state === "Contact" ? "buttonfocus" : "button"}>
+          <img src={iContact} alt="" />
+          <p className="menutext" onClick={() => setState("Contact")}>
+            {translate ? "Contacto" : "Contact"}
+          </p>
+        </button>
+      </a>
       <p className="buttonesen">
         <img
           src={translate ? iTraducir : iTraducircopy}

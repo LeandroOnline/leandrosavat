@@ -11,7 +11,10 @@ function Project() {
   const [project, setProject] = useState(0);
   const experience = translate ? experienceSpanish : experienceEnglish;
   return (
-    <div className={state === "Experience" ? "merge" : "separate"}>
+    <div
+      className={state === "Experience" ? "merge" : "separate"}
+      id="experience"
+    >
       <div className="container containerdirection">
         <div className="exp">
           {experience?.map((exp, key) => (
