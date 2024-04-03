@@ -1,14 +1,9 @@
-import "./App.css";
-import Nav from "./components/Nav";
-import video from "./assets/videos/short2.mp4";
-import { createContext, useState } from "react";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Skills from "./pages/Education";
-import Contact from "./pages/Contact";
-import Project from "./pages/Experience";
+import { createContext, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import "./App.css";
+import * as pages from "./pages";
+import { Nav } from "./components";
+import video from "./assets/videos/short2.mp4";
 
 export const context = createContext();
 
@@ -29,11 +24,11 @@ function App() {
       <div className="app">
         <video src={video} autoPlay loop muted></video>
         <Nav />
-        <Home />
-        <About />
-        <Skills />
-        <Contact />
-        <Project />
+        <pages.Home />
+        <pages.About />
+        <pages.Education />
+        <pages.Contact />
+        <pages.Experience />
       </div>
     </context.Provider>
   );

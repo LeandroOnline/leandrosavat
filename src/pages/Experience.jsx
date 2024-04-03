@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { context } from "../App";
 import projectsInfo from "../utils/projectsInfo";
 import { experienceEnglish, experienceSpanish } from "../utils/experience";
-import ProjectDetail from "../components/ProjectDetail";
+import { ProjectDetail } from "../components";
 import "../Merge.css";
 import "./Experience.css";
 

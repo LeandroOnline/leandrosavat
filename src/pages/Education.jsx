@@ -1,9 +1,7 @@
 import { useContext } from "react";
 import { context } from "../App";
 import "./Education.css";
-import SkillContainer from "../components/SkillContainer";
-import Language from "../components/Language";
-import Carrusel from "../components/Carrusel";
+import * as components from "../components";
 
 function Skills() {
   const { state } = useContext(context);
@@ -15,10 +13,10 @@ function Skills() {
       <div className="container">
         <div className="center-skill">
           <div className="column center">
-            <SkillContainer />
-            <Language />
+            <components.SkillContainer />
+            <components.Language />
           </div>
-          <Carrusel />
+          <components.Carrusel />
         </div>
       </div>
     </div>
