@@ -3,7 +3,7 @@ import { context } from "../App";
 import emailjs from "@emailjs/browser";
 import wsp from "../assets/icons/wsp.png";
 import team from "../assets/images/trabaja.png";
-import "./Merge.css";
+import "../Merge.css";
 import "./Contact.css";
 
 const wame = "https://wa.me/5493435267411";

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef } from "react";
 import { context } from "../App";
-import "./Merge.css";
+import "../Merge.css";
 import "./Home.css";
 import perfil from "../assets//images/Perfil2 copy.png";
 import Typed from "typed.js";

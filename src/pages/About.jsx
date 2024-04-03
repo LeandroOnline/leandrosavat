@@ -3,17 +3,17 @@ import { context } from "../App";
 import nube from "../assets/images/nube.png";
 import cven from "../assets/doc/CV EN-ES.pdf";
 import { moreEnglish, moreSpanish } from "../utils/aboutTexts";
-import Networks from "./Networks";
-import Driven from "./Driven";
-import AboutMe from "./AboutMe";
-import "./Merge.css";
+import Networks from "../components/Networks";
+import Driven from "../components/Driven";
+import AboutMe from "../components/AboutMe";
+import "../Merge.css";
 import "./About.css";
 
 function About() {
   const { state, translate } = useContext(context);
 
   return (
-    <div className={state === "About" ? "merge" : "separate"} id='about'>
+    <div className={state === "About" ? "merge" : "separate"} id="about">
       <div className="container center">
         <div className="centerAbout">
           <div className="column center">

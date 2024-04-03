@@ -2,8 +2,8 @@ import { useContext, useState } from "react";
 import { context } from "../App";
 import projectsInfo from "../utils/projectsInfo";
 import { experienceEnglish, experienceSpanish } from "../utils/experience";
-import ProjectDetail from "./ProjectDetail";
-import "./Merge.css";
+import ProjectDetail from "../components/ProjectDetail";
+import "../Merge.css";
 import "./Experience.css";
 
 function Project() {
