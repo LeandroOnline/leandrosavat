@@ -48,14 +48,14 @@ function Nav() {
           </p>
         </button>
       </a>
-      <a href="#contact">
+      {/* <a href="#contact">
         <button className={state === "Contact" ? "buttonfocus" : "button"}>
           <img src={iContact} alt="" />
           <p className="menutext" onClick={() => setState("Contact")}>
             {translate ? "Contacto" : "Contact"}
           </p>
         </button>
-      </a>
+      </a> */}
       <p className="buttonesen">
         <img
           src={translate ? iTraducir : iTraducircopy}

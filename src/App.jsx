@@ -19,10 +19,10 @@ function App() {
   const params = useLocation();
 
   useEffect(() => {
-    let hash = params.hash.replace("#", "");
+    let hash = params.hash ? params.hash.replace("#", "") : "Home";
     let hashUppercase = hash[0].toUpperCase() + hash.slice(1);
     setState(hashUppercase);
-  },[]);
+  }, [params]);
 
   return (
     <context.Provider value={provider}>

@@ -32,14 +32,14 @@
   color: hsl(0, 0%, 100%, 0.8);
   font-size: 2vw;
   font-weight: 700;
-  line-height: 3vw;
+  /* line-height: 3vw; */
   margin-bottom: 7.5px;
 }
 
 .text {
   color: hsl(0, 0%, 100%, 0.8);
   font-size: 1.6vw;
-  line-height: 3vh;
+  /* line-height: 3vh; */
   text-align: start;
 }
 
@@ -188,8 +188,8 @@
 
 @media (max-width: 500px) {
   .text {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.5em;
   }
 
   .titleexp {
@@ -308,8 +308,5 @@
   }
   .row {
     margin: 5px !important;
-  }
-  .title {
-    margin-top: 0;
   }
 }

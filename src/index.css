@@ -1,6 +1,7 @@
 :root {
-  font-family: "Oswald";
-  font-weight: 200;
+  font-family: "Mulish";
+  font-weight: 100;
+  line-height: 2em;
 }
 
 * {
@@ -10,18 +11,23 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   vertical-align: baseline;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @font-face {
-  font-family: "Oswald";
-  src: url("./assets/font/ComicNeue-Bold.ttf") format("opentype");
+  font-family: "Mulish";
+  src: url("./assets/font/Mulish-Black.ttf") format("opentype");
   font-weight: 300;
 }
 @font-face {
-  font-family: "TheNautigal";
-  src: url("./assets/font/TheNautigal-Bold.ttf") format("opentype");
-  font-weight: 300;
+  font-family: "Mulish";
+  src: url("./assets/font/Mulish-Medium.ttf") format("opentype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("./assets/font/Mulish-Light.ttf") format("opentype");
+  font-weight: 100;
 }
 
 img,
@@ -147,7 +153,7 @@ body {
   font-family: var(--tipo-principal);
   color: var(--negro);
   /* opcional */
-  line-height: 1.4em;
+  /* line-height: 1.4em; */
   /* opcional */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
@@ -158,5 +164,5 @@ body {
   -webkit-font-smoothing: antialiased;
   /* opcional */
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.5vw;
+  /* line-height: 1.5vw; */
 }
