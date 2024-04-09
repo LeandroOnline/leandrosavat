@@ -22,7 +22,7 @@
 }
 
 .name {
-  color: hsl(0, 0%, 100%, 0.8);
+  color: hsl(0, 0%, 100%);
   display: flex;
   font-size: 3.2vw;
   font-weight: 400;
