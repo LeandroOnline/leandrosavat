@@ -20,8 +20,8 @@ import mongodb from "../assets/courses/mongodb.jpg";
 import tsbasico from "../assets/courses/tsbasico.jpg";
 import analisis from "../assets/courses/Analisis.png";
 import title from "../assets/courses/title.png";
-import productAnalytics from "../assets/courses/Leandro Savat.png";
-import productManager from "../assets/courses/Leandro Savat copy.png";
+import productAnalytics from "../assets/courses/LeandroSavat.jpg";
+import productManager from "../assets/courses/LeandroSavatcopy.jpg";
 
 const courses = [
   title,

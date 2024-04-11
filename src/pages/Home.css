@@ -41,7 +41,7 @@
 .iam {
   font-weight: 200;
   width: 100%;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .powergray {
@@ -51,7 +51,7 @@
 }
 
 .subtitle {
-  color: hsla(0, 0%, 100%, 0.8);
+  color: hsla(0, 0%, 100%, 0.9);
   line-height: 2vw;
   font-size: 1.6vw;
 }

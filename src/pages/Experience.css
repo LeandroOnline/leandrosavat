@@ -24,12 +24,12 @@
 }
 
 .title {
-  color: hsl(0, 0%, 100%, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 2.5vw;
 }
 
 .titleexp {
-  color: hsl(0, 0%, 100%, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 2vw;
   font-weight: 700;
   /* line-height: 3vw; */
@@ -37,7 +37,7 @@
 }
 
 .text {
-  color: hsl(0, 0%, 100%, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1.6vw;
   /* line-height: 3vh; */
   text-align: start;
@@ -146,7 +146,7 @@
 }
 
 .back {
-  color: rgb(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255, 0.9);
   height: 100%;
   transition-duration: 0.3s;
   width: 50px;
@@ -159,7 +159,7 @@
 }
 
 .next {
-  color: rgb(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255, 0.9);
   height: 100%;
   transition-duration: 0.3s;
   width: 50px;
