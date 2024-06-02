@@ -1,10 +1,10 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect, Suspense } from "react";
 import { useLocation } from "react-router-dom";
 import "./App.css";
 import * as pages from "./pages";
 import { Nav } from "./components";
 import video from "./assets/videos/short2.mp4";
-
+import './animations.css';
 export const context = createContext();
 
 function App() {
@@ -19,16 +19,29 @@ function App() {
     setState(hashUppercase);
   }, [params]);
 
+  const renderPage = () => {
+    switch (state) {
+      case "Home":
+        return <pages.Home />;
+      case "About":
+        return <pages.About />;
+      case "Education":
+        return <pages.Education />;
+      case "Contact":
+        return <pages.Contact />;
+      case "Experience":
+        return <pages.Experience />;
+      default:
+        return <pages.Home />;
+    }
+  };
+
   return (
     <context.Provider value={provider}>
       <div className="app">
         <video src={video} autoPlay loop muted></video>
         <Nav />
-        <pages.Home />
-        <pages.About />
-        <pages.Education />
-        <pages.Contact />
-        <pages.Experience />
+        <Suspense fallback={<div>Loading...</div>}>{renderPage()}</Suspense>
       </div>
     </context.Provider>
   );

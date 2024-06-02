@@ -18,11 +18,11 @@ function Project() {
       <div className="container containerdirection">
         <div className="exp">
           {experience?.map((exp, key) => (
-            <div className="job" key={key}>
-              <p className="titleexp">{exp.title}</p>
-              <p className="text">✦ {exp.since}</p>
-              <p className="text">✧ {exp.subtitle}</p>
-              <p className="text">✧ {exp.details}</p>
+            <div className="job fade-up" key={key}>
+              <p className="titleexp fade-up">{exp.title}</p>
+              <p className="text fade-up">✦ {exp.since}</p>
+              <p className="text fade-up">✧ {exp.subtitle}</p>
+              <p className="text fade-up">✧ {exp.details}</p>
             </div>
           ))}
         </div>

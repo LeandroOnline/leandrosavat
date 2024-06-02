@@ -1,0 +1,44 @@
+/* Define the fade-up animation */
+@keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Initial state and final state after animation */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-up 0.5s ease-in-out forwards;
+  }
+
+  /* Define the zoom animation */
+@keyframes zoom {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Initial state and final state with animation */
+  .zoom {
+    opacity: 0;
+    transform: scale(0.5);
+    animation: zoom 0.5s ease-in-out forwards;
+  }
+
+.delay1{
+    animation-delay: 0.1s;
+}
+.delay2{
+    animation-delay: 0.2s;
+}

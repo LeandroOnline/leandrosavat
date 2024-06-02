@@ -9,7 +9,7 @@ const ProjectDetail = ({ search, index }) => {
       <h1 className="title">
         {llavei} {search[index].name} {llaved}
       </h1>
-      <div className="imgContainer">
+      <div className="imgContainer zoom">
         <img className="imgproject" src={search[index].img} />
         <p className="text m2">{search[index].detail}</p>
         <div className="links">

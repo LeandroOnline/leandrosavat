@@ -1,7 +1,7 @@
 .column {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 32px;
   height: 100%;
   width: 100%;
 }
@@ -63,6 +63,6 @@
     border-radius: 15px;
   }
   .column {
-    gap: 10px;
+    gap: 16px;
   }
 }

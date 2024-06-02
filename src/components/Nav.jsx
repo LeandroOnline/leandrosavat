@@ -2,7 +2,7 @@ import "./Nav.css";
 import iHome from "../assets/icons/home.png";
 import iAbout from "../assets/icons/information.png";
 import iSkills from "../assets/icons/capability.png";
-import iContact from "../assets/icons/chat.png";
+// import iContact from "../assets/icons/chat.png";
 import iProject from "../assets/icons/puesta-en-marcha.png";
 import iTraducir from "../assets/icons/traducir.png";
 import iTraducircopy from "../assets/icons/traducircopy.png";

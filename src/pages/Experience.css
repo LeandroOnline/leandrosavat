@@ -49,10 +49,10 @@
 
 .job {
   align-items: start;
-  border-radius: 7.5px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  padding: 14px;
+  padding: 16px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: 0.5s;
@@ -65,27 +65,28 @@
 
 .centerprojects {
   align-items: center;
-  border-radius: 15px;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-  padding: 15px;
+  padding: 32px;
   width: 100%;
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.1);
+  gap: 16px;
 }
 
 .exp {
   align-items: center;
-  border-radius: 15px;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   height: 100%;
   overflow: auto;
   overflow-y: scroll;
-  padding: 14px;
+  padding: 32px;
   width: 70%;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -176,8 +177,8 @@
 
 .containerdirection {
   flex-direction: row;
-  gap: 15px;
-  padding: 30px;
+  gap: 32px;
+  padding: 32px;
 }
 
 @media (max-width: 830px) {
@@ -218,6 +219,7 @@
     height: 100%;
     justify-content: space-between;
     width: 50%;
+    padding: 16px;
   }
 }
 
@@ -274,8 +276,8 @@
     border-radius: 10px;
     width: 100%;
     height: 40%;
-    gap: 7.5px;
-    padding: 7.5px;
+    gap: 16px;
+    padding: 16px;
   }
 
   .imgproject {
@@ -288,12 +290,12 @@
 
   .containerdirection {
     flex-direction: column;
-    gap: 10px;
-    padding: 10px;
+    gap: 16px;
+    padding: 0px;
   }
 
   .job {
-    border-radius: 7px;
+    border-radius: 8px;
   }
 
   .next,

@@ -1,6 +1,6 @@
 import scrum from "../assets/icons/scrum.png";
-import wordpress from "../assets/icons/wordpress.png";
-import photoshop from "../assets/icons/photoshop.png";
+import WP from "../assets/icons/wordpress.png";
+import psd from "../assets/icons/photoshop.png";
 import git from "../assets/icons/git.png";
 import html from "../assets/icons/html.png";
 import css from "../assets/icons/css.png";
@@ -14,7 +14,7 @@ import notion from "../assets/icons/notion.png";
 
 const skills = [
   { scrum },
-  { photoshop },
+  { psd },
   { notion },
   { figma },
   { html },
@@ -22,7 +22,7 @@ const skills = [
   { js },
   { react },
   { git },
-  { wordpress },
+  { WP },
   { node },
   { express },
   { mongodb },

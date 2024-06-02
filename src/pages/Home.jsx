@@ -33,7 +33,7 @@ function Home() {
       <div className="container">
         <div className="centerAll">
           <div className="profile">
-            <img className="perfil" src={perfil} alt="" />
+            <img className="perfil" src={perfil} alt="perfil" />
           </div>
           <div className="subname">
             <h1 className="name">

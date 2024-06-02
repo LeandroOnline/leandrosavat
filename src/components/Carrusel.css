@@ -10,6 +10,46 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.cv {
+  align-items: center;
+  background-color: rgba(51, 153, 254, 0.25);
+  border: 2px outset #ffffff31;
+  border-radius: 100px;
+  display: flex;
+  gap: 20px;
+  height: 10%;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.6vw;
+  transition-duration: 0.5s;
+  color: rgb(255, 255, 255, 0.9);
+}
+
+.flecha-izq {
+  border-radius: 0px 50px 50px 0px;
+  display: flex;
+  height: 50px;
+  width: 30px;
+  opacity: 80%;
+}
+
+.flecha-izq:hover {
+  background-color: rgb(51, 153, 254);
+  transition-duration: 0.3s;
+}
+.flecha {
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  height: 50px;
+  width: 30px;
+  opacity: 80%;
+}
+
+.flecha:hover {
+  background-color: rgb(51, 153, 254);
+  transition-duration: 0.3s;
+}
+
 .course {
   border-radius: 10px;
   width: 100%;
@@ -35,13 +75,15 @@
   align-items: center;
   background-color: rgba(51, 153, 254, 0.25);
   border: 2px outset #ffffff31;
-  border-radius: 30px;
+  border-radius: 100px;
   display: flex;
   gap: 15px;
   height: 10%;
   justify-content: center;
   width: 100%;
   transition-duration: 0.5s;
+  font-size: 1.6vw;
+  color: rgb(255, 255, 255, 0.9);
 }
 
 .carpetaicon {
@@ -78,10 +120,13 @@
 
   .link-certificate {
     height: 20%;
-    border-radius: 15px;
+    border-radius: 100px;
+    font-size: 1em;
   }
 
   .carrusel-container {
-    border-radius: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    background: none;
   }
 }

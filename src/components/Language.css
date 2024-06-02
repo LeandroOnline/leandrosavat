@@ -1,13 +1,22 @@
 .language-container {
   align-items: center;
-  border-radius: 15px;
+  border-radius: 16px;
   display: flex;
-  flex-direction: column;
-  height: 20%;
-  justify-content: space-evenly;
+  flex-direction: row;
+
+  justify-content: center;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 10px;
+  padding: 32px;
+  gap: 16px;
+}
+.level{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap:8px
 }
 
 /* Safari Chrome */
@@ -41,5 +50,6 @@ progress::-moz-progress-value {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    flex-direction: column;
   }
 }
