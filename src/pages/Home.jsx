@@ -14,9 +14,8 @@ function Home() {
     const options = {
       strings: [
         "Web Engineering Specialist ✓",
-        "Product Designer ✓",
-        "UX-UI Developer ✓",
-        "Full Stack Developer ✓",
+        "Digital Product Management ✓",
+        "Technical Growth Partner ✓",
       ],
       typeSpeed: 60,
       backSpeed: 70,
@@ -42,8 +41,8 @@ function Home() {
             <div className="textTitles">
               <h2 className="subtitle">
                 {translate
-                  ? "Creacion, Desarrollo y Mantenimiento de Productos Web"
-                  : "Creation, Development and Maintenance of Web Products"}
+                  ? "El socio estratégico que necesitas a tu lado"
+                  : "The strategic partner you need at your side"}
               </h2>
               <h2 className="subtitle">
                 <span ref={typedRef}></span>
