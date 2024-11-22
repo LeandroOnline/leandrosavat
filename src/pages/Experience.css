@@ -69,12 +69,12 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: space-between;
+  justify-content: center;
   padding: 32px;
   width: 100%;
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.1);
-  gap: 16px;
+  gap: 32px;
 }
 
 .exp {
@@ -148,7 +148,7 @@
 
 .back {
   color: rgb(255, 255, 255, 0.9);
-  height: 100%;
+  /* height: 100%; */
   transition-duration: 0.3s;
   width: 50px;
 }
@@ -161,7 +161,7 @@
 
 .next {
   color: rgb(255, 255, 255, 0.9);
-  height: 100%;
+  /* height: 100%; */
   transition-duration: 0.3s;
   width: 50px;
   display: flex;

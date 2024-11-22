@@ -31,7 +31,6 @@ function Project() {
           <ProjectDetail search={projectsInfo} index={project} />
           <div
             className="row"
-            style={{ margin: "15px", width: "100%", height: "20%" }}
           >
             <button
               className="back"

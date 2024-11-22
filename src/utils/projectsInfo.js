@@ -1,12 +1,32 @@
 import jusmovies from "../assets/images/justmovies.png";
-import innovation from "../assets/images/innovation.png";
-import news from "../assets/images/news.png";
-import traveling from "../assets/images/traveling.png";
+import lcp from "../assets/images/lcp.png";
+import fb from "../assets/images/fb.png";
+import adl from "../assets/images/adl.png";
 import fipe from "../assets/images/fipe.png";
-import savat from "../assets/images/savat.png";
 import nora from "../assets/images/nora.png";
 
 const projects = [
+  {
+    name: "AmorDeLider",
+    img: adl,
+    github: "https://github.com/LeandroOnline",
+    web: "https://www.amordelider.com",
+    detail: "Full Stack Next, Typescript, Tailwind, Cloudflare and more.",
+  },
+  {
+    name: "Lideres-Con-Proposito",
+    img: lcp,
+    github: "https://github.com/LeandroOnline",
+    web: "https://lideresconproposito.com",
+    detail: "Full Stack Next, Typescript, Tailwind, and 14 technologies more",
+  },
+  {
+    name: "Felipe-Beltran",
+    img: fb,
+    github: "https://github.com/LeandroOnline",
+    web: "https://felipebeltran.com",
+    detail: "Full Stack Next, Typescript, Tailwind, Cloudflare and more.",
+  },
   {
     name: "FIPER",
     img: fipe,
@@ -23,41 +43,11 @@ const projects = [
     detail: "Figma Prototype",
   },
   {
-    name: "SAVAT",
-    img: savat,
-    github: "https://github.com/LeandroOnline/leandrosavat",
-    web: "https://savat.ar",
-    detail: "Frontend Portfolio → React / Context / JavaScript / HTML / CSS ",
-  },
-  {
     name: "JustMovies",
     img: jusmovies,
     github: "https://github.com/LeandroOnline/peliculas-react",
     web: "https://movies.savat.ar",
     detail: "Front-end App → React / JavaScript / HTML / CSS Module / API REST",
-  },
-  {
-    name: "Traveling",
-    img: traveling,
-    github: "https://github.com/LeandroOnline/travel-react",
-    web: "https://travel.savat.ar",
-    detail: "Front-end Landing Page → React / JavaScript / HTML / CSS ",
-  },
-  {
-    name: "News",
-    img: news,
-    github: "https://github.com/LeandroOnline/news",
-    web: "https://news.savat.ar",
-    detail:
-      "Full Stack Blog → React / Context / JavaScript / HTML / CSS / Node / Bcryptjs / JWT / API REST/ MongoDb Atlas / Express ",
-  },
-  {
-    name: "Innovation",
-    img: innovation,
-    github: "https://github.com/LeandroOnline/innovation",
-    web: "https://innovation.savat.ar",
-    detail:
-      "Front-end Landing Page → React / JavaScript / HTML / Styled Components / Figma",
   },
 ];
 

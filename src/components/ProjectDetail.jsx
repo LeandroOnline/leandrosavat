@@ -2,12 +2,10 @@ import internet from "../assets/icons/internet.png";
 import github from "../assets/icons/github.png";
 
 const ProjectDetail = ({ search, index }) => {
-  const llavei = "{";
-  const llaved = "}";
   return (
     <>
       <h1 className="title">
-        {llavei} {search[index].name} {llaved}
+        {"{"} {search[index].name} {"}"}
       </h1>
       <div className="imgContainer zoom">
         <img className="imgproject" src={search[index].img} />

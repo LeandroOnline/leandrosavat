@@ -1,7 +1,37 @@
 export const experienceEnglish = [
   {
-    title: "Web Engineering Expert",
-    since: "Since Dic 2022",
+    title: "Web Engineering",
+    since: "www.lideresconproposito.com",
+    subtitle: "Freelance.",
+    details: "Creation, Development and Maintenance.",
+  },
+  {
+    title: "Web Engineering",
+    since: "www.amordelider.com",
+    subtitle: "Freelance.",
+    details: "Creation, Development and Maintenance.",
+  },
+  {
+    title: "Web Engineering",
+    since: "www.felipebeltran.com",
+    subtitle: "Freelance.",
+    details: "Creation, Development and Maintenance.",
+  },
+  {
+    title: "Product Manager and Web Engineering",
+    since: "www.elixior.digital",
+    subtitle: "Freelance.",
+    details: "Creation, Development and Maintenance.",
+  },
+  {
+    title: "Web Engineering Specialist",
+    since: "Since Dic 2023",
+    subtitle: "Freelance.",
+    details: "Creation, Development and Maintenance at www.superwebpros.com.",
+  },
+  {
+    title: "Web Engineering Specialist",
+    since: "Since Oct 2022",
     subtitle: "Freelance.",
     details: "Creation, Development and Maintenance of Web Products.",
   },
@@ -36,7 +66,8 @@ export const experienceSpanish = [
     title: "Desarrollador Analista",
     since: "2021-2022",
     subtitle: "Análisis estadístico y desarrollo de indicadores de tendencia.",
-    details: "Programación de gráficos para visualización de datos financieros.",
+    details:
+      "Programación de gráficos para visualización de datos financieros.",
   },
   {
     title: "Community Manager",

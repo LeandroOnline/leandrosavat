@@ -2,7 +2,6 @@ import "./Nav.css";
 import iHome from "../assets/icons/home.png";
 import iAbout from "../assets/icons/information.png";
 import iSkills from "../assets/icons/capability.png";
-// import iContact from "../assets/icons/chat.png";
 import iProject from "../assets/icons/puesta-en-marcha.png";
 import iTraducir from "../assets/icons/traducir.png";
 import iTraducircopy from "../assets/icons/traducircopy.png";
@@ -24,14 +23,7 @@ function Nav() {
           </p>
         </button>
       </a>
-      <a href="#about">
-        <button className={state === "About" ? "buttonfocus" : "button"}>
-          <img src={iAbout} alt="" />
-          <p className="menutext" onClick={() => setState("About")}>
-            {translate ? "Acerca" : "About"}
-          </p>
-        </button>
-      </a>
+
       <a href="#experience">
         <button className={state === "Experience" ? "buttonfocus" : "button"}>
           <img src={iProject} alt="" />
@@ -48,14 +40,14 @@ function Nav() {
           </p>
         </button>
       </a>
-      {/* <a href="#contact">
-        <button className={state === "Contact" ? "buttonfocus" : "button"}>
-          <img src={iContact} alt="" />
-          <p className="menutext" onClick={() => setState("Contact")}>
-            {translate ? "Contacto" : "Contact"}
+      <a href="#about">
+        <button className={state === "About" ? "buttonfocus" : "button"}>
+          <img src={iAbout} alt="" />
+          <p className="menutext" onClick={() => setState("About")}>
+            {translate ? "Más" : "More"}
           </p>
         </button>
-      </a> */}
+      </a>
       <p className="buttonesen">
         <img
           src={translate ? iTraducir : iTraducircopy}
