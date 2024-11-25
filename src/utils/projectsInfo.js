@@ -4,6 +4,8 @@ import fb from "../assets/images/fb.png";
 import adl from "../assets/images/adl.png";
 import fipe from "../assets/images/fipe.png";
 import nora from "../assets/images/nora.png";
+import elixior from "../assets/images/elixior.png";
+import pm from "../assets/images/pm.png";
 
 const projects = [
   {
@@ -26,6 +28,20 @@ const projects = [
     github: "https://github.com/LeandroOnline",
     web: "https://felipebeltran.com",
     detail: "Full Stack Next, Typescript, Tailwind, Cloudflare and more.",
+  },
+  {
+    name: "Elixior",
+    img: elixior,
+    github: "https://github.com/LeandroOnline",
+    web: "https://elixior.digital",
+    detail: "Full Stack Next, Typescript, Tailwind, Cloudflare and more.",
+  },
+  {
+    name: "PlayMakers",
+    img: pm,
+    github: "https://github.com/LeandroOnline",
+    web: "https://playmakers.com",
+    detail: "Full Stack Remix, Typescript, Tailwind, Cloudflare and more.",
   },
   {
     name: "FIPER",
